@@ -1,1 +1,238 @@
-placeholder
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ceramic-composition-parser:schema:composition-record:1.1.0",
+  "title": "CeramicCompositionRecord",
+  "description": "One composition expression, resolved or refused. Every field is either copied from the input, computed by the parser, or drawn from a controlled vocabulary below; free text is confined to provenance.curator_note.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "raw_expression",
+    "parse_status",
+    "components",
+    "atomic_fractions",
+    "provenance",
+    "ambiguity_flags"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.1.0"
+    },
+    "raw_expression": {
+      "type": "string",
+      "description": "Original composition expression before normalization."
+    },
+    "parse_status": {
+      "type": "string",
+      "enum": [
+        "formula_parsed",
+        "mixture_parsed",
+        "semantic_rule_extracted",
+        "ambiguous_rejected",
+        "unsupported_rejected",
+        "parse_error"
+      ]
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "formula",
+          "coefficient",
+          "unit"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": [
+              "host",
+              "additive",
+              "dopant",
+              "alloying_species",
+              "solvent",
+              "unknown"
+            ]
+          },
+          "role_source": {
+            "type": "string",
+            "enum": [
+              "caller_supplied",
+              "rule:largest_coefficient_is_host",
+              "unassigned",
+              "single_formula"
+            ]
+          },
+          "formula": {
+            "type": "string"
+          },
+          "coefficient": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "For a percentage specification: formula units of this component per formula unit of the host (host = 1). For a mixture expression or a single formula: the coefficient as stated in the expression."
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "formula_units",
+              "mol%",
+              "wt%",
+              "at%",
+              "normalized_ratio",
+              "unknown"
+            ]
+          },
+          "percent": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "exclusiveMaximum": 100
+          },
+          "unit_basis": {
+            "type": "string",
+            "enum": [
+              "total_mixture",
+              "per_host",
+              "not_applicable"
+            ]
+          },
+          "at_percent_counts": {
+            "type": "string",
+            "enum": [
+              "additive_phase_atoms",
+              "dopant_element_atoms"
+            ]
+          },
+          "dopant_element": {
+            "type": "string"
+          },
+          "unit_interpretation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "atomic_fractions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "source_dataset": {
+          "type": "string"
+        },
+        "source_file": {
+          "type": "string"
+        },
+        "doi": {
+          "type": "string"
+        },
+        "table": {
+          "type": "string"
+        },
+        "row": {
+          "type": "string"
+        },
+        "parser_version": {
+          "type": "string"
+        },
+        "parser_backend": {
+          "type": "string",
+          "enum": [
+            "grammar+pymatgen_agree",
+            "grammar_only_pymatgen_refused",
+            "grammar_only_pymatgen_unavailable",
+            "not_resolved"
+          ]
+        },
+        "curator_note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "ambiguity_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "comma_site_fraction_missing",
+          "hydration_or_dot_notation",
+          "free_variable_stoichiometry",
+          "dopant_convention_missing",
+          "unit_convention_missing",
+          "charge_balance_unspecified",
+          "single_element_group",
+          "nonpositive_amount",
+          "mixture_or_arithmetic_notation",
+          "non_formula_word",
+          "unknown_element_symbol",
+          "unconsumed_separator",
+          "backend_disagreement",
+          "malformed_grouping",
+          "manual_validation_required"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "parse_status": {
+            "enum": [
+              "formula_parsed",
+              "mixture_parsed"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "components": {
+            "minItems": 1
+          },
+          "atomic_fractions": {
+            "minProperties": 1
+          },
+          "ambiguity_flags": {
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "parse_status": {
+            "enum": [
+              "ambiguous_rejected",
+              "unsupported_rejected",
+              "parse_error"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "components": {
+            "maxItems": 0
+          },
+          "atomic_fractions": {
+            "maxProperties": 0
+          },
+          "ambiguity_flags": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ]
+}
