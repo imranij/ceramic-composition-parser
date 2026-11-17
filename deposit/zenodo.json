@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "upload_type": "software",
+    "title": "ceramic-composition-parser 0.2.0: code, result records and manuscript sources for \"Refusing Ambiguous Composition Notation: An Auditable Parser, a Guarded Normalization Stage and a Catalogue of Notation Hazards\"",
+    "creators": [
+      {
+        "name": "Imran",
+        "affiliation": "Interdisciplinary Research Center for Intelligent Manufacturing & Robotics, King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia",
+        "orcid": "0000-0002-6197-1025"
+      }
+    ],
+    "description": "Release 0.2.0 of the ceramic-composition-parser package and the complete evaluation behind the revised manuscript 'Refusing Ambiguous Composition Notation: An Auditable Parser, a Guarded Normalization Stage and a Catalogue of Notation Hazards'. Contents: the parser (shared lexical screen with 15 controlled refusal flags, deterministic grammar, pymatgen cross-check), the frozen v0.1.0 parser for comparison, the JSON Schema record model 1.1.0, the unit-semantics layer, the test suite, the 51 hand-written benchmark strings with expected amounts, per-string outcomes of five parser configurations on 22,967 literature composition strings (Kononova et al. text-mined synthesis releases, fetched by script at a pinned commit, not redistributed), the notation-hazard catalogue, a stratified sample for independent expert annotation, generated figures, number macros and the LaTeX sources of the manuscript and ESI. The optional normalization stage is in normalization_stage/: its two modules (in code/) and the post hoc name-stoichiometry guard, the pre-registrations, the SHA-256 digests recorded before each held-out run, the design and one-shot scoring scripts, the per-string outcomes and McNemar tests of both held-out runs, the provisional hand-check labels of every recovered string, the post hoc guard diagnostic, and the script that writes the stage's number macros; it also holds the labelling guide, blank sheets and analysis script for the independent expert annotation. The file set with SHA-256 digests is listed in MANIFEST.csv.",
+    "access_right": "open",
+    "license": "mit",
+    "version": "0.2.0",
+    "keywords": [
+      "composition parsing",
+      "ceramics",
+      "materials informatics",
+      "text mining",
+      "JSON Schema",
+      "provenance",
+      "pymatgen"
+    ],
+    "related_identifiers": [
+      {
+        "relation": "references",
+        "identifier": "10.1038/s41597-019-0224-1",
+        "scheme": "doi",
+        "resource_type": "publication-article"
+      },
+      {
+        "relation": "references",
+        "identifier": "https://github.com/CederGroupHub/text-mined-synthesis_public",
+        "scheme": "url",
+        "resource_type": "dataset"
+      },
+      {
+        "relation": "isSupplementTo",
+        "identifier": "https://github.com/imranij/ceramic-composition-parser",
+        "scheme": "url",
+        "resource_type": "software"
+      }
+    ],
+    "notes": "Code is MIT-licensed; result files, figures and text are CC BY 4.0. A mirror is at https://github.com/imranij/ceramic-composition-parser.",
+    "doi": "10.5281/zenodo.24311164"
+  },
+  "_gates": {
+    "_README": "Underscore keys are local scaffolding, stripped by check_deposit_ready.py.",
+    "licence": "MIT for code (pyproject.toml, Code Availability); CC BY 4.0 for results, figures and text, as in Imran's earlier deposits."
+  }
+}
