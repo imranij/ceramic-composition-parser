@@ -1,0 +1,310 @@
+[
+ {
+  "stem": "explanation_routing_summary",
+  "path": "03_Explainable_Edge_Cloud_Collaborative_AI\\figures\\explanation_routing_summary.vsdx",
+  "title": "Explanation Stability, Attribution Retention, and Offload Rate",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "secom_tradeoff",
+  "path": "03_Explainable_Edge_Cloud_Collaborative_AI\\figures\\secom_tradeoff.vsdx",
+  "title": "SECOM Communication-Performance Operating Points",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_classification_benchmark",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_classification_benchmark.vsdx",
+  "title": "Macro-F1 Benchmark: Glass Type Classification",
+  "score": 0.83,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_conceptual_architecture",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_conceptual_architecture.vsdx",
+  "title": "Conceptual Architecture: Knowledge-Graph Relationship Analysis for Materials",
+  "score": 0.71,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_edge_evidence_deepdive",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_edge_evidence_deepdive.vsdx",
+  "title": "Anatomy of one edge: how a single candidate relationship earns its place in the graph",
+  "score": 0.7,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_kg_concrete_strength",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_kg_concrete_strength.vsdx",
+  "title": "Knowledge Graph: Cementitious CPP Dataset (Concrete Strength)",
+  "score": 0.71,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_kg_dielectric_oxides",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_kg_dielectric_oxides.vsdx",
+  "title": "Stability-Weighted Knowledge Graph: Oxide Dielectric Subset",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_kg_glass_refractive_index",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_kg_glass_refractive_index.vsdx",
+  "title": "Knowledge Graph: Glass Refractive Index Dataset",
+  "score": 0.83,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_ranked_relationships",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_ranked_relationships.vsdx",
+  "title": "Ranked Relationship Evidence per Dataset",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_relationship_heatmap",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_relationship_heatmap.vsdx",
+  "title": "Stability-Weighted Relationship Score Heatmap",
+  "score": 0.8,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_target_distributions",
+  "path": "04_Relationship_Analysis_Knowledge_Graph\\manuscript\\figures\\fig_target_distributions.vsdx",
+  "title": "Target Property Distributions: Dielectric, Concrete, Glass RI",
+  "score": 0.71,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_adaptive_vs_global_width",
+  "path": "07_Regression_Material_Property_Prediction\\figures\\fig_adaptive_vs_global_width.vsdx",
+  "title": "Adaptive vs. global split-conformal interval width at matched coverage",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "endendapp",
+  "path": "08_PINN_Bolt_Loosening\\beam_pinn_review\\endendapp.vsdx",
+  "title": "End-to-End Workflow: ML and PINN Applications in Beam Mechanics",
+  "score": 0.75,
+  "has_caption": true
+ },
+ {
+  "stem": "ebb_accuracy",
+  "path": "08_PINN_Bolt_Loosening\\beam_pinn_review\\Figures\\ebb_accuracy.vsdx",
+  "title": "Euler–Bernoulli benchmark: prediction error by PINN variant (lower is better)",
+  "score": 0.89,
+  "has_caption": true
+ },
+ {
+  "stem": "lifecycle_of_M",
+  "path": "08_PINN_Bolt_Loosening\\beam_pinn_review\\lifecycle_of_M.vsdx",
+  "title": "Lifecycle of ML and PINNs in Beam Mechanics",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "Taxonomyofsolvermethods",
+  "path": "08_PINN_Bolt_Loosening\\beam_pinn_review\\Taxonomyofsolvermethods.vsdx",
+  "title": "Taxonomy of Solver Methods in Beam Mechanics",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper3_component_f1",
+  "path": "09_Comparative_Optimization_Hydraulic_Diagnostics\\manuscript\\paper3_component_f1.vsdx",
+  "title": "Component F1 Scores (Random Stratified Split)",
+  "score": 0.83,
+  "has_caption": true
+ },
+ {
+  "stem": "paper3_conceptual_architecture",
+  "path": "09_Comparative_Optimization_Hydraulic_Diagnostics\\manuscript\\paper3_conceptual_architecture.vsdx",
+  "title": "Implemented Diagnostic Workflow: Feature Extraction to Maintenance Priority",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper3_evidence_graph",
+  "path": "09_Comparative_Optimization_Hydraulic_Diagnostics\\manuscript\\paper3_evidence_graph.vsdx",
+  "title": "Diagnostic Evidence Graph: Sensor Families to Component Hypotheses",
+  "score": 0.71,
+  "has_caption": true
+ },
+ {
+  "stem": "paper3_importance_heatmap",
+  "path": "09_Comparative_Optimization_Hydraulic_Diagnostics\\manuscript\\paper3_importance_heatmap.vsdx",
+  "title": "Grouped Permutation Importance: Sensor Family by Component",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper3_root_cause_ranking",
+  "path": "09_Comparative_Optimization_Hydraulic_Diagnostics\\manuscript\\paper3_root_cause_ranking.vsdx",
+  "title": "Root-Cause Ranking: Top-1 Accuracy by Method",
+  "score": 0.71,
+  "has_caption": true
+ },
+ {
+  "stem": "fig2_failclosed_mechanism",
+  "path": "10_AI_In_Network_Computing_Energy_Aware_CPS\\manuscript\\fig2_failclosed_mechanism.vsdx",
+  "title": "Carbon-Conditioned Fail-Closed Split Decision (per task)",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper1_calibration_mechanism",
+  "path": "11_Core_Extension_Graph_VAE_Edge\\figures\\paper1_calibration_mechanism.vsdx",
+  "title": "Split-conformal multi-detector fusion",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper1_grouped_pauc_bars",
+  "path": "11_Core_Extension_Graph_VAE_Edge\\figures\\paper1_grouped_pauc_bars.vsdx",
+  "title": "Grouped severe-wear ranking: pAUC@0.10 FPR",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper1_system_architecture",
+  "path": "11_Core_Extension_Graph_VAE_Edge\\figures\\paper1_system_architecture.vsdx",
+  "title": "Split-calibrated multi-sensor edge health-indexing pipeline for retrofitted CNC milling",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_element_coverage_origin_style",
+  "path": "12_Ontology_Grounded_Composition_Parsing\\figures\\paper2_element_coverage_origin_style.vsdx",
+  "title": "Element Coverage After Parsing Real Materials Formulas",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_formula_complexity_origin_style",
+  "path": "12_Ontology_Grounded_Composition_Parsing\\figures\\paper2_formula_complexity_origin_style.vsdx",
+  "title": "Composition Entropy Distribution After Formula Normalization",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_parser_coverage_by_dataset_origin_style",
+  "path": "12_Ontology_Grounded_Composition_Parsing\\figures\\paper2_parser_coverage_by_dataset_origin_style.vsdx",
+  "title": "Formula Parsing Coverage by Source Dataset",
+  "score": 0.8,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_pipeline_grounded",
+  "path": "12_Ontology_Grounded_Composition_Parsing\\figures\\paper2_pipeline_grounded.vsdx",
+  "title": "Schema-grounded composition parsing pipeline",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_thesis_mixture_atomic_fractions_origin_style",
+  "path": "12_Ontology_Grounded_Composition_Parsing\\figures\\paper2_thesis_mixture_atomic_fractions_origin_style.vsdx",
+  "title": "Atomic Fractions: BaTiO3-Y2O3-C Thesis Mixture Expression",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_thesis_ratio_status_origin_style",
+  "path": "12_Ontology_Grounded_Composition_Parsing\\figures\\paper2_thesis_ratio_status_origin_style.vsdx",
+  "title": "Parse-Status Distribution: Thesis-Derived Ratio Expressions",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_client_performance_heatmap",
+  "path": "13_Advanced_Integration_Federated_Learning\\manuscript\\paper2_client_performance_heatmap.vsdx",
+  "title": "Client-Level F1 Heatmap: Local vs Federated Methods",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_threshold_fragility",
+  "path": "13_Advanced_Integration_Federated_Learning\\manuscript\\paper2_threshold_fragility.vsdx",
+  "title": "F1 versus decision threshold on the 44-record test split",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper3_negative_control",
+  "path": "15_Causal_Explainable_Relationship_Discovery\\figures\\paper3_negative_control.vsdx",
+  "title": "Observed MI vs. permuted-target null",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_score_evidence",
+  "path": "16_Anomaly_Detection_Federated_IDS\\manuscript\\fig_score_evidence.vsdx",
+  "title": "(a) Fused-score separation on the test split",
+  "score": 0.8,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_deployment_evidence",
+  "path": "19_AI_Distributed_Edge_Intelligence_CPS\\figures\\fig_deployment_evidence.vsdx",
+  "title": "Analytical deployment gap on SECOM (seed-42): GRAF-ADEI trades no classifier gain for latency",
+  "score": 0.75,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_mechanism",
+  "path": "20_Digital_Twin_Intelligent_Manufacturing\\figures\\fig_mechanism.vsdx",
+  "title": "Keeping the edge twin consistent with the asset: measured conformal gate (top) and designed audit-and-reconcile loop (bottom)",
+  "score": 0.86,
+  "has_caption": true
+ },
+ {
+  "stem": "fig_tradeoff",
+  "path": "20_Digital_Twin_Intelligent_Manufacturing\\figures\\fig_tradeoff.vsdx",
+  "title": "The asymmetric tradeoff: prediction quality vs measured estimator-core latency",
+  "score": 0.88,
+  "has_caption": true
+ },
+ {
+  "stem": "paper5_artifact_matrix",
+  "path": "21_FAIR_Materials_Intelligence_Workbench\\figures\\paper5_artifact_matrix.vsdx",
+  "title": "Scoped artifact counts by type",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper5_readiness_scores",
+  "path": "21_FAIR_Materials_Intelligence_Workbench\\figures\\paper5_readiness_scores.vsdx",
+  "title": "Per-package reproducibility readiness",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper5_score_provenance",
+  "path": "21_FAIR_Materials_Intelligence_Workbench\\figures\\paper5_score_provenance.vsdx",
+  "title": "FAIR-inspired scores with evidence status",
+  "score": 1.0,
+  "has_caption": true
+ },
+ {
+  "stem": "paper5_verification_checklist",
+  "path": "21_FAIR_Materials_Intelligence_Workbench\\figures\\paper5_verification_checklist.vsdx",
+  "title": "Scoped reproducibility verification checklist",
+  "score": 0.75,
+  "has_caption": true
+ },
+ {
+  "stem": "conceptual_system_architecture",
+  "path": "25_Research_Closed_Loop_Epilepsy\\manuscript\\conceptual_system_architecture.vsdx",
+  "title": "Conceptual Architecture: Montage-Aware Calibrated Ensemble for Seizure Forecasting",
+  "score": 0.75,
+  "has_caption": true
+ },
+ {
+  "stem": "paper2_schema_grounded",
+  "path": "12_Ontology_Grounded_Composition_Parsing\\figures\\paper2_schema_grounded.vsdx",
+  "title": "The CeramicCompositionRecord schema and its grounding relations",
+  "score": 1.0,
+  "has_caption": true
+ }
+]

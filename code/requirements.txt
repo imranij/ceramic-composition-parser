@@ -1,0 +1,13 @@
+# Pinned to the versions actually used and verified for the published results.
+# pymatgen's releases are date-versioned and its Composition behaviour is what the
+# silent-mis-parse measurements in Sec. V-B are stated against, so the previous
+# range (>=2024.10.0,<2027) could not reproduce those numbers. Pinned 2026-09-10.
+matplotlib==3.10.0
+pandas==2.2.3
+seaborn==0.13.2
+pymatgen==2026.5.4
+# pymatgen 2026.5.4 pulls pymatgen-core 2026.8.30; both are recorded because the
+# Composition implementation the measurements exercise lives in pymatgen-core.
+pymatgen-core==2026.8.30
+jsonschema>=4.21          # runtime contract against schema/composition_record_schema.json
+matminer==0.10.1          # StrToComposition baseline, Sec. V-B (optional)
