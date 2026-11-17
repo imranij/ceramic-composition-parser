@@ -1,0 +1,4 @@
+39d603ba6f74ee9a50f05bfb4f7b98cd9eda451e44fa50a6ec6c743ee775728e  composition_normalise_g3.py
+1b06a5a47eee0bf866a3c2db09622eb3b53c1fde4a64155a9888f0aa41163d12  composition_normalise.py
+4577aa0fe72f586b7c6ab78bbc4b47a19f8cba93791a7dc778b5f2b7de36e858  composition_normalise_guarded.py
+frozen 2026-11-04T20:07:33Z, after design on the development release only and before any scoring of held-out pool 1 (sol-gel targets) or pool 2 (fresh precursors)
