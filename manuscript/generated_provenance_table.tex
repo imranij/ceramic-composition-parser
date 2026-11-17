@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\centering
+\caption{Provenance of the six database corpora: the figshare file identifier and SHA-256 that matminer~0.10.1 records for each named dataset, its row count, and the unique formula strings retained. Normalization: rows with a missing formula are dropped, formulas are compared as exact strings, and duplicate (formula, dataset) pairs are removed; formulas repeated across datasets are kept in each. Dec./Par.: formulas with decimal subscripts / parentheses.}
+\label{tab:provenance}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llllrrrrr@{}}
+\toprule
+matminer dataset & Source & figshare file & SHA-256 (first 16) & Rows & Unique & Dec. & Par. & $\bar n_{\mathrm{el}}$ \\
+\midrule
+\texttt{castelli\_perovskites} & \cite{castelli2012perovskites} & 13284197 & \texttt{fc8b44d7213515f9} & 18{,}928 & 18{,}928 & 0 & 0 & 3.84 \\
+\texttt{wolverton\_oxides} & \cite{emery2017perovskites} & 13354616 & \texttt{3e66c2a5bd23dac3} & 4{,}914 & 4{,}914 & 0 & 0 & 2.99 \\
+\texttt{double\_perovskites\_gap} & \cite{pilania2016doubleperovskites} & 13309157 & \texttt{746072db995ec46f} & 1{,}306 & 1{,}306 & 0 & 0 & 4.85 \\
+\texttt{phonon\_dielectric\_mp} & \cite{petretto2018phonons} & 13297571 & \texttt{53044ba423c06b5c} & 1{,}296 & 1{,}190 & 0 & 72 & 2.91 \\
+\texttt{dielectric\_constant} & \cite{petousis2017dielectric} & 13213475 & \texttt{8eb2481214873278} & 1{,}056 & 964 & 0 & 58 & 2.67 \\
+\texttt{piezoelectric\_tensor} & \cite{dejong2015piezo} & 13220621 & \texttt{dc9d04836f7f91ec} & 941 & 798 & 0 & 75 & 3.04 \\
+\midrule
+Total & & & & & 28{,}100 & 0 & 205 & \\
+\bottomrule
+\end{tabular}
+\end{table*}

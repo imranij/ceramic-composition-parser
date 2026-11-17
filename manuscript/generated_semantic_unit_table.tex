@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\centering
+\caption{Unit-semantics examples with every convention declared. $r=n_A/n_H$ is the additive-to-host formula-unit ratio (host coefficient 1); $x_A=n_A/(n_H+\sum n)$ is the additive share of all formula units. ``Total'' basis: the percentage is of the whole mixture; ``per host'': of the host alone. For at\%, ``additive atoms'' counts every atom of the additive formula unit and ``dopant atoms'' only the named dopant element. Molar masses for A3: BaTiO$_3$ 233.1922, Y$_2$O$_3$ 225.8099\,g\,mol$^{-1}$. Each $r$ is checked against the closed form shown.}
+\label{tab:semantic_unit_eval}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lllrlllrr@{}}
+\toprule
+Case & Host & Additive & \% & Unit & Basis & at\% counts & Derivation of $r$ & $r$ \\
+\midrule
+A1 & BaTiO$_{3}$ & Y$_{2}$O$_{3}$ & 1 & mol\% & total & -- & \texttt{0.01/(1-0.01)} & 0.010101 \\
+A2 & BaTiO$_{3}$ & Y$_{2}$O$_{3}$ & 1 & mol\% & per host & -- & \texttt{0.01} & 0.010000 \\
+A3 & BaTiO$_{3}$ & Y$_{2}$O$_{3}$ & 1 & wt\% & total & -- & \texttt{(0.01/M\_Y2O3)/(0.99/M\_BaTiO3)} & 0.010431 \\
+A4 & BaTiO$_{3}$ & Y$_{2}$O$_{3}$ & 1 & at\% & total & additive atoms & \texttt{0.01*5/(0.99*5)} & 0.010101 \\
+A5 & BaTiO$_{3}$ & Y$_{2}$O$_{3}$ & 1 & at\% & total & dopant atoms & \texttt{0.01*T/2, T=5/(1-5*0.01/2)} & 0.025641 \\
+A6 & BaTiO$_{3}$ & Y$_{2}$O$_{3}$ & 1 & at\% & per host & dopant atoms & \texttt{0.01*5/2} & 0.025000 \\
+A7 & BaTiO$_{3}$ & C & 1.9 & mol\% & total & -- & \texttt{0.019/(1-0.019)} & 0.019368 \\
+A8 & Al$_{2}$O$_{3}$ & Y$_{2}$O$_{3}$; MgO & 0.5; 0.2 & mol\% & total & -- & \texttt{0.005/0.993; 0.002/0.993} & 0.005035; 0.002014 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,20 @@
+\begin{table}[!t]
+\centering
+\caption{The 51 hand-written strings, scored by exact element amounts. $R$: resolvable strings returned with the exact expected amounts; FR: resolvable strings refused (false refusals); $A$: ambiguous strings refused; SM: silent mis-parses (a composition returned for an ambiguous string, or a wrong one for a resolvable string). Labels are those of the submitted version. These are constructed challenge sets, not samples, so no interval is attached to any count. One of raw \texttt{pymatgen}'s three SM, \texttt{Xx2O3}, is a \texttt{DummySpecies} return, a mismatch with a schema restricted to real elements.}
+\label{tab:benchmarks}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lcccccccc@{}}
+\toprule
+ & \multicolumn{3}{c}{Stress test (17 + 7)} & \multicolumn{3}{c}{Seed set (21 + 6)} & \multicolumn{2}{c}{Pooled 51} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(l){8-9}
+Configuration & $R$ & FR & $A$ & $R$ & FR & $A$ & SM & Correct \\
+\midrule
+v0.2.0 package & 16 & 1 & 7 & 21 & 0 & 6 & 0 & 50/51 \\
+v0.2.0 grammar alone & 16 & 1 & 7 & 21 & 0 & 6 & 0 & 50/51 \\
+v0.1.0 as submitted & 17 & 0 & 7 & 21 & 0 & 6 & 0 & 51/51 \\
+v0.1.0 grammar alone & 17 & 0 & 7 & 21 & 0 & 6 & 0 & 51/51 \\
+raw \texttt{pymatgen} & 17 & 0 & 6 & 21 & 0 & 4 & 3 & 48/51 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,23 @@
+\begin{table*}[!t]
+\centering
+\caption{Catalogue of candidate notation hazards in the literature corpora: strings that raw \texttt{pymatgen} resolves with no diagnostic and that the v0.2.0 screen refuses, because the string alone does not settle its reading or is not a single formula. They are candidates, not confirmed errors. Classes are named by the v0.2.0 refusal flag. ``v0.1'' counts the strings of the class that the submitted version also returned. The example is the shortest development-set instance; its source is given by DOI.}
+\label{tab:hazards}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}p{4.8cm}rrrlp{3.0cm}p{2.4cm}@{}}
+\toprule
+Hazard (v0.2.0 flag) & Dev. & Held-out & v0.1 & Example & Source DOI & \texttt{pymatgen} reads \\
+\midrule
+placeholder symbol accepted as a \texttt{DummySpecies}\newline\texttt{\scriptsize unknown\_element\_symbol} & 362 & 41 & 0 & \texttt{MS2} & {\scriptsize\url{10.1039/C7TC00838D}} & M:1, S:2 \\
+label or second phase joined across a space\newline\texttt{\scriptsize non\_formula\_word} & 33 & 18 & 30 & \texttt{Ag CuO} & {\scriptsize\url{10.1016/j.ijhydene.2017.01.105}} & Ag:1, Cu:1, O:1 \\
+core--shell or composite \texttt{@} ignored\newline\texttt{\scriptsize unconsumed\_separator} & 7 & 19 & 25 & \texttt{CdS@ZrO2} & {\scriptsize\url{10.1016/j.ultsonch.2017.01.009}} & Cd:1, O:2, S:1, Zr:1 \\
+parenthesised dopant read as one atom\newline\texttt{\scriptsize single\_element\_group} & 5 & 3 & 8 & \texttt{Te(Bi)} & {\scriptsize\url{10.1007/s10853-017-1180-9}} & Bi:1, Te:1 \\
+zero subscript dropped\newline\texttt{\scriptsize nonpositive\_amount} & 4 & 0 & 4 & \texttt{BaW0} & {\scriptsize\url{10.1016/j.spmi.2015.03.019}} & Ba:1 \\
+acronym letter T or D read as hydrogen\newline\texttt{\scriptsize unknown\_element\_symbol} & 4 & 0 & 4 & \texttt{BNT} & {\scriptsize\url{10.1016/j.ceramint.2007.09.098}} & B:1, H:1, N:1 \\
+dot read as a decimal point\newline\texttt{\scriptsize hydration\_or\_dot\_notation} & 3 & 2 & 3 & \texttt{Li2O.2SiO2} & {\scriptsize\url{10.1016/j.jnoncrysol.2014.01.003}} & Li:2, O:2.2, Si:1 \\
+hyphen read as a negative subscript\newline\texttt{\scriptsize mixture\_or\_arithmetic\_notation} & 3 & 0 & 3 & \texttt{BaO-2SiO2} & {\scriptsize\url{10.1016/S0022-3093(01)00814-6}} & Ba:1, Si:1 \\
+\midrule
+Total & 421 & 83 & 77 & & & \\
+\bottomrule
+\end{tabular}
+\end{table*}

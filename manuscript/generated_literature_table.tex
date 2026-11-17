@@ -1,0 +1,24 @@
+\begin{table*}[!t]
+\centering
+\caption{Literature strings, by reference class and outcome. Agree: a determinate string resolved to the reference composition (same elements, atomic fractions within $10^{-3}$). Refused: any refusal. Disagree: a composition that differs from a determinate reference. Returned: a composition for a string whose reference is indeterminate or a multi-component mixture. Discordant returns = disagree + returned; they are candidates for silent mis-parses, not confirmed errors (Section~\ref{sec:lit_dev}). Dummy: discordant returns that contain a \texttt{pymatgen} \texttt{DummySpecies}.}
+\label{tab:literature}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+ & & \multicolumn{3}{c}{Determinate} & Indeterminate & Mixture & \multicolumn{2}{c}{Discordant returns} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-6}\cmidrule(lr){7-7}\cmidrule(l){8-9}
+Set & Configuration & Agree & Refused & Disagree & Returned & Returned & All & Dummy \\
+\midrule
+Development ($n=19{,}443$; 7{,}552 / 10{,}518 / 1{,}373) & v0.2.0 package & 6{,}588 & 962 & 2 & 4 & 0 & 6 & 0 \\
+ & v0.1.0 as submitted & 6{,}387 & 1{,}155 & 10 & 8 & 4 & 22 & 0 \\
+ & v0.1.0 grammar alone & 6{,}303 & 1{,}245 & 4 & 4 & 0 & 8 & 0 \\
+ & raw \texttt{pymatgen} & 6{,}387 & 1{,}137 & 28 & 366 & 5 & 399 & 377 \\
+\midrule
+Held-out ($n=3{,}524$; 1{,}403 / 1{,}889 / 232) & v0.2.0 package & 1{,}099 & 301 & 3 & 0 & 0 & 3 & 0 \\
+ & v0.1.0 as submitted & 1{,}096 & 302 & 5 & 0 & 0 & 5 & 0 \\
+ & v0.1.0 grammar alone & 1{,}056 & 344 & 3 & 0 & 0 & 3 & 0 \\
+ & raw \texttt{pymatgen} & 1{,}098 & 295 & 10 & 43 & 0 & 53 & 48 \\
+\bottomrule
+\end{tabular}
+\end{table*}

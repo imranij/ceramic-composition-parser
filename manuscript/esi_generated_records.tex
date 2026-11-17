@@ -1,0 +1,121 @@
+\paragraph{A single formula resolved through both backends}
+\begin{verbatim}
+{
+  "schema_version": "1.1.0",
+  "raw_expression": "Ba0.9Sr0.1TiO3",
+  "parse_status": "formula_parsed",
+  "components": [
+    {
+      "role": "unknown",
+      "role_source": "single_formula",
+      "formula": "Ba0.9Sr0.1TiO3",
+      "coefficient": 1.0,
+      "unit": "formula_units"
+    }
+  ],
+  "atomic_fractions": {
+    "Ba": 0.18,
+    "Sr": 0.02,
+    "Ti": 0.2,
+    "O": 0.6
+  },
+  "provenance": {
+    "parser_version": "0.2.0",
+    "parser_backend": "grammar+pymatgen_agree"
+  },
+  "ambiguity_flags": []
+}
+\end{verbatim}
+\paragraph{A refusal}
+\begin{verbatim}
+{
+  "schema_version": "1.1.0",
+  "raw_expression": "BaO-2SiO2",
+  "parse_status": "unsupported_rejected",
+  "components": [],
+  "atomic_fractions": {},
+  "provenance": {
+    "parser_version": "0.2.0",
+    "parser_backend": "not_resolved",
+    "curator_note": "BaO-2SiO2"
+  },
+  "ambiguity_flags": [
+    "mixture_or_arithmetic_notation"
+  ]
+}
+\end{verbatim}
+\paragraph{A mixture expression with caller-supplied roles}
+\begin{verbatim}
+{
+  "schema_version": "1.1.0",
+  "raw_expression": "0.98BaTiO3+0.02Y2O3",
+  "parse_status": "mixture_parsed",
+  "components": [
+    {
+      "role": "host",
+      "role_source": "caller_supplied",
+      "formula": "BaTiO3",
+      "coefficient": 0.98,
+      "unit": "formula_units"
+    },
+    {
+      "role": "additive",
+      "role_source": "caller_supplied",
+      "formula": "Y2O3",
+      "coefficient": 0.02,
+      "unit": "formula_units"
+    }
+  ],
+  "atomic_fractions": {
+    "Ba": 0.196,
+    "Ti": 0.196,
+    "O": 0.6,
+    "Y": 0.008
+  },
+  "provenance": {
+    "parser_version": "0.2.0",
+    "parser_backend": "grammar+pymatgen_agree"
+  },
+  "ambiguity_flags": []
+}
+\end{verbatim}
+\paragraph{A percentage specification (1 at\% Y, counting dopant atoms, total basis)}
+\begin{verbatim}
+{
+  "schema_version": "1.1.0",
+  "raw_expression": "BaTiO3 + 1 at% Y2O3",
+  "parse_status": "mixture_parsed",
+  "components": [
+    {
+      "role": "host",
+      "role_source": "caller_supplied",
+      "formula": "BaTiO3",
+      "coefficient": 1.0,
+      "unit": "formula_units",
+      "unit_basis": "not_applicable"
+    },
+    {
+      "role": "additive",
+      "role_source": "caller_supplied",
+      "formula": "Y2O3",
+      "coefficient": 0.025641,
+      "unit": "at%",
+      "percent": 1.0,
+      "unit_basis": "total_mixture",
+      "at_percent_counts": "dopant_element_atoms",
+      "dopant_element": "Y"
+    }
+  ],
+  "atomic_fractions": {
+    "Ba": 0.195,
+    "Ti": 0.195,
+    "O": 0.6,
+    "Y": 0.01
+  },
+  "provenance": {
+    "parser_version": "0.2.0",
+    "parser_backend": "grammar+pymatgen_agree"
+  },
+  "ambiguity_flags": []
+}
+\end{verbatim}

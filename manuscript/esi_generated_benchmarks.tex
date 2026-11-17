@@ -1,0 +1,58 @@
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.5cm}lcp{2.9cm}cccc>{\raggedright\arraybackslash}p{2.7cm}@{}}
+\caption{All 51 hand-written strings. Expected: P (parse to the listed amounts) or R (refuse). Outcome per configuration: E exact, R refused, W wrong (silent mis-parse). Columns: v0.2.0 package, v0.1.0 as submitted, v0.1.0 grammar alone, raw pymatgen. Flags: the v0.2.0 record's controlled flags.}\label{tab:s1}\\
+\toprule
+Set: class & String & Exp. & Expected amounts & v0.2 & v0.1 & v0.1g & pmg & v0.2 flags \\
+\midrule\endhead
+stress: integer baseline & \texttt{BaTiO3} & P & Ba:1, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: integer baseline & \texttt{SrTiO3} & P & Sr:1, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: integer baseline & \texttt{Pb(Zr0.52Ti0.48)O3} & P & Pb:1, Zr:0.52, Ti:0.48, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: decimal A-site & \texttt{Ba0.9Sr0.1TiO3} & P & Ba:0.9, Sr:0.1, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: decimal A-site & \texttt{Ba0.95Ca0.05TiO3} & P & Ba:0.95, Ca:0.05, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: decimal B-site & \texttt{BaTi0.99Zr0.01O3} & P & Ba:1, Ti:0.99, Zr:0.01, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: decimal B-site & \texttt{BaTi0.9Sn0.1O3} & P & Ba:1, Ti:0.9, Sn:0.1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: decimal both sites & \texttt{Ba0.9Sr0.1Ti0.9Zr0.1O3} & P & Ba:0.9, Sr:0.1, Ti:0.9, Zr:0.1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: leading-dot decimal & \texttt{Ba.9Sr.1TiO3} & P & Ba:0.9, Sr:0.1, Ti:1, O:3 & R & E & E & E & {\scriptsize\texttt{hydration\_\allowbreak{}or\_\allowbreak{}dot\_\allowbreak{}notation}} \\
+stress: paren group & \texttt{(Ba0.9Sr0.1)TiO3} & P & Ba:0.9, Sr:0.1, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: paren group & \texttt{Ba(Ti0.98Nb0.02)O3} & P & Ba:1, Ti:0.98, Nb:0.02, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: nested paren & \texttt{(Ba0.9(Sr0.5Ca0.5)0.1)TiO3} & P & Ba:0.9, Sr:0.05, Ca:0.05, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: paren multiplier & \texttt{(BaTiO3)2} & P & Ba:2, Ti:2, O:6 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: oxygen deficiency & \texttt{BaTiO2.98} & P & Ba:1, Ti:1, O:2.98 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: oxygen deficiency & \texttt{SrTiO2.95} & P & Sr:1, Ti:1, O:2.95 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: multi-dopant & \texttt{Ba0.98La0.02Ti0.99Mn0.01O3} & P & Ba:0.98, La:0.02, Ti:0.99, Mn:0.01, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: rare-earth & \texttt{Ba0.97Nd0.03TiO3} & P & Ba:0.97, Nd:0.03, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+stress: comma site sharing & \texttt{(Ba,Sr)TiO3} & R &  & R & R & R & R & {\scriptsize\texttt{comma\_\allowbreak{}site\_\allowbreak{}fraction\_\allowbreak{}missing}} \\
+stress: comma site sharing & \texttt{(Pb,La)(Zr,Ti)O3} & R &  & R & R & R & R & {\scriptsize\texttt{comma\_\allowbreak{}site\_\allowbreak{}fraction\_\allowbreak{}missing}} \\
+stress: symbolic occupancy & \texttt{Ba(1-x)SrxTiO3} & R &  & R & R & R & R & {\scriptsize\texttt{free\_\allowbreak{}variable\_\allowbreak{}stoichiometry; mixture\_\allowbreak{}or\_\allowbreak{}arithmetic\_\allowbreak{}notation}} \\
+stress: symbolic occupancy & \texttt{BaTi1-xZrxO3} & R &  & R & R & R & R & {\scriptsize\texttt{free\_\allowbreak{}variable\_\allowbreak{}stoichiometry; mixture\_\allowbreak{}or\_\allowbreak{}arithmetic\_\allowbreak{}notation}} \\
+stress: mol-fraction mixture & \texttt{0.94Na0.5Bi0.5TiO3-0.06BaTiO3} & R &  & R & R & R & R & {\scriptsize\texttt{mixture\_\allowbreak{}or\_\allowbreak{}arithmetic\_\allowbreak{}notation}} \\
+stress: hydrate & \texttt{BaTiO3.2H2O} & R &  & R & R & R & W & {\scriptsize\texttt{hydration\_\allowbreak{}or\_\allowbreak{}dot\_\allowbreak{}notation}} \\
+stress: charge annotation & \texttt{Ba2+Ti4+O3} & R &  & R & R & R & R & {\scriptsize\texttt{charge\_\allowbreak{}balance\_\allowbreak{}unspecified; mixture\_\allowbreak{}or\_\allowbreak{}arithmetic\_\allowbreak{}notation}} \\
+seed: stoichiometric & \texttt{Al2O3} & P & Al:2, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: stoichiometric & \texttt{Y3Al5O12} & P & Y:3, Al:5, O:12 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: stoichiometric & \texttt{Li7La3Zr2O12} & P & Li:7, La:3, Zr:2, O:12 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: stoichiometric & \texttt{BaTiO3} & P & Ba:1, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: stoichiometric & \texttt{SrTiO3} & P & Sr:1, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: fractional\_doping & \texttt{Ba0.9Sr0.1TiO3} & P & Ba:0.9, Sr:0.1, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: fractional\_doping & \texttt{La0.7Sr0.3MnO3} & P & La:0.7, Sr:0.3, Mn:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: fractional\_doping & \texttt{Ba0.6Sr0.4TiO3} & P & Ba:0.6, Sr:0.4, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: fractional\_doping & \texttt{BaTi0.95Zr0.05O3} & P & Ba:1, Ti:0.95, Zr:0.05, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: fractional\_doping & \texttt{K0.5Na0.5NbO3} & P & K:0.5, Na:0.5, Nb:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: site\_substitution & \texttt{Pb(Zr0.52Ti0.48)O3} & P & Pb:1, Zr:0.52, Ti:0.48, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: site\_substitution & \texttt{Ba(Zr0.2Ti0.8)O3} & P & Ba:1, Zr:0.2, Ti:0.8, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: site\_substitution & \texttt{(Bi0.5Na0.5)TiO3} & P & Bi:0.5, Na:0.5, Ti:1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: site\_substitution & \texttt{Pb(Mg0.33Nb0.67)O3} & P & Pb:1, Mg:0.33, Nb:0.67, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: co\_doping & \texttt{Ba0.95Ca0.05Ti0.9Zr0.1O3} & P & Ba:0.95, Ca:0.05, Ti:0.9, Zr:0.1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: co\_doping & \texttt{La0.8Sr0.2Ga0.8Mg0.2O3} & P & La:0.8, Sr:0.2, Ga:0.8, Mg:0.2, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: co\_doping & \texttt{Ba0.85Ca0.15Ti0.9Zr0.1O3} & P & Ba:0.85, Ca:0.15, Ti:0.9, Zr:0.1, O:3 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: off\_stoichiometry & \texttt{SrTiO2.97} & P & Sr:1, Ti:1, O:2.97 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: off\_stoichiometry & \texttt{LiNbO2.9} & P & Li:1, Nb:1, O:2.9 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: off\_stoichiometry & \texttt{CeO1.95} & P & Ce:1, O:1.95 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: off\_stoichiometry & \texttt{Y0.16Zr0.84O1.92} & P & Y:0.16, Zr:0.84, O:1.92 & E & E & E & E & {\scriptsize\texttt{}} \\
+seed: alloy\_comma & \texttt{(Ba,Sr)TiO3} & R &  & R & R & R & R & {\scriptsize\texttt{comma\_\allowbreak{}site\_\allowbreak{}fraction\_\allowbreak{}missing}} \\
+seed: alloy\_comma & \texttt{(K,Na)NbO3} & R &  & R & R & R & R & {\scriptsize\texttt{comma\_\allowbreak{}site\_\allowbreak{}fraction\_\allowbreak{}missing}} \\
+seed: alloy\_comma & \texttt{(Bi,Na)TiO3} & R &  & R & R & R & R & {\scriptsize\texttt{comma\_\allowbreak{}site\_\allowbreak{}fraction\_\allowbreak{}missing}} \\
+seed: invalid\_symbol & \texttt{Xx2O3} & R &  & R & R & R & W & {\scriptsize\texttt{unknown\_\allowbreak{}element\_\allowbreak{}symbol}} \\
+seed: unsupported\_separator & \texttt{BaTiO3.H2O} & R &  & R & R & R & W & {\scriptsize\texttt{hydration\_\allowbreak{}or\_\allowbreak{}dot\_\allowbreak{}notation}} \\
+seed: unsupported\_separator & \texttt{NaCl+KCl} & R &  & R & R & R & R & {\scriptsize\texttt{mixture\_\allowbreak{}or\_\allowbreak{}arithmetic\_\allowbreak{}notation}} \\
+\bottomrule
+\end{longtable}

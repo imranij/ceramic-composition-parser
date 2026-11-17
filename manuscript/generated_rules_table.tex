@@ -1,0 +1,28 @@
+\begin{table*}[!t]
+\centering
+\caption{The shared screen and grammar refusals, with their controlled flag and status class (A: \texttt{ambiguous\_rejected}, the string does not determine a composition; U: \texttt{unsupported\_rejected}, not a single formula in this grammar; E: \texttt{parse\_error}). A refusal carries every flag that applies, not only the first.}
+\label{tab:rules}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lcp{8.2cm}l@{}}
+\toprule
+Flag & Class & Trigger & Example \\
+\midrule
+\texttt{comma\_site\_fraction\_missing} & A & any comma & \texttt{(Ba,Sr)TiO3} \\
+\texttt{hydration\_or\_dot\_notation} & A & middle dot; \texttt{.nH2O}; a dot not preceded by a digit (unless followed by 0) & \texttt{Li2O.2SiO2} \\
+\texttt{free\_variable\_stoichiometry} & A & x, y, z, $\delta$, $\pm$ outside an element symbol & \texttt{Ba1-xSrxTiO3} \\
+\texttt{dopant\_convention\_missing} & A & a colon & \texttt{Y2O3:Eu} \\
+\texttt{unit\_convention\_missing} & A & a percent sign; at\% without a count convention & \texttt{CaSc2O4:1\%Ce3+} \\
+\texttt{charge\_balance\_unspecified} & A & element, digits, then a sign & \texttt{Ba2+Ti4+O3} \\
+\texttt{single\_element\_group} & A & a group holding one bare symbol, no multiplier & \texttt{La(Sr)GaO3} \\
+\texttt{nonpositive\_amount} & A & a zero subscript or multiplier & \texttt{BaW0} \\
+\texttt{mixture\_or\_arithmetic\_notation} & U & +, -, =, /, \textasciicircum, \textasciitilde{} outside a rational subscript; a leading coefficient & \texttt{BaO-2SiO2} \\
+\texttt{non\_formula\_word} & U & lower-case letters outside symbols; a space separating words or phases & \texttt{Pt Nb2O5} \\
+\texttt{unknown\_element\_symbol} & U & a capitalised token not among the 118 symbols (incl. D, T, M, Ln, Xx) & \texttt{MS2} \\
+\texttt{unconsumed\_separator} & U & any other character, e.g.\ \texttt{@} & \texttt{CdS@ZrO2} \\
+\texttt{malformed\_grouping} & E & unmatched or mismatched brackets & \texttt{Ba(Ti0.9Zr0.1]O3} \\
+\texttt{backend\_disagreement} & E & grammar and \texttt{pymatgen} return different compositions & -- \\
+\texttt{manual\_validation\_required} & E & empty input or no element & -- \\
+\bottomrule
+\end{tabular}
+\end{table*}
