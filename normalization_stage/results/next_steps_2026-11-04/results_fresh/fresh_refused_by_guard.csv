@@ -1,0 +1,4 @@
+string,reference_class,reference_amounts,v03_strip_amounts,v03_strip_outcome,v03b_guarded_detail
+Na2O1.14(1),determinate,Na:2;O:1.14,Na:2;O:1.14,agree,G2_charge_implausible
+magnesium carbonate [Mg(CO3)2],determinate,C:2;Mg:1;O:6,C:2;Mg:1;O:6,agree,G2_charge_implausible
+strontium nitrate Sr(NO3)3,determinate,N:3;O:9;Sr:1,N:3;O:9;Sr:1,agree,G2_charge_implausible

@@ -1,0 +1,304 @@
+string,first_doi,stratum,reference_class,reference_reason,reference_amounts,v03b_guarded_amounts,v03b_guarded_outcome,v03b_guarded_detail,raw_pymatgen_outcome,v01_guarded_outcome,hand_check,hand_note,in_registered_sample
+(Ni1/3Co1/3Mn1/3)3O4 oxide,10.1016/j.jpowsour.2007.10.062,fraction_slash,determinate,,Co:1;Mn:1;Ni:1;O:4,Co:1;Mn:1;Ni:1;O:4,agree,descriptor_word_stripped,refused,refused,correct,,True
+Al2O3(s),10.1016/j.jssc.2008.03.003,parenthetical,determinate,,Al:2;O:3,Al:2;O:3,agree,state_label_stripped,refused,refused,correct,,True
+Aluminum nitrate Al(NO3)3,10.1007/s10854-016-4272-4,parenthetical,determinate,,Al:1;N:3;O:9,Al:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+Aluminum oxide Al2O3,10.1016/j.ssi.2016.03.012,other,determinate,,Al:2;O:3,Al:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+Ammonium tungstate (NH4)2WO4,10.1021/acs.jpcc.5b03766,parenthetical,determinate,,H:8;N:2;O:4;W:1,H:8;N:2;O:4;W:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+BaCO3 barium carbonate,10.1103/PhysRevB.88.104417,other,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+BaCO3 carbonate,10.1039/C7DT01708A,other,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+BaCO3(,10.1007/s10854-007-9439-6,parenthetical,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,True
+BaCO3(s),10.1016/j.jnucmat.2010.06.019,parenthetical,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,state_label_stripped,refused,refused,correct,,True
+BaCu0.82(1)Ag1.18Te2,10.1016/j.jssc.2008.05.003,decimal_subscript,determinate,,Ag:1.18;Ba:1;Cu:0.82;Te:2,Ag:1.18;Ba:1;Cu:0.82;Te:2,agree,standard_uncertainty_stripped,refused,refused,correct,,False
+BaCu1.11(1)Ag0.89Te2,10.1016/j.jssc.2008.05.003,decimal_subscript,determinate,,Ag:0.89;Ba:1;Cu:1.11;Te:2,Ag:0.89;Ba:1;Cu:1.11;Te:2,agree,standard_uncertainty_stripped,refused,refused,correct,,True
+BaCu1.51(2)Ag0.49Te2,10.1016/j.jssc.2008.05.003,decimal_subscript,determinate,,Ag:0.49;Ba:1;Cu:1.51;Te:2,Ag:0.49;Ba:1;Cu:1.51;Te:2,agree,standard_uncertainty_stripped,refused,refused,correct,,True
+Barium carbonate BaCO3,10.1016/j.jpowsour.2011.03.080,other,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+Barium carbonate [BaCO3],10.1007/s10854-017-7759-8,parenthetical,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+Barium nitrate [Ba(NO3)2],10.1016/j.jlumin.2009.11.023,parenthetical,determinate,,Ba:1;N:2;O:6,Ba:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,False
+Bi2O3(,10.1007/s10853-007-1641-7,parenthetical,determinate,,Bi:2;O:3,Bi:2;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Bismuth (Bi2O3) oxide,10.1007/s10854-013-1271-6,parenthetical,determinate,,Bi:2;O:3,Bi:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+CaCO3(,10.1007/s10854-015-3887-1,parenthetical,determinate,,C:1;Ca:1;O:3,C:1;Ca:1;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,True
+CaCO3(s),10.1016/j.jssc.2013.02.010,parenthetical,determinate,,C:1;Ca:1;O:3,C:1;Ca:1;O:3,agree,state_label_stripped,refused,refused,correct,,False
+Calcium hydroxide Ca(OH)2,10.1007/s10854-008-9675-4,parenthetical,determinate,,Ca:1;H:2;O:2,Ca:1;H:2;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+CeO2(s),10.1016/j.jssc.2004.01.022,parenthetical,determinate,,Ce:1;O:2,Ce:1;O:2,agree,state_label_stripped,refused,refused,correct,,True
+Co2O3(,10.1007/s00339-018-1860-6,parenthetical,determinate,,Co:2;O:3,Co:2;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,False
+Co3O4 oxide,10.1016/j.jeurceramsoc.2009.02.002,other,determinate,,Co:3;O:4,Co:3;O:4,agree,descriptor_word_stripped,refused,refused,correct,,False
+Cr2O3 oxide,10.1016/j.ceramint.2013.02.035,other,determinate,,Cr:2;O:3,Cr:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+Cr2O3(s),10.1016/j.jct.2009.06.026,parenthetical,determinate,,Cr:2;O:3,Cr:2;O:3,agree,state_label_stripped,refused,refused,correct,,False
+CuO oxide,10.1016/S0022-0248(03)01578-1,other,determinate,,Cu:1;O:1,Cu:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+CuO(,10.1016/j.mseb.2011.10.007,parenthetical,determinate,,Cu:1;O:1,Cu:1;O:1,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Dysprosium oxide [Dy2O3],10.1007/s10854-015-3930-2,parenthetical,determinate,,Dy:2;O:3,Dy:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+Eu2O3(s),10.1007/s10008-006-0106-2,parenthetical,determinate,,Eu:2;O:3,Eu:2;O:3,agree,state_label_stripped,refused,refused,correct,,False
+Fe2O3(,10.1038/srep19775,parenthetical,determinate,,Fe:2;O:3,Fe:2;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Fe2O3(s),10.1016/j.jssc.2011.03.033,parenthetical,determinate,,Fe:2;O:3,Fe:2;O:3,agree,state_label_stripped,refused,refused,correct,,True
+Gadolinium nitrate [Gd(NO3)3],10.1016/j.spmi.2014.11.030,parenthetical,determinate,,Gd:1;N:3;O:9,Gd:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+Gadolinium oxide Gd2O3,10.1016/j.jpowsour.2009.06.062,other,determinate,,Gd:2;O:3,Gd:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+Gd(NO3)3 nitrate,10.1016/j.ssi.2014.01.030,parenthetical,determinate,,Gd:1;N:3;O:9,Gd:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+Germanium dioxide GeO2,10.1016/j.ssi.2016.03.012,other,determinate,,Ge:1;O:2,Ge:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+H3BO3(,10.1016/j.jssc.2003.11.023,parenthetical,determinate,,B:1;H:3;O:3,B:1;H:3;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Iron oxide Fe2O3,10.1016/j.snb.2008.09.023,other,determinate,,Fe:2;O:3,Fe:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+K2CO3(,10.1016/j.sna.2017.03.021,parenthetical,determinate,,C:1;K:2;O:3,C:1;K:2;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,True
+KH2PO4(s),10.1016/j.eurpolymj.2007.06.039,parenthetical,determinate,,H:2;K:1;O:4;P:1,H:2;K:1;O:4;P:1,agree,state_label_stripped,refused,refused,correct,,True
+La2O3(s),10.1016/j.jssc.2013.02.010,parenthetical,determinate,,La:2;O:3,La:2;O:3,agree,state_label_stripped,refused,refused,correct,,False
+Lanthanum (III) oxide La2O3,10.1016/j.ssi.2011.10.001,parenthetical,determinate,,La:2;O:3,La:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+Lanthanum La2O3,10.1016/j.optmat.2013.02.001,other,determinate,,La:2;O:3,La:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+Lanthanum nitrate La(NO3)3,10.1016/j.nanoen.2014.12.025,parenthetical,determinate,,La:1;N:3;O:9,La:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+Lanthanum oxide La2O3,10.1016/S0168-9002(01)01036-1,other,determinate,,La:2;O:3,La:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+Li2CO3(,10.1007/s10854-012-0737-2,parenthetical,determinate,,C:1;Li:2;O:3,C:1;Li:2;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Li2CO3(s),10.1016/j.jssc.2011.03.033,parenthetical,determinate,,C:1;Li:2;O:3,C:1;Li:2;O:3,agree,state_label_stripped,refused,refused,correct,,True
+Lithium Nitrate LiNO3,10.1016/j.apsusc.2018.03.023,other,determinate,,Li:1;N:1;O:3,Li:1;N:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+Lithium carbonate Li2CO3,10.1016/j.ssi.2016.03.012,other,determinate,,C:1;Li:2;O:3,C:1;Li:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+Lithium nitrate [LiNO3],10.1016/j.ssc.2016.12.010,parenthetical,determinate,,Li:1;N:1;O:3,Li:1;N:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+Lu2O3(s),10.1016/j.ssi.2011.08.005,parenthetical,determinate,,Lu:2;O:3,Lu:2;O:3,agree,state_label_stripped,refused,refused,correct,,False
+Manganese nitrate Mn(NO3)2,10.1016/j.jallcom.2018.07.212,parenthetical,determinate,,Mn:1;N:2;O:6,Mn:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,True
+MgO(,10.1007/s10854-015-3887-1,parenthetical,determinate,,Mg:1;O:1,Mg:1;O:1,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Mn3O4 oxide,10.1016/j.electacta.2014.09.115,other,determinate,,Mn:3;O:4,Mn:3;O:4,agree,descriptor_word_stripped,refused,refused,correct,,False
+MnO3 oxide,10.1016/j.ceramint.2012.10.058,other,determinate,,Mn:1;O:3,Mn:1;O:3,agree,descriptor_word_stripped,refused,refused,correct_faithful_suspect_source,"read is faithful to the formula, but MnO3 is not a known stable phase (probable author typo); not counted as a wrong read",True
+MoO3(s),10.1016/s0925-8388(99)00822-1,parenthetical,determinate,,Mo:1;O:3,Mo:1;O:3,agree,state_label_stripped,refused,refused,correct,,True
+Molybdenum (VI) oxide MoO3,10.1016/j.ssi.2011.10.001,parenthetical,determinate,,Mo:1;O:3,Mo:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+NH3(g),10.1039/C3TC32362E,parenthetical,determinate,,H:3;N:1,H:3;N:1,agree,state_label_stripped,refused,refused,correct,,False
+NH4H2PO4(s),10.1016/j.eurpolymj.2007.06.039,parenthetical,determinate,,H:6;N:1;O:4;P:1,H:6;N:1;O:4;P:1,agree,state_label_stripped,refused,refused,correct,,True
+NH4H2PO4..,10.1103/PhysRevB.83.094435,other,determinate,,H:6;N:1;O:4;P:1,H:6;N:1;O:4;P:1,agree,stray_punctuation_stripped,refused,refused,correct,,False
+Na2CO3 sodium carbonate,10.1007/s10854-017-6838-1,other,determinate,,C:1;Na:2;O:3,C:1;Na:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+Na2CO3(,10.1007/s10854-015-3887-1,parenthetical,determinate,,C:1;Na:2;O:3,C:1;Na:2;O:3,agree,stray_punctuation_stripped,refused,refused,correct,,False
+Nb2O5(,10.1016/j.matlet.2012.02.076,parenthetical,determinate,,Nb:2;O:5,Nb:2;O:5,agree,stray_punctuation_stripped,refused,refused,correct,,False
+Ni0.65Co0.08Mn0.27(OH)2 hydroxide,10.1149/2.0951607jes,decimal_subscript,determinate,,Co:0.08;H:2;Mn:0.27;Ni:0.65;O:2,Co:0.08;H:2;Mn:0.27;Ni:0.65;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+Pb3O4(s),10.1016/j.jct.2009.06.026,parenthetical,determinate,,O:4;Pb:3,O:4;Pb:3,agree,state_label_stripped,refused,refused,correct,,False
+RuO2(s),10.1016/j.ssi.2011.08.005,parenthetical,determinate,,O:2;Ru:1,O:2;Ru:1,agree,state_label_stripped,refused,refused,correct,,False
+Sb2O3 oxide,10.1016/j.cattod.2007.11.030,other,determinate,,O:3;Sb:2,O:3;Sb:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+Sb2O3(,10.1007/s10854-012-0737-2,parenthetical,determinate,,O:3;Sb:2,O:3;Sb:2,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Sb2O5(s),10.1016/j.eurpolymj.2007.06.039,parenthetical,determinate,,O:5;Sb:2,O:5;Sb:2,agree,state_label_stripped,refused,refused,correct,,True
+Sc2O3(s),10.1039/c7dt04374k,parenthetical,determinate,,O:3;Sc:2,O:3;Sc:2,agree,state_label_stripped,refused,refused,correct,,True
+Si3N4(s),10.1038/srep45832,parenthetical,determinate,,N:4;Si:3,N:4;Si:3,agree,state_label_stripped,refused,refused,correct,,True
+Sm2O3(,10.1007/s10854-015-3887-1,parenthetical,determinate,,O:3;Sm:2,O:3;Sm:2,agree,stray_punctuation_stripped,refused,refused,correct,,True
+SnO2(,10.1016/j.solidstatesciences.2010.12.019,parenthetical,determinate,,O:2;Sn:1,O:2;Sn:1,agree,stray_punctuation_stripped,refused,refused,correct,,False
+Sr(NO3)2(,10.1016/j.ijhydene.2014.07.184,parenthetical,determinate,,N:2;O:6;Sr:1,N:2;O:6;Sr:1,agree,stray_punctuation_stripped,refused,refused,correct,,False
+SrCO3(,10.1016/j.scriptamat.2008.04.018,parenthetical,determinate,,C:1;O:3;Sr:1,C:1;O:3;Sr:1,agree,stray_punctuation_stripped,refused,refused,correct,,True
+SrCO3(s),10.1016/j.jssc.2004.01.022,parenthetical,determinate,,C:1;O:3;Sr:1,C:1;O:3;Sr:1,agree,state_label_stripped,refused,refused,correct,,True
+Strontium carbonate [SrCO3],10.1007/s10854-017-7759-8,parenthetical,determinate,,C:1;O:3;Sr:1,C:1;O:3;Sr:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+Strontium nitrate Sr(NO3)2,10.1007/s10854-016-4272-4,parenthetical,determinate,,N:2;O:6;Sr:1,N:2;O:6;Sr:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+Ta2O5(,10.1007/s10854-012-0737-2,parenthetical,determinate,,O:5;Ta:2,O:5;Ta:2,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Tb4O7 terbium oxides,10.1016/j.optmat.2013.02.001,other,determinate,,O:7;Tb:4,O:7;Tb:4,agree,descriptor_word_stripped,refused,refused,correct,,True
+TeO2(s),10.1016/S0040-6031(03)00399-X,parenthetical,determinate,,O:2;Te:1,O:2;Te:1,agree,state_label_stripped,refused,refused,correct,,True
+ThO2(s),10.1016/s0925-8388(99)00822-1,parenthetical,determinate,,O:2;Th:1,O:2;Th:1,agree,state_label_stripped,refused,refused,correct,,True
+TiO2 anatase,10.1149/1.2006509,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+TiO2 oxide,10.1016/j.apsusc.2007.02.111,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+TiO2(,10.1007/s10854-012-0737-2,parenthetical,determinate,,O:2;Ti:1,O:2;Ti:1,agree,stray_punctuation_stripped,refused,refused,correct,,True
+TiO2(s),10.1016/j.jct.2006.11.005,parenthetical,determinate,,O:2;Ti:1,O:2;Ti:1,agree,state_label_stripped,refused,refused,correct,,True
+Titanium oxide [TiO2],10.1007/s10854-017-7759-8,parenthetical,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+Tm2O3(,10.1038/srep19775,parenthetical,determinate,,O:3;Tm:2,O:3;Tm:2,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Tungsten (VI) oxide WO3,10.1016/j.ssi.2011.10.001,parenthetical,determinate,,O:3;W:1,O:3;W:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+WO3(,10.1016/j.sna.2015.11.015,parenthetical,determinate,,O:3;W:1,O:3;W:1,agree,stray_punctuation_stripped,refused,refused,correct,,True
+WO3(s),10.1039/c7dt04374k,parenthetical,determinate,,O:3;W:1,O:3;W:1,agree,state_label_stripped,refused,refused,correct,,False
+Y2O3(,10.1016/j.scriptamat.2008.04.018,parenthetical,determinate,,O:3;Y:2,O:3;Y:2,agree,stray_punctuation_stripped,refused,refused,correct,,True
+Y2O3-powder,10.1016/j.scriptamat.2004.08.021,other,determinate,,O:3;Y:2,O:3;Y:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+ZnO(,10.1007/s10854-015-3456-7,parenthetical,determinate,,O:1;Zn:1,O:1;Zn:1,agree,stray_punctuation_stripped,refused,refused,correct,,True
+[Pb(NO3)2] lead nitrate,10.1016/j.jnoncrysol.2018.05.040,parenthetical,determinate,,N:2;O:6;Pb:1,N:2;O:6;Pb:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+a-Al2O3,10.1016/j.nima.2017.02.008,other,determinate,,Al:2;O:3,Al:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+a-Fe2O3,10.1021/cg049887r,other,determinate,,Fe:2;O:3,Fe:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+a-Mn2O3,10.1021/cm0609855,other,determinate,,Mn:2;O:3,Mn:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+a-Si3N4,10.1039/C6DT01652A,other,determinate,,N:4;Si:3,N:4;Si:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+a-TiO2,10.1016/j.matchemphys.2003.07.012,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+a-TiS4,10.1016/j.ssi.2013.09.044,other,determinate,,S:4;Ti:1,S:4;Ti:1,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+a-V2O5,10.1021/cm034845w,other,determinate,,O:5;V:2,O:5;V:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+aluminum hydroxide Al(OH)3,10.1016/j.ssi.2004.05.009,parenthetical,determinate,,Al:1;H:3;O:3,Al:1;H:3;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+aluminum metaphosphate Al(PO3)3,10.1016/j.ssi.2014.12.013,parenthetical,determinate,,Al:1;O:9;P:3,Al:1;O:9;P:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+aluminum nitrate Al(NO3)3,10.1149/2.0881608jes,parenthetical,determinate,,Al:1;N:3;O:9,Al:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+aluminum nitrate [Al(NO3)2],10.1016/j.jlumin.2015.03.006,parenthetical,determinate,,Al:1;N:2;O:6,Al:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,wrong_read,"name (aluminium nitrate, Al(NO3)3) contradicts the formula Al(NO3)2; outside the registered sample",False
+aluminum nitrate [Al(NO3)3],10.1016/j.spmi.2014.11.030,parenthetical,determinate,,Al:1;N:3;O:9,Al:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+aluminum nitrate {Al(NO3)3},10.1016/j.jeurceramsoc.2013.08.040,parenthetical,determinate,,Al:1;N:3;O:9,Al:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+aluminum oxide Al2O3,10.1016/j.jnoncrysol.2017.12.054,other,determinate,,Al:2;O:3,Al:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+ammonium hydrogen phosphate (NH4)2HPO4,10.1016/j.apcatb.2017.07.042,parenthetical,determinate,,H:9;N:2;O:4;P:1,H:9;N:2;O:4;P:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+ammonium hydroxide NH4OH,10.1016/j.jnucmat.2017.03.031,other,determinate,,H:5;N:1;O:1,H:5;N:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+ammonium phosphate (NH4)2HPO4,10.1016/j.nima.2010.05.030,parenthetical,determinate,,H:9;N:2;O:4;P:1,H:9;N:2;O:4;P:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+ammonium phosphate NH4H2PO4,10.1016/j.electacta.2012.11.017,other,determinate,,H:6;N:1;O:4;P:1,H:6;N:1;O:4;P:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+amorphous MoS3 sulphide,10.1016/j.apcata.2006.02.014,other,determinate,,Mo:1;S:3,Mo:1;S:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+anatase TiO2,10.1149/2.051201jes,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+anatase-TiO2,10.1016/j.jeurceramsoc.2004.05.001,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+as-NaMgH3,10.1016/j.ijhydene.2017.10.161,other,determinate,,H:3;Mg:1;Na:1,H:3;Mg:1;Na:1,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+b-Ca3(PO4)2,10.1021/cm070963y,parenthetical,determinate,,Ca:3;O:8;P:2,Ca:3;O:8;P:2,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+barium carbonate BaCO3,10.1149/1.3625282,other,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+barium carbonate [BaCO3],10.1007/s10854-015-3498-x,parenthetical,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+barium carbonate-BaCO3,10.1007/s10854-012-0764-z,other,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+barium nitrate Ba(NO3)2,10.1007/s00339-016-9845-9,parenthetical,determinate,,Ba:1;N:2;O:6,Ba:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,True
+barium nitrate [Ba(NO3)2],10.1039/C4DT00656A,parenthetical,determinate,,Ba:1;N:2;O:6,Ba:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,False
+barium nitrate {Ba(NO3)2},10.1016/j.jeurceramsoc.2013.08.040,parenthetical,determinate,,Ba:1;N:2;O:6,Ba:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,False
+barium oxide BaO,10.1016/j.jnoncrysol.2015.09.003,other,determinate,,Ba:1;O:1,Ba:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+barium titanate BaTiO3,10.1007/s10832-007-9229-9,other,determinate,,Ba:1;O:3;Ti:1,Ba:1;O:3;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+bismuth nitrate [Bi(NO3)3],10.1111/j.1551-2916.2011.05024.x,parenthetical,determinate,,Bi:1;N:3;O:9,Bi:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+bismuth oxide Bi2O3,10.1016/j.jssc.2014.06.014,other,determinate,,Bi:2;O:3,Bi:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+bismuth oxide [Bi2O3],10.1007/s10854-015-3930-2,parenthetical,determinate,,Bi:2;O:3,Bi:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+bismuth oxide-Bi2O3,10.1007/s10854-012-0764-z,other,determinate,,Bi:2;O:3,Bi:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+c-Eu2O3,10.1149/2.0091708jss,other,determinate,,Eu:2;O:3,Eu:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+calcium carbonate CaCO3,10.1016/S0926-860X(99)00446-9,other,determinate,,C:1;Ca:1;O:3,C:1;Ca:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+calcium carbonate [CaCO3],10.1007/s10853-007-2400-5,parenthetical,determinate,,C:1;Ca:1;O:3,C:1;Ca:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+calcium fluoride CaF2,10.1016/j.jnoncrysol.2013.03.012,other,determinate,,Ca:1;F:2,Ca:1;F:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+calcium hydroxide Ca (OH)2,10.1016/j.msec.2008.08.009,parenthetical,determinate,,Ca:1;H:2;O:2,Ca:1;H:2;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+calcium hydroxide Ca(OH)2,10.1016/j.colsurfb.2014.09.052,parenthetical,determinate,,Ca:1;H:2;O:2,Ca:1;H:2;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+calcium nitrate Ca(NO3)2,10.1016/j.optmat.2016.05.033,parenthetical,determinate,,Ca:1;N:2;O:6,Ca:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,False
+calcium nitride Ca3N2,10.1149/1.3364953,other,determinate,,Ca:3;N:2,Ca:3;N:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+calcium oxide CaO,10.1016/j.jnoncrysol.2017.12.054,other,determinate,,Ca:1;O:1,Ca:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+carbonate BaCO3,10.1016/j.jmmm.2016.10.140,other,determinate,,Ba:1;C:1;O:3,Ba:1;C:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+carbonate CaCO3,10.1016/j.jmmm.2005.10.234,other,determinate,,C:1;Ca:1;O:3,C:1;Ca:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+carbonate K2CO3,10.1016/j.ssc.2009.12.004,other,determinate,,C:1;K:2;O:3,C:1;K:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+carbonate Li2CO3,10.1016/j.ceramint.2015.11.129,other,determinate,,C:1;Li:2;O:3,C:1;Li:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+carbonate SrCO3,10.1016/j.tet.2016.03.057,other,determinate,,C:1;O:3;Sr:1,C:1;O:3;Sr:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+cerium (IV) oxide CeO2,10.1016/j.jpowsour.2011.03.080,parenthetical,determinate,,Ce:1;O:2,Ce:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+cerium dioxide CeO2,10.1016/j.jssc.2017.07.022,other,determinate,,Ce:1;O:2,Ce:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+cerium nitrate Ce(NO3)3,10.1007/s10854-016-6119-4,parenthetical,determinate,,Ce:1;N:3;O:9,Ce:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+cerium oxide CeO2,10.1016/j.tsf.2005.11.005,other,determinate,,Ce:1;O:2,Ce:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+chromium nitrate Cr(NO3)3,10.1007/s10853-012-6707-5,parenthetical,determinate,,Cr:1;N:3;O:9,Cr:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,False
+cobalt hydroxide (Co(OH))2,10.1007/s10853-006-0855-4,parenthetical,determinate,,Co:2;H:2;O:2,Co:2;H:2;O:2,agree,descriptor_word_stripped,refused,refused,wrong_read,"name (cobalt hydroxide, Co(OH)2) contradicts the formula (Co(OH))2 = CoOH; the string does not determine one composition",True
+cobalt oxide Co3O4,10.1021/ic102218w,other,determinate,,Co:3;O:4,Co:3;O:4,agree,descriptor_word_stripped,refused,refused,correct,,True
+copper (II) oxide CuO,10.1007/s10854-008-9675-4,parenthetical,determinate,,Cu:1;O:1,Cu:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+copper oxide CuO,10.1016/S0926-860X(99)00446-9,other,determinate,,Cu:1;O:1,Cu:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+diammonium hydrogen phosphate (NH4)2HPO4,10.1016/j.jpowsour.2010.04.072,parenthetical,determinate,,H:9;N:2;O:4;P:1,H:9;N:2;O:4;P:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+diammonium hydrogen phosphate [(NH4)2HPO4],10.1016/j.crci.2017.08.001,parenthetical,determinate,,H:9;N:2;O:4;P:1,H:9;N:2;O:4;P:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+diammonium phosphate (NH4)2HPO4,10.1016/j.jnoncrysol.2013.08.019,parenthetical,determinate,,H:9;N:2;O:4;P:1,H:9;N:2;O:4;P:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+dysprosium nitrate [Dy(NO3)3],10.1016/j.radphyschem.2016.01.017,parenthetical,determinate,,Dy:1;N:3;O:9,Dy:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,False
+dysprosium oxide [Dy2O3],10.1016/j.materresbull.2017.03.037,parenthetical,determinate,,Dy:2;O:3,Dy:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+erbium oxide [Er2O3],10.1016/j.materresbull.2014.08.061,parenthetical,determinate,,Er:2;O:3,Er:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+europium Eu2O3,10.1016/j.optmat.2013.02.001,other,determinate,,Eu:2;O:3,Eu:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+europium nitrate [Eu(NO3)3],10.1016/j.radphyschem.2016.01.017,parenthetical,determinate,,Eu:1;N:3;O:9,Eu:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+europium oxide Eu2O3,10.1149/1.3625282,other,determinate,,Eu:2;O:3,Eu:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+g-Al2O3,10.1021/cm052367e,other,determinate,,Al:2;O:3,Al:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+g-C3N4,10.1016/j.apcatb.2014.09.037,other,determinate,,C:3;N:4,C:3;N:4,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+g-MnO2,10.1021/cm0616937,other,determinate,,Mn:1;O:2,Mn:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+g-MnOOH,10.1021/cm035050s,other,determinate,,H:1;Mn:1;O:2,H:1;Mn:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+gadolinium oxide Gd2O3,10.1007/s10854-017-6838-1,other,determinate,,Gd:2;O:3,Gd:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+gallium nitrate Ga(NO3)3,10.1016/j.ceramint.2015.04.107,parenthetical,determinate,,Ga:1;N:3;O:9,Ga:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+gallium oxide Ga2O3,10.1016/j.jnoncrysol.2016.10.030,other,determinate,,Ga:2;O:3,Ga:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+germanium oxide GeO2,10.1016/j.jnoncrysol.2016.10.030,other,determinate,,Ge:1;O:2,Ge:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+h-GeO2,10.1016/j.jssc.2013.10.037,other,determinate,,Ge:1;O:2,Ge:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+indium nitrate In(NO3)3,10.1016/j.matlet.2011.02.067,parenthetical,determinate,,In:1;N:3;O:9,In:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,False
+iron nitrate [Fe(NO3)3],10.1039/C5TC00914F,parenthetical,determinate,,Fe:1;N:3;O:9,Fe:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+iron oxide Fe2O3,10.1007/s10853-016-9928-1,other,determinate,,Fe:2;O:3,Fe:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+iron oxide-α-Fe2O3,10.1007/s10973-014-3961-6,other,determinate,,Fe:2;O:3,Fe:2;O:3,agree,descriptor_word_stripped|polymorph_prefix_stripped,refused,refused,correct,,False
+lanthanum nitrate La(NO3)3,10.1007/s10854-014-2503-0,parenthetical,determinate,,La:1;N:3;O:9,La:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+lanthanum oxide La2O3,10.1007/s00339-014-8267-9,other,determinate,,La:2;O:3,La:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+lanthanum oxide [La2O3],10.1007/s10853-007-2400-5,parenthetical,determinate,,La:2;O:3,La:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+lead fluoride PbF2,10.1016/j.jnoncrysol.2017.02.021,other,determinate,,F:2;Pb:1,F:2;Pb:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+lead oxide PbO,10.1016/j.jnoncrysol.2013.08.019,other,determinate,,O:1;Pb:1,O:1;Pb:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+lithium carbonate Li2CO3,10.1016/j.jpowsour.2010.04.072,other,determinate,,C:1;Li:2;O:3,C:1;Li:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+lithium carbonate [Li2CO3],10.1016/j.jpowsour.2006.09.030,parenthetical,determinate,,C:1;Li:2;O:3,C:1;Li:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+lithium nitrate Li(NO3),10.1016/j.matlet.2011.02.067,parenthetical,determinate,,Li:1;N:1;O:3,Li:1;N:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+lithium nitrate LiNO3,10.1016/j.matchemphys.2010.12.048,other,determinate,,Li:1;N:1;O:3,Li:1;N:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+lutetium oxide Lu2O3,10.1016/j.jssc.2014.06.014,other,determinate,,Lu:2;O:3,Lu:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+m-Cu0.1Mn0.1Ce0.8O2,10.1016/j.cattod.2017.01.034,decimal_subscript,determinate,,Ce:0.8;Cu:0.1;Mn:0.1;O:2,Ce:0.8;Cu:0.1;Mn:0.1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+m-ZrO2,10.1016/j.jssc.2006.08.024,other,determinate,,O:2;Zr:1,O:2;Zr:1,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+magnesium nitrate Mg(NO3)2,10.1007/s10854-016-6119-4,parenthetical,determinate,,Mg:1;N:2;O:6,Mg:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,True
+magnesium nitrate [Mg(NO3)2],10.1016/j.apsusc.2014.12.056,parenthetical,determinate,,Mg:1;N:2;O:6,Mg:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,True
+magnesium nitrate {Mg(NO3)2},10.1016/j.jeurceramsoc.2013.08.040,parenthetical,determinate,,Mg:1;N:2;O:6,Mg:1;N:2;O:6,agree,descriptor_word_stripped,refused,refused,correct,,True
+magnesium oxide MgO,10.1016/j.jmmm.2015.03.008,other,determinate,,Mg:1;O:1,Mg:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+manganese dioxide MnO2,10.1016/j.ceramint.2018.03.215,other,determinate,,Mn:1;O:2,Mn:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+manganese nitrate Mn(NO3)3,10.1007/s10853-012-6707-5,parenthetical,determinate,,Mn:1;N:3;O:9,Mn:1;N:3;O:9,agree,descriptor_word_stripped,refused,refused,correct,,True
+manganese oxide Mn2O3,10.1007/s10008-010-1288-1,other,determinate,,Mn:2;O:3,Mn:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+manganese oxide MnO2,10.1016/j.solidstatesciences.2004.06.003,other,determinate,,Mn:1;O:2,Mn:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+manganese oxide [Mn2O3],10.1007/s10853-007-2400-5,parenthetical,determinate,,Mn:2;O:3,Mn:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+manganese oxide-MnO2,10.1007/s10973-014-3961-6,other,determinate,,Mn:1;O:2,Mn:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+molybdenum oxide [MoO3],10.1016/j.physe.2018.04.026,parenthetical,determinate,,Mo:1;O:3,Mo:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+nano SiO2,10.1016/j.apsusc.2017.10.045,other,determinate,,O:2;Si:1,O:2;Si:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+nano-AgInS2,10.1021/cg901254j,other,determinate,,Ag:1;In:1;S:2,Ag:1;In:1;S:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+nano-CeO2,10.1016/j.jeurceramsoc.2015.01.012,other,determinate,,Ce:1;O:2,Ce:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+nano-IrO2,10.1016/j.ultsonch.2014.01.008,other,determinate,,Ir:1;O:2,Ir:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+nano-RuO2,10.1016/j.ultsonch.2014.01.008,other,determinate,,O:2;Ru:1,O:2;Ru:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+nano-SiC,10.1002/adfm.201300146,other,determinate,,C:1;Si:1,C:1;Si:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+nano-SiO2,10.1016/j.jlumin.2013.06.015,other,determinate,,O:2;Si:1,O:2;Si:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+nano-Sm2O3,10.1007/s10854-017-8046-4,other,determinate,,O:3;Sm:2,O:3;Sm:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+nano-SnO2,10.1016/j.jpowsour.2012.05.117,other,determinate,,O:2;Sn:1,O:2;Sn:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+nano-TiO2,10.1016/j.jpowsour.2005.03.067,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+nano-ZnO,10.1111/j.1551-2916.2011.04629.x,other,determinate,,O:1;Zn:1,O:1;Zn:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+nano-ZrO2,10.1111/j.1551-2916.2011.04629.x,other,determinate,,O:2;Zr:1,O:2;Zr:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+neodymium oxide Nd2O3,10.1016/j.optmat.2011.12.023,other,determinate,,Nd:2;O:3,Nd:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+nickel nitrate Ni(NO3)2,10.1016/j.nanoen.2014.12.025,parenthetical,determinate,,N:2;Ni:1;O:6,N:2;Ni:1;O:6,agree,descriptor_word_stripped,refused,refused,correct,,False
+nickel oxide NiO,10.1016/S0168-9002(01)01036-1,other,determinate,,Ni:1;O:1,Ni:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+nickel oxide-NiO,10.1007/s10973-014-3961-6,other,determinate,,Ni:1;O:1,Ni:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+nickel-cobalt-manganese carbonate Ni0.13Co0.13Mn0.54(CO3)0.8,10.1149/2.1001802jes,decimal_subscript,determinate,,C:0.8;Co:0.13;Mn:0.54;Ni:0.13;O:2.4,C:0.8;Co:0.13;Mn:0.54;Ni:0.13;O:2.4,agree,descriptor_word_stripped,refused,refused,correct,,True
+niobium oxide Nb2O5,10.1007/s10853-016-9928-1,other,determinate,,Nb:2;O:5,Nb:2;O:5,agree,descriptor_word_stripped,refused,refused,correct,,True
+niobium oxide [Nb2O5],10.1016/j.materresbull.2014.08.061,parenthetical,determinate,,Nb:2;O:5,Nb:2;O:5,agree,descriptor_word_stripped,refused,refused,correct,,True
+niobium oxides Nb2O5,10.1016/j.jssc.2018.03.024,other,determinate,,Nb:2;O:5,Nb:2;O:5,agree,descriptor_word_stripped,refused,refused,correct,,True
+nitride Li7MnN4,10.1149/1.2048267,other,determinate,,Li:7;Mn:1;N:4,Li:7;Mn:1;N:4,agree,descriptor_word_stripped,refused,refused,correct,,False
+oxide CeO2,10.1016/j.susc.2007.12.041,other,determinate,,Ce:1;O:2,Ce:1;O:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+oxide Co3O4,10.1016/j.jpcs.2013.08.013,other,determinate,,Co:3;O:4,Co:3;O:4,agree,descriptor_word_stripped,refused,refused,correct,,False
+oxide CuO,10.1007/s10948-012-1726-7,other,determinate,,Cu:1;O:1,Cu:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+oxide Sm2O3,10.1016/j.mseb.2010.03.087,other,determinate,,O:3;Sm:2,O:3;Sm:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+phosphorus oxide P2O5,10.1016/j.jnoncrysol.2017.12.054,other,determinate,,O:5;P:2,O:5;P:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+potassium carbonate K2CO3,10.1016/s0925-8388(99)00168-1,other,determinate,,C:1;K:2;O:3,C:1;K:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+praseodymium oxide Pr6O11,10.1016/j.jssc.2017.03.025,other,determinate,,O:11;Pr:6,O:11;Pr:6,agree,descriptor_word_stripped,refused,refused,correct,,True
+r-TiO2,10.1149/1.1833315,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+ruthenium (IV) oxide RuO2,10.1016/S0025-5408(03)00002-3,parenthetical,determinate,,O:2;Ru:1,O:2;Ru:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+ruthenium dioxide RuO2,10.1016/j.jssc.2017.03.025,other,determinate,,O:2;Ru:1,O:2;Ru:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+ruthenium oxide RuO2,10.1016/j.jcrysgro.2008.05.038,other,determinate,,O:2;Ru:1,O:2;Ru:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+rutile TiO2,10.1016/j.electacta.2016.10.018,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+rutile-TiO2,10.1007/s11581-016-1711-4,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+samarium nitrate [Sm(NO3)3],10.1016/j.nimb.2015.03.088,parenthetical,determinate,,N:3;O:9;Sm:1,N:3;O:9;Sm:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+silicate SiO2,10.1016/j.optmat.2016.05.033,other,determinate,,O:2;Si:1,O:2;Si:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+silicon oxide SiO2,10.1149/1.3625282,other,determinate,,O:2;Si:1,O:2;Si:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+silver nitrate Ag(NO3),10.1016/j.materresbull.2013.09.011,parenthetical,determinate,,Ag:1;N:1;O:3,Ag:1;N:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+silver oxide Ag2O,10.1016/j.jeurceramsoc.2014.01.016,other,determinate,,Ag:2;O:1,Ag:2;O:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+sodium carbonate Na2CO3,10.1016/j.jnoncrysol.2016.10.030,other,determinate,,C:1;Na:2;O:3,C:1;Na:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+sodium carbonate [Na2CO3],10.1016/j.nimb.2015.03.088,parenthetical,determinate,,C:1;Na:2;O:3,C:1;Na:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+sodium carbonate-Na2CO3,10.1007/s10854-012-0764-z,other,determinate,,C:1;Na:2;O:3,C:1;Na:2;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+sodium hexametaphosphate (NaPO3)6,10.1021/cm000717l,parenthetical,determinate,,Na:6;O:18;P:6,Na:6;O:18;P:6,agree,descriptor_word_stripped,refused,refused,correct,,False
+sodium hydroxide [NaOH],10.1016/j.jpowsour.2013.04.047,parenthetical,determinate,,H:1;Na:1;O:1,H:1;Na:1;O:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+sodium nitrate [NaNO3],10.1007/s00339-012-6891-9,parenthetical,determinate,,N:1;Na:1;O:3,N:1;Na:1;O:3,agree,descriptor_word_stripped,refused,refused,correct,,True
+sodium polyphosphate NaPO3,10.1039/C5TC00102A,other,determinate,,Na:1;O:3;P:1,Na:1;O:3;P:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+strontium carbonate SrCO3,10.1016/j.jmmm.2016.06.064,other,determinate,,C:1;O:3;Sr:1,C:1;O:3;Sr:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+strontium carbonate [SrCO3],10.1007/s10854-015-3498-x,parenthetical,determinate,,C:1;O:3;Sr:1,C:1;O:3;Sr:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+strontium nitrate Sr(NO3)2,10.1007/s10854-016-5537-7,parenthetical,determinate,,N:2;O:6;Sr:1,N:2;O:6;Sr:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+strontium nitrate [Sr(NO3)2],10.1016/j.radphyschem.2016.01.017,parenthetical,determinate,,N:2;O:6;Sr:1,N:2;O:6;Sr:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+strontium nitrate [Sr(NO3)],10.1016/j.jlumin.2014.06.028,parenthetical,determinate,,N:1;O:3;Sr:1,N:1;O:3;Sr:1,agree,descriptor_word_stripped,refused,refused,wrong_read,"name (strontium nitrate, Sr(NO3)2) contradicts the formula Sr(NO3); the string does not determine one composition",True
+strontium nitrate {Sr(NO3)2},10.1016/j.materresbull.2011.12.020,parenthetical,determinate,,N:2;O:6;Sr:1,N:2;O:6;Sr:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+strontium titanate SrTiO3,10.1007/s10832-007-9229-9,other,determinate,,O:3;Sr:1;Ti:1,O:3;Sr:1;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+t-SnO2,10.1016/S0925-4005(99)00414-1,other,determinate,,O:2;Sn:1,O:2;Sn:1,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+tantalum dioxide [Ta2O5],10.1007/s10854-015-3930-2,parenthetical,determinate,,O:5;Ta:2,O:5;Ta:2,agree,descriptor_word_stripped,refused,refused,wrong_read,"name (dioxide, TaO2) contradicts the formula Ta2O5; the string does not determine one composition",True
+tantalum oxide Ta2O5,10.1016/j.jssc.2017.03.025,other,determinate,,O:5;Ta:2,O:5;Ta:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+tantalum oxide [Ta2O5],10.1016/j.mseb.2012.06.002,parenthetical,determinate,,O:5;Ta:2,O:5;Ta:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+tantalum oxides Ta2O5,10.1016/j.jssc.2018.03.024,other,determinate,,O:5;Ta:2,O:5;Ta:2,agree,descriptor_word_stripped,refused,refused,correct,,True
+tellurium dioxide TeO2,10.1016/j.materresbull.2016.04.002,other,determinate,,O:2;Te:1,O:2;Te:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+titanium dioxide TiO2,10.1016/j.ceramint.2008.04.030,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+titanium oxide TiO2,10.1016/j.ssi.2004.05.009,other,determinate,,O:2;Ti:1,O:2;Ti:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+tungsten oxide WO3,10.1007/s10854-017-6838-1,other,determinate,,O:3;W:1,O:3;W:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+uranium oxide U3O8,10.1016/j.jssc.2006.08.038,other,determinate,,O:8;U:3,O:8;U:3,agree,descriptor_word_stripped,refused,refused,correct,,False
+vanadium metavanadate NH4VO3,10.1016/j.ceramint.2011.06.027,other,determinate,,H:4;N:1;O:3;V:1,H:4;N:1;O:3;V:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+yttrium oxide Y2O3,10.1016/j.jlumin.2016.09.054,other,determinate,,O:3;Y:2,O:3;Y:2,agree,descriptor_word_stripped,refused,refused,correct,,False
+zinc nitrate Zn(NO3)2,10.1016/j.jmmm.2016.11.062,parenthetical,determinate,,N:2;O:6;Zn:1,N:2;O:6;Zn:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+zirconium dioxide ZrO2,10.1016/j.msea.2010.07.001,other,determinate,,O:2;Zr:1,O:2;Zr:1,agree,descriptor_word_stripped,refused,refused,correct,,True
+zirconium oxide ZrO2,10.1007/s10854-016-4560-z,other,determinate,,O:2;Zr:1,O:2;Zr:1,agree,descriptor_word_stripped,refused,refused,correct,,False
+α-Al2O3,10.1021/ic5002013,other,determinate,,Al:2;O:3,Al:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-AlH3,10.1016/j.ijhydene.2008.11.013,other,determinate,,Al:1;H:3,Al:1;H:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-Bi2O3,10.1016/j.matlet.2009.07.056,other,determinate,,Bi:2;O:3,Bi:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+α-Cr2O3,10.1016/s0955-2219(03)00023-2,other,determinate,,Cr:2;O:3,Cr:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-Fe2O3,10.1007/s11244-016-0727-3,other,determinate,,Fe:2;O:3,Fe:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+α-FeOOH,10.1016/j.jssc.2004.06.051,other,determinate,,Fe:1;H:1;O:2,Fe:1;H:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-Ga2O3,10.1016/S0167-2738(00)00635-4,other,determinate,,Ga:2;O:3,Ga:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+α-Mn2O3,10.1039/b719682b,other,determinate,,Mn:2;O:3,Mn:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-PbF2,10.1016/j.ssi.2003.09.002,other,determinate,,F:2;Pb:1,F:2;Pb:1,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-Sb2O3,10.1016/j.matchemphys.2017.08.031,other,determinate,,O:3;Sb:2,O:3;Sb:2,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+α-Sb2O4,10.1016/j.jnoncrysol.2008.06.095,other,determinate,,O:4;Sb:2,O:4;Sb:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-Si3N4,10.1149/1.3479763,other,determinate,,N:4;Si:3,N:4;Si:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-SiC,10.1111/j.1551-2916.2007.01660.x,other,determinate,,C:1;Si:1,C:1;Si:1,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-TeO2,10.1016/j.matchemphys.2017.08.031,other,determinate,,O:2;Te:1,O:2;Te:1,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+α-V2O5,10.1149/2.0881707jes,other,determinate,,O:5;V:2,O:5;V:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-Co0.3Ni0.7(OH)2,10.1016/j.matchemphys.2005.06.047,decimal_subscript,determinate,,Co:0.3;H:2;Ni:0.7;O:2,Co:0.3;H:2;Ni:0.7;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-Co0.3Ni0.7OOH,10.1016/j.matchemphys.2005.06.047,decimal_subscript,determinate,,Co:0.3;H:1;Ni:0.7;O:2,Co:0.3;H:1;Ni:0.7;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-FeOOH,10.1016/j.electacta.2013.06.130,other,determinate,,Fe:1;H:1;O:2,Fe:1;H:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-Ga2O3,10.1021/acs.chemmater.7b02255,other,determinate,,Ga:2;O:3,Ga:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+β-Gd2O3,10.1007/s10854-017-6696-x,other,determinate,,Gd:2;O:3,Gd:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-La2S3,10.1149/1.3601850,other,determinate,,La:2;S:3,La:2;S:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-MnO2,10.1039/C2TA00125J,other,determinate,,Mn:1;O:2,Mn:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-NaCdPO4,10.1016/j.jssc.2016.09.014,other,determinate,,Cd:1;Na:1;O:4;P:1,Cd:1;Na:1;O:4;P:1,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+β-NiOOH,10.1016/j.ssi.2006.04.050,other,determinate,,H:1;Ni:1;O:2,H:1;Ni:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-PbO2,10.1016/j.ssc.2014.06.022,other,determinate,,O:2;Pb:1,O:2;Pb:1,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-SiC,10.1016/j.jeurceramsoc.2010.10.010,other,determinate,,C:1;Si:1,C:1;Si:1,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+β-Sr0.33V2O5,10.1016/S0022-3697(02)00149-X,decimal_subscript,determinate,,O:5;Sr:0.33;V:2,O:5;Sr:0.33;V:2,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+γ-Al2O3,10.1016/j.jhazmat.2010.02.011,other,determinate,,Al:2;O:3,Al:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+γ-AlO(OH),10.1021/acs.jpcc.5b04803,parenthetical,determinate,,Al:1;H:1;O:2,Al:1;H:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+γ-Ce2S3,10.1149/1.3601850,other,determinate,,Ce:2;S:3,Ce:2;S:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+γ-Fe2O3,10.1103/PhysRevB.89.184421,other,determinate,,Fe:2;O:3,Fe:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+γ-FeOOH,10.1016/S0378-7753(03)00152-6,other,determinate,,Fe:1;H:1;O:2,Fe:1;H:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+γ-MnO2,10.1016/s0167-2738(98)00246-x,other,determinate,,Mn:1;O:2,Mn:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,False
+γ-MnOOH,10.1016/j.electacta.2015.03.040,other,determinate,,H:1;Mn:1;O:2,H:1;Mn:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+ε-MnO2,10.1016/j.ssi.2014.09.025,other,determinate,,Mn:1;O:2,Mn:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+ζ-Fe2N,10.1021/jp510606z,other,determinate,,Fe:2;N:1,Fe:2;N:1,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+θ-Al2O3,10.1016/j.materresbull.2008.10.006,other,determinate,,Al:2;O:3,Al:2;O:3,agree,polymorph_prefix_stripped,refused,refused,correct,,True
+λ-MnO2,10.1007/s11581-006-0045-z,other,determinate,,Mn:1;O:2,Mn:1;O:2,agree,polymorph_prefix_stripped,refused,refused,correct,,True

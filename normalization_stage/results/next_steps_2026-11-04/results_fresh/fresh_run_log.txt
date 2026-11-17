@@ -1,1 +1,22 @@
-placeholder
+configuration  strings  determinate  determinate_agree  agree_pct  determinate_refused  determinate_disagree  nondeterminate_returned  discordant_returns  discordant_excluding_dummy
+ raw_pymatgen     5555         3452               1499      43.42                 1896                    57                       15                  72                          27
+  v01_guarded     5555         3452               1419      41.11                 2020                    13                       10                  23                          23
+  v02_package     5555         3452               1429      41.40                 2008                    15                       46                  61                          61
+    v03_strip     5555         3452               1735      50.26                 1702                    15                       46                  61                          61
+ v03b_guarded     5555         3452               1732      50.17                 1705                    15                       46                  61                          61
+           a            b          endpoint  a_only  b_only  p_exact_strings  doi_a_only  doi_b_only  p_exact_dois  diff_points  ci95_low  ci95_high
+v03b_guarded raw_pymatgen determinate_agree     318      85     9.383627e-33         227          61  1.201678e-23         6.75      5.35       8.15
+v03b_guarded raw_pymatgen discordant_return      42      53     3.048852e-01          29          42  1.539128e-01          NaN       NaN        NaN
+v03b_guarded  v01_guarded determinate_agree     318       5     3.376783e-87         228           5  8.117510e-61         9.07      7.89      10.34
+v03b_guarded  v01_guarded discordant_return      42       4     5.100190e-09          29           3  2.556015e-06          NaN       NaN        NaN
+v03b_guarded  v02_package determinate_agree     303       0     1.227273e-91         215           0  3.798227e-65         8.78      7.62       9.96
+v03b_guarded  v02_package discordant_return       0       0     1.000000e+00           0           0  1.000000e+00          NaN       NaN        NaN
+   v03_strip raw_pymatgen determinate_agree     321      85     2.370023e-33         229          61  4.807347e-24         6.84      5.46       8.29
+   v03_strip raw_pymatgen discordant_return      42      53     3.048852e-01          29          42  1.539128e-01          NaN       NaN        NaN
+   v03_strip  v01_guarded determinate_agree     321       5     4.421294e-88         230           5  2.118361e-61         9.15      7.96      10.39
+   v03_strip  v01_guarded discordant_return      42       4     5.100190e-09          29           3  2.556015e-06          NaN       NaN        NaN
+v03b_guarded    v03_strip determinate_agree       0       3     2.500000e-01           0           2  5.000000e-01        -0.09     -0.20       0.00
+v03b_guarded    v03_strip discordant_return       0       0     1.000000e+00           0           0  1.000000e+00          NaN       NaN        NaN
+rescued by H2b: 303 {'agree': 303} {'other': 165, 'parenthetical': 128, 'decimal_subscript': 9, 'fraction_slash': 1}
+refused by guard (H2 returned): 3 {'agree': 3}
+headroom: determinate strings neither v0.2.0 nor pymatgen agrees on: 1938 {'other': 932, 'parenthetical': 630, 'decimal_subscript': 217, 'mixture_or_dot': 69, 'dopant_annotation': 42, 'free_variable': 20, 'comma': 18, 'fraction_slash': 8, 'integer_formula': 2}

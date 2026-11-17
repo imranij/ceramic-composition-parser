@@ -1,0 +1,6 @@
+configuration,strings,determinate,determinate_agree,agree_pct,determinate_refused,determinate_disagree,nondeterminate_returned,discordant_returns,discordant_excluding_dummy
+raw_pymatgen,5555,3452,1499,43.42,1896,57,15,72,27
+v01_guarded,5555,3452,1419,41.11,2020,13,10,23,23
+v02_package,5555,3452,1429,41.4,2008,15,46,61,61
+v03_strip,5555,3452,1735,50.26,1702,15,46,61,61
+v03b_guarded,5555,3452,1732,50.17,1705,15,46,61,61
