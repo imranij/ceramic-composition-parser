@@ -1,0 +1,3 @@
+# SHA-256 of code/composition_parser.py at the moment the held-out (sol-gel) evaluation was first run.
+# After that run, one rule (doubled symbol in a digit-free string) was removed because it refused 52 database formulas; no held-out outcome changed.
+712c9b771e381003761979898ec9c22237cead4a1a21c96e0645617e11d07f20  code/composition_parser.py
