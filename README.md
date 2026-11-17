@@ -23,6 +23,11 @@ Archived release: https://doi.org/10.5281/zenodo.24311164
 | `figures/`, `manuscript/` | figures, LaTeX sources, generated tables and number macros, built PDFs |
 | `deposit/` | `MANIFEST.csv` (path, source, size and SHA-256 of every file), the manifest builder and the release check |
 
+The GitHub mirror holds everything except two items kept only in the Zenodo archive: the superseded
+v0.1.0 evaluation and the withdrawn figures (`_superseded_*`, kept for audit), and one large intermediate
+table (`data/paper2_parsed_composition_vectors.csv`). `deposit/MANIFEST.csv` lists every archived file
+with its SHA-256.
+
 ## Data
 
 The two text-mined synthesis releases of Kononova et al. (Sci. Data 6, 203, 2019,
