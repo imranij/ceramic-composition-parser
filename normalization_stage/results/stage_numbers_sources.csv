@@ -1,0 +1,139 @@
+macro,value,source_file,field
+StOneDet,"1{,}403",next_steps_2026-11-04/results/h2_heldout_outcomes.csv,v03_strip determinate
+StOneAgree,"1{,}170",next_steps_2026-11-04/results/h2_heldout_outcomes.csv,v03_strip determinate_agree
+StOneAgreePct,83.4,next_steps_2026-11-04/results/h2_heldout_outcomes.csv,"v03_strip agree_pct, 1 dp"
+StOneDisc,3,next_steps_2026-11-04/results/h2_heldout_outcomes.csv,v03_strip discordant_returns
+StOneGainPmg,72,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,v03_strip vs raw_pymatgen determinate_agree: a_only - b_only
+StOneMcAPmg,105,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... a_only
+StOneMcBPmg,33,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... b_only
+StOnePPmg,=6.1\times10^{-10},next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... p_exact_strings
+StOneDoiAPmg,94,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... doi_a_only
+StOneDoiBPmg,32,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... doi_b_only
+StOnePDoiPmg,=2.9\times10^{-8},next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... p_exact_dois
+StOneDiffPmg,5.13,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... diff_points
+StOneLoPmg,3.51,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... ci95_low
+StOneHiPmg,6.82,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... ci95_high
+StOneGainVone,74,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,v03_strip vs v01_guarded determinate_agree: a_only - b_only
+StOneMcAVone,105,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... a_only
+StOneMcBVone,31,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... b_only
+StOnePVone,=1.3\times10^{-10},next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... p_exact_strings
+StOneDoiAVone,94,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... doi_a_only
+StOneDoiBVone,30,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... doi_b_only
+StOnePDoiVone,=7.1\times10^{-9},next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... p_exact_dois
+StOneDiffVone,5.27,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... diff_points
+StOneLoVone,3.52,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... ci95_low
+StOneHiVone,6.99,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... ci95_high
+StOneGainVtwo,71,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,v03_strip vs v02_package determinate_agree: a_only - b_only
+StOneMcAVtwo,71,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... a_only
+StOneMcBVtwo,0,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... b_only
+StOnePVtwo,=8.5\times10^{-22},next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... p_exact_strings
+StOneDoiAVtwo,65,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... doi_a_only
+StOneDoiBVtwo,0,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... doi_b_only
+StOnePDoiVtwo,=5.4\times10^{-20},next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... p_exact_dois
+StOneDiffVtwo,5.06,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... diff_points
+StOneLoVtwo,3.91,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... ci95_low
+StOneHiVtwo,6.31,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,... ci95_high
+StOneNewDiscA,0,next_steps_2026-11-04/results/h2_heldout_mcnemar.csv,v03_strip vs v02_package discordant_return a_only
+StOneRescued,71,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,rows
+StOneRescuedAgree,71,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,v03_strip_outcome == agree
+StOneWrong,3,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,hand_check == wrong_read
+StOneUncertain,2,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,hand_check == uncertain
+StOneCorrect,66,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,hand_check == correct
+StOneRescuedOther,45,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,stratum == other
+StOneWrongPct,4.2,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,wrong/rows
+StOneWrongLo,1.4,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,Wilson 95% low
+StOneWrongHi,11.7,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,Wilson 95% high
+StOneWrongUPct,7.0,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,(wrong+uncertain)/rows
+StOneWrongULo,3.0,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,Wilson
+StOneWrongUHi,15.4,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,Wilson
+StOneThreshold,43,next_steps_2026-11-04/PREREGISTRATION_H2_12.md,ceil(0.03 x determinate) = 43 as registered
+StTwoStrings,"5{,}555",next_steps_2026-11-04/results_fresh/fresh_all_strings.csv,rows
+StTwoDOIs,"3{,}942",next_steps_2026-11-04/results_fresh/fresh_all_strings.csv,unique first_doi
+StTwoDet,"3{,}452",next_steps_2026-11-04/results_fresh/fresh_all_strings.csv,reference_class == determinate
+StTwoMix,"1{,}879",next_steps_2026-11-04/results_fresh/fresh_all_strings.csv,reference_class == mixture
+StTwoIndet,224,next_steps_2026-11-04/results_fresh/fresh_all_strings.csv,reference_class == indeterminate
+StTwoSolid,"3{,}277",next_steps_2026-11-04/results_fresh/fresh_all_strings.csv,release == solid-state
+StTwoSolgel,"2{,}278",next_steps_2026-11-04/results_fresh/fresh_all_strings.csv,release == sol-gel
+StTwoAgreePmg,"1{,}499",next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,raw_pymatgen determinate_agree
+StTwoAgreePctPmg,43.4,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,"raw_pymatgen agree_pct, 1 dp"
+StTwoDiscPmg,72,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,raw_pymatgen discordant_returns
+StTwoAgreeVone,"1{,}419",next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,v01_guarded determinate_agree
+StTwoAgreePctVone,41.1,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,"v01_guarded agree_pct, 1 dp"
+StTwoDiscVone,23,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,v01_guarded discordant_returns
+StTwoAgreeVtwo,"1{,}429",next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,v02_package determinate_agree
+StTwoAgreePctVtwo,41.4,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,"v02_package agree_pct, 1 dp"
+StTwoDiscVtwo,61,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,v02_package discordant_returns
+StTwoAgreeStrip,"1{,}735",next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,v03_strip determinate_agree
+StTwoAgreePctStrip,50.3,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,"v03_strip agree_pct, 1 dp"
+StTwoDiscStrip,61,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,v03_strip discordant_returns
+StTwoAgreeStage,"1{,}732",next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,v03b_guarded determinate_agree
+StTwoAgreePctStage,50.2,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,"v03b_guarded agree_pct, 1 dp"
+StTwoDiscStage,61,next_steps_2026-11-04/results_fresh/fresh_outcomes.csv,v03b_guarded discordant_returns
+StTwoGainPmg,233,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,v03b_guarded vs raw_pymatgen determinate_agree: a_only - b_only
+StTwoMcAPmg,318,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... a_only
+StTwoMcBPmg,85,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... b_only
+StTwoPPmg,=9.4\times10^{-33},next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... p_exact_strings
+StTwoDoiAPmg,227,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... doi_a_only
+StTwoDoiBPmg,61,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... doi_b_only
+StTwoPDoiPmg,=1.2\times10^{-23},next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... p_exact_dois
+StTwoDiffPmg,6.75,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... diff_points
+StTwoLoPmg,5.35,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... ci95_low
+StTwoHiPmg,8.15,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... ci95_high
+StTwoGainVone,313,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,v03b_guarded vs v01_guarded determinate_agree: a_only - b_only
+StTwoMcAVone,318,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... a_only
+StTwoMcBVone,5,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... b_only
+StTwoPVone,=3.4\times10^{-87},next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... p_exact_strings
+StTwoDoiAVone,228,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... doi_a_only
+StTwoDoiBVone,5,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... doi_b_only
+StTwoPDoiVone,=8.1\times10^{-61},next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... p_exact_dois
+StTwoDiffVone,9.07,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... diff_points
+StTwoLoVone,7.89,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... ci95_low
+StTwoHiVone,10.34,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... ci95_high
+StTwoGainVtwo,303,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,v03b_guarded vs v02_package determinate_agree: a_only - b_only
+StTwoMcAVtwo,303,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... a_only
+StTwoMcBVtwo,0,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... b_only
+StTwoPVtwo,=1.2\times10^{-91},next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... p_exact_strings
+StTwoDoiAVtwo,215,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... doi_a_only
+StTwoDoiBVtwo,0,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... doi_b_only
+StTwoPDoiVtwo,=3.8\times10^{-65},next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... p_exact_dois
+StTwoDiffVtwo,8.78,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... diff_points
+StTwoLoVtwo,7.62,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... ci95_low
+StTwoHiVtwo,9.96,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... ci95_high
+StTwoNewDiscA,0,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,v03b_guarded vs v02_package discordant_return a_only
+StTwoGuardCostB,3,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,v03b_guarded vs v03_strip determinate_agree b_only
+StTwoGuardCostP,=0.25,next_steps_2026-11-04/results_fresh/fresh_mcnemar.csv,... p_exact_strings
+StTwoThreshold,104,next_steps_2026-11-04/REPORT_12.md Addendum A1,ceil(0.03 x determinate) = 104 as registered
+StTwoGuardRefused,3,next_steps_2026-11-04/results_fresh/fresh_refused_by_guard.csv,rows
+StTwoRescued,303,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,rows
+StTwoRescuedAgree,303,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,v03b_guarded_outcome == agree
+StTwoSample,200,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,in_registered_sample == True
+StTwoWrong,3,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,"sample, hand_check == wrong_read"
+StTwoWrongPct,1.5,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,wrong/sample
+StTwoWrongLo,0.5,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,Wilson
+StTwoWrongHi,4.3,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,Wilson
+StTwoWrongAll,4,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,"all rows, hand_check == wrong_read"
+StTwoWrongAllPct,1.3,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,wrong/all
+StTwoWrongAllLo,0.5,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,Wilson
+StTwoWrongAllHi,3.3,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,Wilson
+StTwoSuspect,1,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,hand_check == correct_faithful_suspect_source
+GthreeTwoAgree,"1{,}728",revision_2026-11-05/g3_guard/posthoc/posthoc_outcomes.csv,pool2 v03c_g3 determinate_agree
+GthreeTwoAgreePct,50.1,revision_2026-11-05/g3_guard/posthoc/posthoc_outcomes.csv,pool2 v03c_g3 agree_pct
+GthreeOneAgree,"1{,}167",revision_2026-11-05/g3_guard/posthoc/posthoc_outcomes.csv,pool1 v03c_g3 determinate_agree
+GuardOneAgree,"1{,}167",revision_2026-11-05/g3_guard/posthoc/posthoc_outcomes.csv,pool1 v03b_guarded determinate_agree (post hoc)
+GthreeTwoGainPmg,229,revision_2026-11-05/g3_guard/posthoc/posthoc_mcnemar.csv,pool2 v03c_g3 vs raw_pymatgen gain_strings
+GthreeTwoDiffPmg,6.63,revision_2026-11-05/g3_guard/posthoc/posthoc_mcnemar.csv,diff_points
+GthreeTwoLoPmg,5.27,revision_2026-11-05/g3_guard/posthoc/posthoc_mcnemar.csv,ci95_low
+GthreeTwoHiPmg,8.01,revision_2026-11-05/g3_guard/posthoc/posthoc_mcnemar.csv,ci95_high
+GthreeTwoPPmg,=5.8\times10^{-32},revision_2026-11-05/g3_guard/posthoc/posthoc_mcnemar.csv,p_exact_strings
+GthreeTwoCost,4,revision_2026-11-05/g3_guard/posthoc/posthoc_mcnemar.csv,pool2 v03c_g3 vs v03b_guarded b_only
+GthreeTwoCostP,=0.125,revision_2026-11-05/g3_guard/posthoc/posthoc_mcnemar.csv,p_exact_strings
+GthreeTwoRefused,4,revision_2026-11-05/g3_guard/posthoc/posthoc_refused_by_g3.csv,pool2 rows
+GthreeOneRefused,0,revision_2026-11-05/g3_guard/posthoc/posthoc_refused_by_g3.csv,pool1 rows
+StDevHalf,"9{,}831",next_steps_2026-11-04/package_copy/data/literature_strings_eval.csv,split == dev
+StDevTestHalf,"9{,}612",next_steps_2026-11-04/package_copy/data/literature_strings_eval.csv,split == test
+StDevHalfDet,"3{,}797",next_steps_2026-11-04/package_copy/data/literature_strings_eval.csv,split == dev & determinate
+StDevTestHalfDet,"3{,}755",next_steps_2026-11-04/package_copy/data/literature_strings_eval.csv,split == test & determinate
+StTwoRescuedOther,165,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,stratum == other
+StTwoRescuedParen,128,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,stratum == parenthetical
+StTwoRescuedPmgRefused,303,next_steps_2026-11-04/results_fresh/fresh_rescued_handchecked.csv,raw_pymatgen_outcome == refused
+StOneRescuedPmgRefused,71,next_steps_2026-11-04/results/h2_heldout_rescued_handchecked.csv,raw_pymatgen_outcome == refused
