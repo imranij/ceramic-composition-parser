@@ -1,1 +1,56 @@
-placeholder
+# CI for ceramic-composition-parser v0.2.0: unit and contract tests on three
+# Python versions, then a full regeneration that fails if any committed result,
+# generated table or number macro would change.
+
+name: ci
+
+# Runs the parser's guard tests, the schema runtime contract, and the
+# regression tests that tie the committed CSVs to the numbers printed in the
+# manuscript. A red build here means a published figure has moved.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install the package and its test extras
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev,baselines]"
+      - name: Run the test suite
+        run: python -m pytest tests -q
+
+  reproduce-tables:
+    # Regenerates the two manuscript tables from the committed corpus and fails
+    # if the generated .tex differs from what is committed. This is the check
+    # that keeps "every number traces to a committed file" true.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev,baselines]"
+      - name: Fetch the literature releases (pinned commit, SHA-256 checked)
+        run: python code/fetch_literature_corpus.py
+      - name: Regenerate every result, table, figure and number macro
+        run: python code/run_all.py
+      - name: Fail if any committed result or generated table changed
+        run: git diff --exit-code -- data manuscript/generated_*.tex manuscript/esi_generated_*.tex
