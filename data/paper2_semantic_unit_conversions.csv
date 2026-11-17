@@ -1,0 +1,9 @@
+case_id,host,additives,stated_percent,unit,basis,at_percent_counts,dopant_element,derivation,ratio_n_additive_per_n_host,additive_formula_unit_fraction,atomic_fractions,molar_masses_used
+A1,BaTiO3,Y2O3,1,mol%,total_mixture,,,0.01/(1-0.01),0.010101,0.010000,Ba:0.198000;O:0.600000;Ti:0.198000;Y:0.004000,
+A2,BaTiO3,Y2O3,1,mol%,per_host,,,0.01,0.010000,0.009901,Ba:0.198020;O:0.600000;Ti:0.198020;Y:0.003960,
+A3,BaTiO3,Y2O3,1,wt%,total_mixture,,,(0.01/M_Y2O3)/(0.99/M_BaTiO3),0.010431,0.010324,Ba:0.197935;O:0.600000;Ti:0.197935;Y:0.004129,BaTiO3=233.1922; Y2O3=225.8099
+A4,BaTiO3,Y2O3,1,at%,total_mixture,additive_phase_atoms,,0.01*5/(0.99*5),0.010101,0.010000,Ba:0.198000;O:0.600000;Ti:0.198000;Y:0.004000,
+A5,BaTiO3,Y2O3,1,at%,total_mixture,dopant_element_atoms,Y,"0.01*T/2, T=5/(1-5*0.01/2)",0.025641,0.025000,Ba:0.195000;O:0.600000;Ti:0.195000;Y:0.010000,
+A6,BaTiO3,Y2O3,1,at%,per_host,dopant_element_atoms,Y,0.01*5/2,0.025000,0.024390,Ba:0.195122;O:0.600000;Ti:0.195122;Y:0.009756,
+A7,BaTiO3,C,1.9,mol%,total_mixture,,,0.019/(1-0.019),0.019368,0.019000,Ba:0.199228;C:0.003859;O:0.597685;Ti:0.199228,
+A8,Al2O3,Y2O3; MgO,0.5; 0.2,mol%,total_mixture,,,0.005/0.993; 0.002/0.993,0.005035; 0.002014,0.005000; 0.002000,Al:0.397677;Mg:0.000400;O:0.599920;Y:0.002002,

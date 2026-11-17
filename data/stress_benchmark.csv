@@ -1,0 +1,25 @@
+family,formula,expected,expected_amounts,note
+integer baseline,BaTiO3,parse,Ba:1;Ti:1;O:3,undoped reference perovskite
+integer baseline,SrTiO3,parse,Sr:1;Ti:1;O:3,undoped reference perovskite
+integer baseline,Pb(Zr0.52Ti0.48)O3,parse,Pb:1;Zr:0.52;Ti:0.48;O:3,PZT with parenthetical decimals
+decimal A-site,Ba0.9Sr0.1TiO3,parse,Ba:0.9;Sr:0.1;Ti:1;O:3,A-site Sr substitution
+decimal A-site,Ba0.95Ca0.05TiO3,parse,Ba:0.95;Ca:0.05;Ti:1;O:3,A-site Ca substitution
+decimal B-site,BaTi0.99Zr0.01O3,parse,Ba:1;Ti:0.99;Zr:0.01;O:3,B-site Zr substitution
+decimal B-site,BaTi0.9Sn0.1O3,parse,Ba:1;Ti:0.9;Sn:0.1;O:3,B-site Sn substitution
+decimal both sites,Ba0.9Sr0.1Ti0.9Zr0.1O3,parse,Ba:0.9;Sr:0.1;Ti:0.9;Zr:0.1;O:3,co-substitution
+leading-dot decimal,Ba.9Sr.1TiO3,parse,Ba:0.9;Sr:0.1;Ti:1;O:3,leading-dot shorthand (label kept as submitted; v0.2 refuses it as dot-ambiguous)
+paren group,(Ba0.9Sr0.1)TiO3,parse,Ba:0.9;Sr:0.1;Ti:1;O:3,grouped A-site
+paren group,Ba(Ti0.98Nb0.02)O3,parse,Ba:1;Ti:0.98;Nb:0.02;O:3,grouped B-site
+nested paren,(Ba0.9(Sr0.5Ca0.5)0.1)TiO3,parse,Ba:0.9;Sr:0.05;Ca:0.05;Ti:1;O:3,nested substitution
+paren multiplier,(BaTiO3)2,parse,Ba:2;Ti:2;O:6,integer group multiplier
+oxygen deficiency,BaTiO2.98,parse,Ba:1;Ti:1;O:2.98,oxygen vacancy as decimal
+oxygen deficiency,SrTiO2.95,parse,Sr:1;Ti:1;O:2.95,oxygen vacancy as decimal
+multi-dopant,Ba0.98La0.02Ti0.99Mn0.01O3,parse,Ba:0.98;La:0.02;Ti:0.99;Mn:0.01;O:3,donor + acceptor co-doping
+rare-earth,Ba0.97Nd0.03TiO3,parse,Ba:0.97;Nd:0.03;Ti:1;O:3,rare-earth A-site dopant
+comma site sharing,"(Ba,Sr)TiO3",reject,,fraction not encoded
+comma site sharing,"(Pb,La)(Zr,Ti)O3",reject,,"PLZT shorthand, fractions absent"
+symbolic occupancy,Ba(1-x)SrxTiO3,reject,,x unbound
+symbolic occupancy,BaTi1-xZrxO3,reject,,x unbound
+mol-fraction mixture,0.94Na0.5Bi0.5TiO3-0.06BaTiO3,reject,,binary mixture; a single-formula parser must refuse it (the mixture layer resolves it)
+hydrate,BaTiO3.2H2O,reject,,hydrate dot notation ambiguous with decimal
+charge annotation,Ba2+Ti4+O3,reject,,oxidation states are not stoichiometry

@@ -1,0 +1,28 @@
+formula,notation_type,expected_amounts,expected_behavior,provenance,note
+Al2O3,stoichiometric,Al:2;O:3,parse,seed_benchmark,End-member oxide formula
+Y3Al5O12,stoichiometric,Y:3;Al:5;O:12,parse,seed_benchmark,Garnet line compound
+Li7La3Zr2O12,stoichiometric,Li:7;La:3;Zr:2;O:12,parse,seed_benchmark,Solid electrolyte line compound
+BaTiO3,stoichiometric,Ba:1;Ti:1;O:3,parse,seed_benchmark,Perovskite host formula
+SrTiO3,stoichiometric,Sr:1;Ti:1;O:3,parse,seed_benchmark,Perovskite host formula
+Ba0.9Sr0.1TiO3,fractional_doping,Ba:0.9;Sr:0.1;Ti:1;O:3,parse,seed_benchmark,A-site fractional substitution
+La0.7Sr0.3MnO3,fractional_doping,La:0.7;Sr:0.3;Mn:1;O:3,parse,seed_benchmark,A-site fractional substitution
+Ba0.6Sr0.4TiO3,fractional_doping,Ba:0.6;Sr:0.4;Ti:1;O:3,parse,seed_benchmark,A-site fractional substitution
+BaTi0.95Zr0.05O3,fractional_doping,Ba:1;Ti:0.95;Zr:0.05;O:3,parse,seed_benchmark,B-site fractional substitution
+K0.5Na0.5NbO3,fractional_doping,K:0.5;Na:0.5;Nb:1;O:3,parse,seed_benchmark,A-site fractional substitution
+Pb(Zr0.52Ti0.48)O3,site_substitution,Pb:1;Zr:0.52;Ti:0.48;O:3,parse,seed_benchmark,Parenthesized B-site substitution
+Ba(Zr0.2Ti0.8)O3,site_substitution,Ba:1;Zr:0.2;Ti:0.8;O:3,parse,seed_benchmark,Parenthesized B-site substitution
+(Bi0.5Na0.5)TiO3,site_substitution,Bi:0.5;Na:0.5;Ti:1;O:3,parse,seed_benchmark,Parenthesized A-site substitution
+Pb(Mg0.33Nb0.67)O3,site_substitution,Pb:1;Mg:0.33;Nb:0.67;O:3,parse,seed_benchmark,Parenthesized B-site substitution
+Ba0.95Ca0.05Ti0.9Zr0.1O3,co_doping,Ba:0.95;Ca:0.05;Ti:0.9;Zr:0.1;O:3,parse,seed_benchmark,Simultaneous A/B-site substitution
+La0.8Sr0.2Ga0.8Mg0.2O3,co_doping,La:0.8;Sr:0.2;Ga:0.8;Mg:0.2;O:3,parse,seed_benchmark,Simultaneous A/B-site substitution
+Ba0.85Ca0.15Ti0.9Zr0.1O3,co_doping,Ba:0.85;Ca:0.15;Ti:0.9;Zr:0.1;O:3,parse,seed_benchmark,Simultaneous A/B-site substitution
+SrTiO2.97,off_stoichiometry,Sr:1;Ti:1;O:2.97,parse,seed_benchmark,Oxygen off-stoichiometry
+LiNbO2.9,off_stoichiometry,Li:1;Nb:1;O:2.9,parse,seed_benchmark,Oxygen off-stoichiometry
+CeO1.95,off_stoichiometry,Ce:1;O:1.95,parse,seed_benchmark,Oxygen off-stoichiometry
+Y0.16Zr0.84O1.92,off_stoichiometry,Y:0.16;Zr:0.84;O:1.92,parse,seed_benchmark,Aliovalent substitution with oxygen vacancies
+"(Ba,Sr)TiO3",alloy_comma,,reject,seed_benchmark,Comma notation lacks substitution fraction
+"(K,Na)NbO3",alloy_comma,,reject,seed_benchmark,Comma notation lacks substitution fraction
+"(Bi,Na)TiO3",alloy_comma,,reject,seed_benchmark,Comma notation lacks substitution fraction
+Xx2O3,invalid_symbol,,reject,regression_test,Invalid element must be rejected by fallback parser
+BaTiO3.H2O,unsupported_separator,,reject,regression_test,Hydrate/dot notation must be expanded before parsing
+NaCl+KCl,unsupported_separator,,reject,regression_test,Mixture arithmetic must be expanded before parsing
