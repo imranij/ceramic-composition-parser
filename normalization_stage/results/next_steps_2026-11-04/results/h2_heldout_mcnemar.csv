@@ -1,0 +1,10 @@
+a,b,endpoint,a_only,b_only,p_exact_strings,doi_a_only,doi_b_only,p_exact_dois,diff_points,ci95_low,ci95_high
+v03_strip,raw_pymatgen,determinate_agree,105,33,6.093645485136751e-10,94,32,2.910193273546554e-08,5.13,3.51,6.82
+v03_strip,raw_pymatgen,discordant_return,0,50,1.7763568394002505e-15,0,48,7.105427357601002e-15,,,
+v03_strip,raw_pymatgen,discordant_return_excluding_dummy,0,2,0.5,0,2,0.5,,,
+v03_strip,v01_guarded,determinate_agree,105,31,1.3263433165240426e-10,94,30,7.115311965220128e-09,5.27,3.52,6.99
+v03_strip,v01_guarded,discordant_return,0,2,0.5,0,2,0.5,,,
+v03_strip,v01_guarded,discordant_return_excluding_dummy,0,2,0.5,0,2,0.5,,,
+v03_strip,v02_package,determinate_agree,71,0,8.470329472543003e-22,65,0,5.421010862427522e-20,5.06,3.91,6.31
+v03_strip,v02_package,discordant_return,0,0,1.0,0,0,1.0,,,
+v03_strip,v02_package,discordant_return_excluding_dummy,0,0,1.0,0,0,1.0,,,

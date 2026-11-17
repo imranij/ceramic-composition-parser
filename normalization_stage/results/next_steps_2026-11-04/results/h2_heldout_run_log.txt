@@ -1,0 +1,18 @@
+configuration  strings  determinate  determinate_agree  agree_pct  determinate_refused  determinate_disagree  nondeterminate_returned  discordant_returns  discordant_excluding_dummy
+ raw_pymatgen     3524         1403               1098      78.26                  295                    10                       43                  53                           5
+  v01_guarded     3524         1403               1096      78.12                  302                     5                        0                   5                           5
+  v02_package     3524         1403               1099      78.33                  301                     3                        0                   3                           3
+    v03_strip     3524         1403               1170      83.39                  230                     3                        0                   3                           3
+        a            b                          endpoint  a_only  b_only  p_exact_strings  doi_a_only  doi_b_only  p_exact_dois  diff_points  ci95_low  ci95_high
+v03_strip raw_pymatgen                 determinate_agree     105      33     6.093645e-10          94          32  2.910193e-08         5.13      3.51       6.82
+v03_strip raw_pymatgen                 discordant_return       0      50     1.776357e-15           0          48  7.105427e-15          NaN       NaN        NaN
+v03_strip raw_pymatgen discordant_return_excluding_dummy       0       2     5.000000e-01           0           2  5.000000e-01          NaN       NaN        NaN
+v03_strip  v01_guarded                 determinate_agree     105      31     1.326343e-10          94          30  7.115312e-09         5.27      3.52       6.99
+v03_strip  v01_guarded                 discordant_return       0       2     5.000000e-01           0           2  5.000000e-01          NaN       NaN        NaN
+v03_strip  v01_guarded discordant_return_excluding_dummy       0       2     5.000000e-01           0           2  5.000000e-01          NaN       NaN        NaN
+v03_strip  v02_package                 determinate_agree      71       0     8.470329e-22          65           0  5.421011e-20         5.06      3.91       6.31
+v03_strip  v02_package                 discordant_return       0       0     1.000000e+00           0           0  1.000000e+00          NaN       NaN        NaN
+v03_strip  v02_package discordant_return_excluding_dummy       0       0     1.000000e+00           0           0  1.000000e+00          NaN       NaN        NaN
+rescued: 71 {'agree': 71}
+{'other': 45, 'decimal_subscript': 15, 'parenthetical': 6, 'comma': 3, 'free_variable': 2}
+other-stratum determinate both-refused: 152 of which v03 agree: 45

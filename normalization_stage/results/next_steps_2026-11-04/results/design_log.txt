@@ -1,1 +1,23 @@
-placeholder
+H2 design log, development release only (19,443 solid-state strings; DOI-hash halves split==dev 9,831 and split==test 9,612).
+Baselines re-run in a fresh container (pymatgen 2026.5.4, pymatgen-core 2026.8.30): v02_package, v01_guarded and raw_pymatgen
+outcomes reproduce the released columns exactly on both sets (0 mismatches of 19,443 and 0 of 3,524).
+
+Determinate agreement, dev half (3,797 determinate): raw pymatgen 3213, v01_guarded 3213, v02 3320.
+Determinate agreement, dev-test half (3,755 determinate): raw pymatgen 3174, v01_guarded 3174, v02 3268.
+
+Iteration 1 (dev half only): v03 3472; rescued 153 (152 agree, 1 disagree: "ThCr2Si2-type CeNi2As2" read as the
+  concatenation ThCr2Si2CeNi2As2). Fix: a "<formula>-type/-structure/-like" token is a prototype label and is removed whole;
+  removed words must lie before or after all formula chunks, never between two of them; "ammonium" added (needs N and H).
+Iteration 2: dev half v03 3474 (154 rescued, all agree); dev-test half (test 1 of max 3) v03 3414 (146 rescued, all agree);
+  no new returns on indeterminate or mixture strings in either half. Hand inspection of dev-test rescued strings found
+  "(V) La4O4[AsO4]Br": a bare "(V)" may be vanadium. Fix: an oxidation-state numeral is removed only right after an
+  element name ("Copper (I) aluminate").
+Iteration 3: dev half v03 3474; dev-test half (test 2 of max 3) v03 3413 (145 rescued, all agree; +239 = 6.36 points over
+  raw pymatgen on 3,755).
+Safety guard added after synthetic adversarial strings (not after any corpus score): refuse a normalised residual whose
+  amounts are all below 1 ("(Ba0.5Sr0.5,", "(Cr1/12Al1/12"). Scored on the dev half only: v03 3474, unchanged. The three
+  package notation benchmarks (stress 24, notation 51, dopant 27 strings): no outcome changes versus v0.2.0.
+Frozen: composition_normalise.py SHA-256 1b06a5a47eee0bf866a3c2db09622eb3b53c1fde4a64155a9888f0aa41163d12, 2026-11-03T20:38:58Z.
+Post-freeze record (not used for any decision): dev-test half v03 3413, identical to iteration 3.
+Post hoc observation: dev rescued strings "α-SiAlON" and "β-SiAlON" were read as Si1Al1O1N1. SiAlON is a family name, so
+  these are element-list reads that the reference also accepts. They were not noticed during design.
