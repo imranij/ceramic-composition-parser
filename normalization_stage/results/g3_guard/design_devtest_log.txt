@@ -1,0 +1,4 @@
+test H2-rescued 145 {'kept': 144, 'H2b_refused': 1}
+Empty DataFrame
+Columns: [string, h2_amounts, reference_class, h2_outcome, g3]
+Index: []

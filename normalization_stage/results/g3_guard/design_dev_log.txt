@@ -1,0 +1,4 @@
+dev H2-rescued 154 {'kept': 152, 'H2b_refused': 2}
+Empty DataFrame
+Columns: [string, h2_amounts, reference_class, h2_outcome, g3]
+Index: []

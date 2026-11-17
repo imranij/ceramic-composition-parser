@@ -1,0 +1,48 @@
+R R         G3a_salt_charge_contradicted           barium nitrate Ba(NO3)
+K K                                                barium nitrate Ba(NO3)2
+R R(other)                                         calcium carbonate Ca(CO3)2
+K K                                                calcium carbonate CaCO3
+R R         G3a_salt_charge_contradicted           nickel hydroxide (Ni(OH))2
+K K                                                nickel hydroxide Ni(OH)2
+R R         G3a_salt_charge_contradicted           lanthanum chloride LaCl2
+K K                                                lanthanum chloride LaCl3
+R R         G3a_salt_charge_contradicted           yttrium nitrate Y(NO3)2
+K K                                                yttrium nitrate Y(NO3)3
+R R(other)                                         zinc sulfate Zn(SO4)2
+K K                                                zinc sulfate ZnSO4
+R R(other)                                         lithium phosphate Li2PO4
+K K                                                lithium phosphate Li3PO4
+K K                                                lithium iron phosphate LiFePO4
+R R         G3a_anion_oxygen_missing               neodymium phosphate NdPO3
+K K                                                manganese nitrate Mn(NO3)2
+K K                                                cerium nitrate Ce(NO3)3
+K K                                                titanium dioxide TiO2
+R R         G3b_multiplicity_prefix_contradicted   titanium dioxide Ti2O3
+K K                                                silicon dioxide SiO2
+K K                                                tungsten trioxide WO3
+R R         G3b_multiplicity_prefix_contradicted   tungsten trioxide WO2
+K K                                                molybdenum trioxide MoO3
+K R(other)                                         vanadium pentoxide V2O5
+R R         G3b_multiplicity_prefix_contradicted   niobium dioxide Nb2O5
+K K                                                manganese dioxide MnO2
+K K                                                iron (III) nitrate Fe(NO3)3
+R R         G3c_stated_state_contradicted          iron (II) nitrate Fe(NO3)3
+R R         G3c_stated_state_contradicted          Ferric nitrate Fe(NO3)2
+R R         G3c_stated_state_contradicted          Ferrous oxide Fe2O3
+K K                                                Ferric oxide Fe2O3
+K K                                                Copper (I) oxide Cu2O
+R R         G3c_stated_state_contradicted          Copper (II) oxide Cu2O
+K K                                                Copper (I) aluminate CuAlO2
+K K                                                cobalt oxide Co3O4
+K K                                                bismuth oxide Bi2O3
+K K                                                Sodium metaphosphate NaPO3
+K K                                                bismuth oxychloride BiOCl
+K K                                                neodymium oxyphosphate Nd3(PO4)O3 phosphate
+K R(other)                                         nickel nitrate hexahydrate Ni(NO3)2.6H2O
+K K                                                ammonium nitrate NH4NO3
+K K                                                strontium titanate SrTiO3
+K K                                                potassium chloride KCl
+K K                                                tin (IV) oxide SnO2
+R R         G3c_stated_state_contradicted          tin (II) oxide SnO2
+K K                                                europium chloride EuCl3
+mismatches 0
