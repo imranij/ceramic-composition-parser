@@ -1,0 +1,13 @@
+pool,configuration,determinate,determinate_agree,agree_pct,discordant_returns
+pool1_solgel_targets,raw_pymatgen,1403,1098,78.26,53
+pool1_solgel_targets,v01_guarded,1403,1096,78.12,5
+pool1_solgel_targets,v02_package,1403,1099,78.33,3
+pool1_solgel_targets,v03_strip,1403,1170,83.39,3
+pool1_solgel_targets,v03b_guarded,1403,1167,83.18,3
+pool1_solgel_targets,v03c_g3,1403,1167,83.18,3
+pool2_fresh_precursors,raw_pymatgen,3452,1499,43.42,72
+pool2_fresh_precursors,v01_guarded,3452,1419,41.11,23
+pool2_fresh_precursors,v02_package,3452,1429,41.4,61
+pool2_fresh_precursors,v03_strip,3452,1735,50.26,61
+pool2_fresh_precursors,v03b_guarded,3452,1732,50.17,61
+pool2_fresh_precursors,v03c_g3,3452,1728,50.06,61

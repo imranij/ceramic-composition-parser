@@ -1,0 +1,36 @@
+POST HOC DIAGNOSTIC. Both pools were spent before G3 was designed. Not a held-out test.
+
+[pool1_solgel_targets] H2b-or-H2 rescued strings hand-checked: 71; H2b guard refuses 3, G3 refuses 0 of them; still returned after G3: 68
+   all hand-checked: n=71, wrong reads returned by H2 3, by H2b 0, by H2b+G3 0: []
+   registered sample: n=71, wrong reads returned by H2 3, by H2b 0, by H2b+G3 0: []
+   uncertain reads: 2, still returned by H2b+G3: 2
+   strings refused by G3 in this pool: 0 -> []
+
+[pool2_fresh_precursors] H2b-or-H2 rescued strings hand-checked: 303; H2b guard refuses 0, G3 refuses 4 of them; still returned after G3: 299
+   all hand-checked: n=303, wrong reads returned by H2 4, by H2b 4, by H2b+G3 0: []
+   registered sample: n=200, wrong reads returned by H2 3, by H2b 3, by H2b+G3 0: []
+   strings refused by G3 in this pool: 4 -> [('aluminum nitrate [Al(NO3)2]', 'G3a_salt_charge_contradicted', 'agree'), ('cobalt hydroxide (Co(OH))2', 'G3a_salt_charge_contradicted', 'agree'), ('strontium nitrate [Sr(NO3)]', 'G3a_salt_charge_contradicted', 'agree'), ('tantalum dioxide [Ta2O5]', 'G3b_multiplicity_prefix_contradicted', 'agree')]
+
+                  pool configuration  determinate  determinate_agree  agree_pct  discordant_returns
+  pool1_solgel_targets  raw_pymatgen         1403               1098      78.26                  53
+  pool1_solgel_targets   v01_guarded         1403               1096      78.12                   5
+  pool1_solgel_targets   v02_package         1403               1099      78.33                   3
+  pool1_solgel_targets     v03_strip         1403               1170      83.39                   3
+  pool1_solgel_targets  v03b_guarded         1403               1167      83.18                   3
+  pool1_solgel_targets       v03c_g3         1403               1167      83.18                   3
+pool2_fresh_precursors  raw_pymatgen         3452               1499      43.42                  72
+pool2_fresh_precursors   v01_guarded         3452               1419      41.11                  23
+pool2_fresh_precursors   v02_package         3452               1429      41.40                  61
+pool2_fresh_precursors     v03_strip         3452               1735      50.26                  61
+pool2_fresh_precursors  v03b_guarded         3452               1732      50.17                  61
+pool2_fresh_precursors       v03c_g3         3452               1728      50.06                  61
+
+                  pool       a            b  gain_strings  a_only  b_only  p_exact_strings  diff_points  ci95_low  ci95_high  discordant_a_only  discordant_b_only
+  pool1_solgel_targets v03c_g3 raw_pymatgen            69     102      33     2.159463e-09         4.92      3.28       6.59                  0                 50
+  pool1_solgel_targets v03c_g3  v01_guarded            71     102      31     4.907184e-10         5.06      3.34       6.76                  0                  2
+  pool1_solgel_targets v03c_g3 v03b_guarded             0       0       0     1.000000e+00         0.00      0.00       0.00                  0                  0
+  pool1_solgel_targets v03c_g3  v02_package            68      68       0     6.776264e-21         4.85      3.68       6.05                  0                  0
+pool2_fresh_precursors v03c_g3 raw_pymatgen           229     314      85     5.823927e-32         6.63      5.27       8.01                 42                 53
+pool2_fresh_precursors v03c_g3  v01_guarded           309     314       5     5.075525e-86         8.95      7.79      10.23                 42                  4
+pool2_fresh_precursors v03c_g3 v03b_guarded            -4       0       4     1.250000e-01        -0.12     -0.23      -0.03                  0                  0
+pool2_fresh_precursors v03c_g3  v02_package           299     299       0     1.963637e-90         8.66      7.52       9.84                  0                  0

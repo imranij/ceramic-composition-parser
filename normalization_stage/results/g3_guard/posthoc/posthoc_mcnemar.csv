@@ -1,1 +1,9 @@
-placeholder
+pool,a,b,gain_strings,a_only,b_only,p_exact_strings,diff_points,ci95_low,ci95_high,discordant_a_only,discordant_b_only
+pool1_solgel_targets,v03c_g3,raw_pymatgen,69,102,33,2.1594630021214176e-09,4.92,3.28,6.59,0,50
+pool1_solgel_targets,v03c_g3,v01_guarded,71,102,31,4.907183565421113e-10,5.06,3.34,6.76,0,2
+pool1_solgel_targets,v03c_g3,v03b_guarded,0,0,0,1.0,0.0,0.0,0.0,0,0
+pool1_solgel_targets,v03c_g3,v02_package,68,68,0,6.776263578034403e-21,4.85,3.68,6.05,0,0
+pool2_fresh_precursors,v03c_g3,raw_pymatgen,229,314,85,5.823927389509876e-32,6.63,5.27,8.01,42,53
+pool2_fresh_precursors,v03c_g3,v01_guarded,309,314,5,5.075524929357026e-86,8.95,7.79,10.23,42,4
+pool2_fresh_precursors,v03c_g3,v03b_guarded,-4,0,4,0.125,-0.12,-0.23,-0.03,0,0
+pool2_fresh_precursors,v03c_g3,v02_package,299,299,0,1.9636373861190906e-90,8.66,7.52,9.84,0,0

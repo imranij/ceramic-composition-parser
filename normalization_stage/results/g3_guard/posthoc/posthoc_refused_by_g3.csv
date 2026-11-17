@@ -1,0 +1,5 @@
+pool,string,reference_class,reference_amounts,h2b_outcome,g3_reason
+pool2_fresh_precursors,aluminum nitrate [Al(NO3)2],determinate,Al:1;N:2;O:6,agree,G3a_salt_charge_contradicted
+pool2_fresh_precursors,cobalt hydroxide (Co(OH))2,determinate,Co:2;H:2;O:2,agree,G3a_salt_charge_contradicted
+pool2_fresh_precursors,strontium nitrate [Sr(NO3)],determinate,N:1;O:3;Sr:1,agree,G3a_salt_charge_contradicted
+pool2_fresh_precursors,tantalum dioxide [Ta2O5],determinate,O:5;Ta:2,agree,G3b_multiplicity_prefix_contradicted
