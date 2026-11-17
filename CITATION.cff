@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "ceramic-composition-parser 0.2.0: code, result records and manuscript sources for: Refusing Ambiguous Composition Notation: An Auditable Parser, a Guarded Normalization Stage and a Catalogue of Notation Hazards"
+authors:
+  - family-names: Imran
+    affiliation: "King Fahd University of Petroleum and Minerals"
+    orcid: "https://orcid.org/0000-0002-6197-1025"
+version: "0.2.0"
+date-released: "2026-11-17"
+doi: "10.5281/zenodo.24311164"
+license: MIT
+repository-code: "https://github.com/imranij/ceramic-composition-parser"

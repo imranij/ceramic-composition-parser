@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ceramic-composition-parser"
+version = "0.2.0"
+description = "Auditable composition parser that refuses undetermined notation, with a JSON Schema record model and notation benchmarks for doped ceramics"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Imran" }]
+keywords = ["materials informatics", "composition parsing", "ceramics", "provenance", "JSON Schema"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+# Pinned to the version actually used and verified for the published results
+# (2026-09-10 pass). pymatgen's release cadence is date-based and its Composition
+# behaviour is what the silent-mis-parse measurements are stated against, so an
+# unpinned range would make those numbers unreproducible.
+dependencies = [
+  "pandas==2.2.3",
+  "pymatgen==2026.5.4",
+  "jsonschema>=4.21",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib==3.10.0", "seaborn==0.13.2"]
+baselines = ["matminer==0.10.1"]
+dev = ["pytest>=8.0", "jsonschema>=4.21", "scikit-learn>=1.6", "scipy"]
+
+[project.scripts]
+composition-record = "composition_record:main"
+
+[tool.setuptools]
+# Flat module layout, on purpose: every committed analysis script in ``code/``
+# imports these by bare name (``from composition_parser import ...``) and those
+# imports are what produced the published numbers. Re-homing them into a package
+# would have meant editing every result-producing script, so the distribution
+# ships the modules as they are and adds ``ceramic_composition_parser`` as a thin
+# namespaced facade for library users.
+package-dir = { "" = "code", "ceramic_composition_parser" = "ceramic_composition_parser" }
+py-modules = [
+  "composition_parser",
+  "composition_semantics",
+  "composition_record",
+]
+packages = ["ceramic_composition_parser", "legacy"]
+
+[tool.setuptools.package-data]
+"ceramic_composition_parser" = ["schema/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["code", "."]
