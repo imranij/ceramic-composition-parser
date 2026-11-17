@@ -1,0 +1,62 @@
+set,string,first_doi,category,v02_flags
+development,(Lu.999Ce.001)3Al5O12,10.1016/j.jlumin.2018.01.014,dot_ambiguous_decimal_or_adduct,refused:hydration_or_dot_notation
+development,BaCo.1Bi.9O3,10.1016/j.mssp.2018.02.024,dot_ambiguous_decimal_or_adduct,refused:hydration_or_dot_notation
+development,Ti1.4V0.6Ni@C@Co3O4,10.1016/j.electacta.2016.11.163,core_shell_or_composite_at_sign,refused:unconsumed_separator
+development,Y Fe0.5Cr0.5O3,10.1016/j.ssc.2010.03.009,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,Li2O.2SiO2,10.1016/j.jnoncrysol.2014.01.003,dot_ambiguous_decimal_or_adduct,refused:hydration_or_dot_notation
+development,Ag CuO,10.1016/j.ijhydene.2017.01.105,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,Al NaMgH3,10.1016/j.ijhydene.2017.10.161,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,BaO B2O3 P2O5,10.1016/j.molstruc.2016.04.066,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,BaO Bi2O3 B2O3,10.1016/j.solidstatesciences.2004.11.031,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,CaO FeO Fe2O3 SiO2,10.1016/j.fuel.2016.05.117,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,CdS@ZrO2,10.1016/j.ultsonch.2017.01.009,core_shell_or_composite_at_sign,refused:unconsumed_separator
+development,Eu2O3 BaO Al2O3 B2O3 SiO2,10.1016/j.molstruc.2016.06.064,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,FeV O4,10.1016/j.ssc.2011.08.040,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,Li2ZnTi3O8@C,10.1016/j.ijhydene.2016.09.128,core_shell_or_composite_at_sign,refused:unconsumed_separator
+development,Li4Ti5O12@C,10.1016/j.jelechem.2014.03.008,core_shell_or_composite_at_sign,refused:unconsumed_separator
+development,P2O5 MgO Na2O Li2O,10.1016/j.molstruc.2016.03.099,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,Pt Nb2O5,10.1016/j.ijhydene.2017.10.015,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,Pt@Fe2O3,10.1021/ja0376700,core_shell_or_composite_at_sign,refused:unconsumed_separator
+development,SiO2 P2O5 K2O MgO CaO,10.1016/j.tca.2014.08.028,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,SrO La2O3 Al2O3 B2O3 SiO2,10.1016/j.jpowsour.2008.09.006,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,TiO2@SiO2,10.1016/j.mseb.2006.05.003,core_shell_or_composite_at_sign,refused:unconsumed_separator
+development,Y CrO3,10.1016/j.ssc.2010.06.047,whitespace_separated_phases_or_labels,refused:non_formula_word
+development,KTi(Nb)TaO5,10.1016/j.jcat.2005.01.026,single_element_group_dopant,refused:single_element_group
+development,La(Sr)GaO3,10.1149/1.1524174,single_element_group_dopant,refused:single_element_group
+development,Li3V2(PO4)3@C,10.1016/j.electacta.2009.05.041,core_shell_or_composite_at_sign,refused:unconsumed_separator
+development,Sm(Sr)CoO3,10.1149/1.1524174,single_element_group_dopant,refused:single_element_group
+development,Te(Bi),10.1007/s10853-017-1180-9,single_element_group_dopant,refused:single_element_group
+development,Ti(Al)N,10.1016/j.ijrmhm.2011.06.009,single_element_group_dopant,refused:single_element_group
+heldout,(NH4)2Co2V10O28.16H2O,10.1016/s0167-2738(99)00096-x,hydrate_dot,refused:hydration_or_dot_notation
+heldout,FeCl3.6H2O,10.1016/j.jchromb.2014.09.030,hydrate_dot,refused:hydration_or_dot_notation
+heldout,CeO2.SiO2,10.1007/s11244-013-0211-2,other,refused:unconsumed_separator
+heldout,Ag@BaTiO3,10.1021/cm900693r,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,BiFeO3@TiO2,10.1016/j.mssp.2012.10.009,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Ca12Al14O33 CaO,10.1016/j.ijhydene.2016.03.125,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,CaO SiO2,10.1002/jbm.b.31890,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,CdSe@ZnS,10.1016/j.polymer.2016.01.028,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Ce Mn3O4,10.1016/j.nanoen.2018.05.045,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,CeO2 CaO,10.1016/j.powtec.2016.12.016,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,Cl TiO2,10.1016/j.cej.2012.12.007,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,Co3O4@CuO,10.1007/s10853-016-0561-9,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Co@ZnO,10.1021/jp5085839,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Cu@LaNiO3,10.1016/j.apcatb.2017.02.064,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Cu@V,10.1016/j.jcat.2016.10.030,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,CuO CeO2,10.1016/j.ijhydene.2017.07.122,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,Fe3O4@Au,10.1016/j.jtice.2018.01.026,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Fe3O4@NiO,10.1016/j.electacta.2017.04.104,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Fe@ZnO,10.1016/j.matlet.2017.10.100,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,LiFePO4@C,10.1039/b916938e,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,MgFe2O4 @ BaTiO3,10.1021/acs.jpcc.6b12461,core_shell_or_composite_at_sign,refused:non_formula_word|unconsumed_separator
+heldout,Mn@ZnO,10.1007/s10854-018-9035-y,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,SiO2@NiFe2O4,10.1016/j.jcat.2017.09.010,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,SnO2 CuO,10.1016/j.cattod.2017.09.018,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,TiO2 ZnO,10.1016/j.ijhydene.2016.11.149,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,TiO2@CoTiO3,10.1016/j.ceramint.2016.02.029,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,ZnO Al2O3,10.1016/j.ijhydene.2017.01.013,whitespace_separated_phases_or_labels,refused:non_formula_word
+heldout,CdTe@Co(OH)2,10.1016/j.matchemphys.2010.07.018,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Gd2O3(Eu),10.1016/j.nima.2012.05.072,single_element_group_dopant,refused:single_element_group
+heldout,La(Ca)CrO3,10.1111/j.1551-2916.2007.02105.x,single_element_group_dopant,refused:single_element_group
+heldout,Na2VTi(PO4)3@C,10.1038/ncomms15888,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,NaTi2(PO4)3@C,10.1016/j.ssi.2018.06.011,core_shell_or_composite_at_sign,refused:unconsumed_separator
+heldout,Ni(Li)O,10.1103/PhysRevB.72.014103,single_element_group_dopant,refused:single_element_group

@@ -1,0 +1,9 @@
+hazard,development,heldout,v01_also_returned,example,example_doi,pymatgen_reads_it_as
+unknown_element_symbol:dummy_species,362,41,0,MS2,10.1039/C7TC00838D,M:1;S:2
+non_formula_word,33,18,30,Ag CuO,10.1016/j.ijhydene.2017.01.105,Ag:1;Cu:1;O:1
+unconsumed_separator,7,19,25,CdS@ZrO2,10.1016/j.ultsonch.2017.01.009,Cd:1;O:2;S:1;Zr:1
+single_element_group,5,3,8,Te(Bi),10.1007/s10853-017-1180-9,Bi:1;Te:1
+nonpositive_amount,4,0,4,BaW0,10.1016/j.spmi.2015.03.019,Ba:1
+unknown_element_symbol:isotope_letter_as_H,4,0,4,BNT,10.1016/j.ceramint.2007.09.098,B:1;H:1;N:1
+hydration_or_dot_notation,3,2,3,Li2O.2SiO2,10.1016/j.jnoncrysol.2014.01.003,Li:2;O:2.2;Si:1
+mixture_or_arithmetic_notation,3,0,3,BaO-2SiO2,10.1016/S0022-3093(01)00814-6,Ba:1;Si:1

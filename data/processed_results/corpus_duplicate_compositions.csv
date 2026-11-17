@@ -1,0 +1,8 @@
+source_dataset,formula_strings,distinct_reduced_compositions,strings_sharing_a_reduced_composition,compositions_in_more_than_one_dataset
+castelli_perovskites,18928,9646,18564,
+dielectric_constant,964,964,0,
+double_perovskites_gap,1306,1216,180,
+phonon_dielectric_mp,1190,1190,0,
+piezoelectric_tensor,798,798,0,
+wolverton_oxides,4914,2646,4536,
+ALL,28100,14147,25170,2070

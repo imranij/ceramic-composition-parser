@@ -1,0 +1,10 @@
+set,string,first_doi,reference_class,reference_reason,reference_amounts,v02_amounts,raw_pymatgen_amounts
+development,La0.8Sr0.2Ga0.83Mg0.17O 2.815,10.1016/j.ssi.2007.09.001,determinate,,Ga:0.83;La:0.8;Mg:0.17;O:1;Sr:0.2,Ga:0.83;La:0.8;Mg:0.17;O:2.815;Sr:0.2,Ga:0.83;La:0.8;Mg:0.17;O:2.815;Sr:0.2
+development,La0.9898Er0.01Sm0.0002Al0.995Cr0.005O3,10.1039/C7TB01332A,indeterminate,nonpositive_amount,,Al:0.995;Cr:0.005;Er:0.01;La:0.9898;O:3;Sm:0.0002,Al:0.995;Cr:0.005;Er:0.01;La:0.9898;O:3;Sm:0.0002
+development,La0.9998Sm0.0002Al0.995Cr0.005O3,10.1039/C7TB01332A,indeterminate,nonpositive_amount,,Al:0.995;Cr:0.005;La:0.9998;O:3;Sm:0.0002,Al:0.995;Cr:0.005;La:0.9998;O:3;Sm:0.0002
+development,Mg0.9977Mn0.002Eu0.0003GeO3,10.1039/C7TC03151C,indeterminate,nonpositive_amount,,Eu:0.0003;Ge:1;Mg:0.9977;Mn:0.002;O:3,Eu:0.0003;Ge:1;Mg:0.9977;Mn:0.002;O:3
+development,Mg0.9997Eu0.0003GeO3,10.1039/C7TC03151C,indeterminate,nonpositive_amount,,Eu:0.0003;Ge:1;Mg:0.9997;O:3,Eu:0.0003;Ge:1;Mg:0.9997;O:3
+development,KNN,10.1021/acs.cgd.5b01298,determinate,,K:0.5;Na:0.5;Nb:1;O:3,K:1;N:2,K:1;N:2
+heldout,BiFeO 3,10.1007/s10948-016-3778-6,determinate,,Bi:1;Fe:1;O:1,Bi:1;Fe:1;O:3,Bi:1;Fe:1;O:3
+heldout,LiTi 2,10.1016/j.electacta.2018.05.096,determinate,,Li:1;Ti:1,Li:1;Ti:2,Li:1;Ti:2
+heldout,YFeO 3,10.1016/j.matlet.2013.09.108,determinate,,Fe:1;O:1;Y:1,Fe:1;O:3;Y:1,Fe:1;O:3;Y:1

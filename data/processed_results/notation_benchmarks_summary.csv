@@ -1,0 +1,16 @@
+subset,configuration,label,n,resolvable_n,resolvable_exact,resolvable_false_refusals,resolvable_wrong,ambiguous_n,ambiguous_refused,ambiguous_returned,silent_mis_parses,correct
+stress24,v02_package,"package v0.2.0 (screen + grammar, pymatgen cross-check)",24,17,16,1,0,7,7,0,0,23
+stress24,v02_grammar,package v0.2.0 grammar alone (no pymatgen),24,17,16,1,0,7,7,0,0,23
+stress24,v01_guarded,"package v0.1.0 as submitted (pymatgen preferred, two guards)",24,17,17,0,0,7,7,0,0,24
+stress24,v01_fallback,package v0.1.0 fallback grammar alone,24,17,17,0,0,7,7,0,0,24
+stress24,raw_pymatgen,"pymatgen.core.Composition, unguarded",24,17,17,0,0,7,6,1,1,23
+seed27,v02_package,"package v0.2.0 (screen + grammar, pymatgen cross-check)",27,21,21,0,0,6,6,0,0,27
+seed27,v02_grammar,package v0.2.0 grammar alone (no pymatgen),27,21,21,0,0,6,6,0,0,27
+seed27,v01_guarded,"package v0.1.0 as submitted (pymatgen preferred, two guards)",27,21,21,0,0,6,6,0,0,27
+seed27,v01_fallback,package v0.1.0 fallback grammar alone,27,21,21,0,0,6,6,0,0,27
+seed27,raw_pymatgen,"pymatgen.core.Composition, unguarded",27,21,21,0,0,6,4,2,2,25
+pooled51,v02_package,"package v0.2.0 (screen + grammar, pymatgen cross-check)",51,38,37,1,0,13,13,0,0,50
+pooled51,v02_grammar,package v0.2.0 grammar alone (no pymatgen),51,38,37,1,0,13,13,0,0,50
+pooled51,v01_guarded,"package v0.1.0 as submitted (pymatgen preferred, two guards)",51,38,38,0,0,13,13,0,0,51
+pooled51,v01_fallback,package v0.1.0 fallback grammar alone,51,38,38,0,0,13,13,0,0,51
+pooled51,raw_pymatgen,"pymatgen.core.Composition, unguarded",51,38,38,0,0,13,10,3,3,48

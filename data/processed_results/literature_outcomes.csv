@@ -1,0 +1,11 @@
+set,configuration,strings,determinate,determinate_agree,determinate_refused,determinate_disagree,indeterminate,indeterminate_returned,mixture,mixture_returned,discordant_returns,of_which_dummy_species,discordant_excluding_dummy
+development,v02_package,19443,7552,6588,962,2,10518,4,1373,0,6,0,6
+development,v02_grammar,19443,7552,6588,962,2,10518,4,1373,0,6,0,6
+development,v01_guarded,19443,7552,6387,1155,10,10518,8,1373,4,22,0,22
+development,v01_fallback,19443,7552,6303,1245,4,10518,4,1373,0,8,0,8
+development,raw_pymatgen,19443,7552,6387,1137,28,10518,366,1373,5,399,377,22
+heldout,v02_package,3524,1403,1099,301,3,1889,0,232,0,3,0,3
+heldout,v02_grammar,3524,1403,1099,301,3,1889,0,232,0,3,0,3
+heldout,v01_guarded,3524,1403,1096,302,5,1889,0,232,0,5,0,5
+heldout,v01_fallback,3524,1403,1056,344,3,1889,0,232,0,3,0,3
+heldout,raw_pymatgen,3524,1403,1098,295,10,1889,43,232,0,53,48,5

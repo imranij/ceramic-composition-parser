@@ -1,0 +1,505 @@
+set,hazard,string,first_doi,raw_pymatgen_amounts,v01_guarded_outcome,v02_package_detail
+development,unknown_element_symbol:dummy_species,((Ce0.01Gd0.99)8 AE 2)(SiO4)6O2,10.1016/j.optmat.2016.12.013,A:1;Ce:0.08;E:2;Gd:7.92;O:26;Si:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Ba0.8M0.2)CeO3,10.1016/S0926-860X(00)00429-4,Ba:0.8;Ce:1;M:0.2;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Bi1.5Zn0.5)(Nb0.5M1.5)O7,10.1016/j.ssc.2010.04.008,Bi:1.5;M:1.5;Nb:0.5;O:7;Zn:0.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Bi2O3)0.75(RE2O3)0.25,10.1016/s0272-8842(02)00072-x,Bi:1.5;E:0.5;O:3;R:0.25,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Ca0.75CeTi0.25)(Ti1.5M0.5)O7,10.1016/j.materresbull.2009.02.014,Ca:0.75;Ce:1;M:0.5;O:7;Ti:1.75,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Ca1.25Ce0.5Ti0.25)(TiM)O7,10.1016/j.materresbull.2009.02.014,Ca:1.25;Ce:0.5;M:1;O:7;Ti:1.25,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Ca1.5Ce0.25Ti0.25)(Ti0.75M1.25)O7,10.1016/j.materresbull.2009.02.014,Ca:1.5;Ce:0.25;M:1.25;O:7;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(CaCe0.75Ti0.25)(Ti1.25M0.75)O7,10.1016/j.materresbull.2009.02.014,Ca:1;Ce:0.75;M:0.75;O:7;Ti:1.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(K0.5Ln0.5)MoO4,10.1016/j.jeurceramsoc.2011.07.009,K:0.5;Ln:0.5;Mo:1;O:4,refused,refused:unknown_element_symbol
+development,hydration_or_dot_notation,(Lu.999Ce.001)3Al5O12,10.1016/j.jlumin.2018.01.014,Al:5;Ce:0.003;Lu:2.997;O:12,agree,refused:hydration_or_dot_notation
+development,unknown_element_symbol:dummy_species,(Mg0.95M0.05)Ta2O6,10.1016/j.matlet.2012.02.066,M:0.05;Mg:0.95;O:6;Ta:2,refused,refused:unknown_element_symbol
+development,non_formula_word,(Pb0.92Ba0.05La0.02)(Zr0.68Sn0.27Ti0.05)O3 AFE,10.1007/s10854-016-4328-5,A:1;Ba:0.05;E:1;F:1;La:0.02;O:3;Pb:0.92;Sn:0.27;Ti:0.05;Zr:0.68,refused,refused:non_formula_word|unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Sr0.95R0.05)3Ti2O7,10.1016/j.jpcs.2014.01.002,O:7;R:0.15;Sr:2.85;Ti:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Zn0.95M0.05)2TiO4,10.1016/j.mseb.2009.11.007,M:0.1;O:4;Ti:1;Zn:1.9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Zn0.95M0.05)3Nb2O8,10.1007/s10854-015-3323-6,M:0.15;Nb:2;O:8;Zn:2.85,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A0.5Ti0.5NbO4,10.1016/j.jeurceramsoc.2014.06.010,A:0.5;Nb:1;O:4;Ti:0.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A0.6Mg0.067Nb0.933O3,10.1016/j.ssi.2005.09.034,A:0.6;Mg:0.067;Nb:0.933;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A0.6Ti0.2Nb0.8O3,10.1016/j.ssi.2005.09.034,A:0.6;Nb:0.8;O:3;Ti:0.2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A1.8Mg0.1SnO3,10.1016/j.ssi.2017.05.013,A:1.8;Mg:0.1;O:3;Sn:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2In0.5Sb0.5O4,10.1039/B416580B,A:2;In:0.5;O:4;Sb:0.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AMn0.5Ru0.5O3,10.1103/PhysRevB.83.134123,A:1;Mn:0.5;O:3;Ru:0.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AMn0.9V0.1O3,10.1016/j.ceramint.2013.06.024,A:1;Mn:0.9;O:3;V:0.1,refused,refused:unknown_element_symbol
+development,non_formula_word,AlMgFeCuCrNi4.75 HEA,10.1016/j.apt.2016.01.001,A:1;Al:1;Cr:1;Cu:1;E:1;Fe:1;H:1;Mg:1;Ni:4.75,refused,refused:non_formula_word|unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba0.95M0.05Li2Ti6O14,10.1016/j.electacta.2017.01.062,Ba:0.95;Li:2;M:0.05;O:14;Ti:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba0.9M0.1Li2Ti6O14,10.1016/j.electacta.2017.02.134,Ba:0.9;Li:2;M:0.1;O:14;Ti:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2(Zn0.5Ti0.5 X)O6,10.1016/j.materresbull.2005.02.021,Ba:2;O:6;Ti:0.5;X:1;Zn:0.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba5AFe0.5Ta9.5O30,10.1007/s10854-013-1335-7,A:1;Ba:5;Fe:0.5;O:30;Ta:9.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba6Zr1.94M0.06Ta8O30,10.1021/jp0707586,Ba:6;M:0.06;O:30;Ta:8;Zr:1.94,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,BaCe0.8RE0.2O2.9,10.1002/ejic.200800589,Ba:1;Ce:0.8;E:0.2;O:2.9;R:1,refused,refused:unknown_element_symbol
+development,hydration_or_dot_notation,BaCo.1Bi.9O3,10.1016/j.mssp.2018.02.024,Ba:1;Bi:0.9;Co:0.1;O:3,agree,refused:hydration_or_dot_notation
+development,unknown_element_symbol:dummy_species,Bi0.75R0.25FeO3,10.1007/s10854-014-2099-4,Bi:0.75;Fe:1;O:3;R:0.25,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi0.7A0.3FeO3,10.1016/j.ssc.2009.03.003,A:0.3;Bi:0.7;Fe:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi0.85RE0.15FeO3,10.1016/j.materresbull.2009.12.018,Bi:0.85;E:0.15;Fe:1;O:3;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi0.95RE0.05FeO3,10.1021/acs.inorgchem.7b00914,Bi:0.95;E:0.05;Fe:1;O:3;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi0.9Ba0.1Fe0.81M0.09Ti0.1O3,10.1016/j.materresbull.2011.07.039,Ba:0.1;Bi:0.9;Fe:0.81;M:0.09;O:3;Ti:0.1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi0.9R0.1FeO3,10.1007/s10854-015-3543-9,Bi:0.9;Fe:1;O:3;R:0.1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi0.9RE0.1FeO3,10.1016/j.ssc.2015.08.016,Bi:0.9;E:0.1;Fe:1;O:3;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi3.9RE0.1(SiO4)3,10.1016/j.jeurceramsoc.2016.02.019,Bi:3.9;E:0.1;O:12;R:1;Si:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,BiY0.65 R 0.35GeO5,10.1016/S0022-4596(02)00173-1,Bi:1;Ge:1;O:5;R:0.35;Y:0.65,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca0.5SbMP3O12,10.1007/s10853-006-0400-5,Ca:0.5;M:1;O:12;P:3;Sb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca0.85R0.15MnO3,10.1002/pssb.201350004,Ca:0.85;Mn:1;O:3;R:0.15,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca0.90R0.10Cu3Ti4O12,10.1007/s11665-014-1024-6,Ca:0.9;Cu:3;O:12;R:0.1;Ti:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca0.999Eu0.001La3.998Ln0.002SiO12,10.1016/j.jlumin.2014.12.038,Ca:0.999;Eu:0.001;La:3.998;Ln:0.002;O:12;Si:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca0.9R0.1MnO3,10.1016/j.powtec.2014.05.022,Ca:0.9;Mn:1;O:3;R:0.1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca2.5(RE)0.5Co4O9,10.1016/j.solidstatesciences.2007.01.003,Ca:2.5;Co:4;E:0.5;O:9;R:0.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca2Fe1.94M0.06O5,10.1016/j.solidstatesciences.2007.04.013,Ca:2;Fe:1.94;M:0.06;O:5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca2Gd0.95RE0.05Zr2Al3O12,10.1007/s10854-017-7971-6,Al:3;Ca:2;E:0.05;Gd:0.95;O:12;R:1;Zr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca3R3Ti7Nb2O26.5,10.1016/j.matlet.2003.12.007,Ca:3;Nb:2;O:26.5;R:3;Ti:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CaLa3.998Ln0.002(SiO4)3O,10.1016/j.jlumin.2014.12.038,Ca:1;La:3.998;Ln:0.002;O:13;Si:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CaZr0.7M0.3O3,10.1016/j.snb.2018.03.097,Ca:1;M:0.3;O:3;Zr:0.7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ce0.7RE0.2Mo0.1O2,10.1016/j.ssi.2014.03.030,Ce:0.7;E:0.2;Mo:0.1;O:2;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ce0.9M0.1O1.95,10.1016/j.msea.2015.09.125,Ce:0.9;M:0.1;O:1.95,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ce0.9X0.1O2,10.1016/j.cattod.2015.02.012,Ce:0.9;O:2;X:0.1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Cu0.008Bi1.99M0.01Te2.7Se0.3,10.1039/C5TC01731A,Bi:1.99;Cu:0.008;M:0.01;Se:0.3;Te:2.7,refused,refused:unknown_element_symbol
+development,nonpositive_amount,Cu2Zn0.0Mg1.0SnS4,10.1016/j.mssp.2017.12.010,Cu:2;Mg:1;S:4;Sn:1,returned,refused:nonpositive_amount
+development,nonpositive_amount,Cu2Zn1.0Mg0.0SnS4,10.1016/j.mssp.2017.12.010,Cu:2;S:4;Sn:1;Zn:1,returned,refused:nonpositive_amount
+development,non_formula_word,Dy0.25Y0.25Zr0.5O1.75 [DYZ],10.1016/j.ceramint.2014.03.129,Dy:0.25;H:1;O:1.75;Y:1.25;Z:1;Zr:0.5,refused,refused:non_formula_word|unknown_element_symbol
+development,non_formula_word,Dy0.5Zr0.5O1.75 [DZ],10.1016/j.ceramint.2014.03.129,Dy:0.5;H:1;O:1.75;Z:1;Zr:0.5,refused,refused:non_formula_word|unknown_element_symbol
+development,unknown_element_symbol:dummy_species,In0.8M0.2TaO4,10.1016/S1010-6030(02)00068-0,In:0.8;M:0.2;O:4;Ta:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,K2Ln1.9Eu0.1Ti3O10,10.1021/ja7114772,Eu:0.1;K:2;Ln:1.9;O:10;Ti:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,K2Ln1.9Tb0.1Ti3O10,10.1021/ja7114772,K:2;Ln:1.9;O:10;Tb:0.1;Ti:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,L0.08Ca1.92MnO4,10.1016/j.jmmm.2004.06.035,Ca:1.92;L:0.08;Mn:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La0.2A1.8MnO4,10.1016/j.cattod.2007.06.023,A:1.8;La:0.2;Mn:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La0.4Ba0.6Ti0.6RE0.4O3,10.1016/j.jeurceramsoc.2005.09.095,Ba:0.6;E:0.4;La:0.4;O:3;R:1;Ti:0.6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La0.65 X0.35 MnO3,10.1016/j.ijhydene.2016.09.042,La:0.65;Mn:1;O:3;X:0.35,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La0.70A0.05Sr0.25CoO3,10.1016/j.jmmm.2006.02.092,A:0.05;Co:1;La:0.7;O:3;Sr:0.25,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La0.7Sr0.3MO3,10.1016/j.jpowsour.2010.08.002,La:0.7;M:1;O:3;Sr:0.3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La0.8Sr0.2Ga0.8Mg0.1X0.1O3,10.1016/j.snb.2004.11.076,Ga:0.8;La:0.8;Mg:0.1;O:3;Sr:0.2;X:0.1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La0.9M0.1NbO4,10.1016/j.ijhydene.2016.08.056,La:0.9;M:0.1;Nb:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La1.98R0.02CuO4,10.1111/j.1551-2916.2009.02952.x,Cu:1;La:1.98;O:4;R:0.02,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La9.5Ge5.5M0.5O26,10.1016/j.matchemphys.2018.07.002,Ge:5.5;La:9.5;M:0.5;O:26,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La9.95A0.05Si6O26.95,10.1016/j.ceramint.2016.09.153,A:0.05;La:9.95;O:26.95;Si:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La9ASi6O26.5,10.1016/j.ijhydene.2011.02.123,A:1;La:9;O:26.5;Si:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LaNi0.6M0.4O3,10.1016/s0167-2738(99)00222-2,La:1;M:0.4;Ni:0.6;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LaSrM0.5Ru0.5O4,10.1039/C2DT31462B,La:1;M:0.5;O:4;Ru:0.5;Sr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2(Mg0.94M0.06)Ti3O8,10.1016/j.ceramint.2012.12.015,Li:2;M:0.06;Mg:0.94;O:8;Ti:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2Ba0.995Ln0.005P2O7,10.1016/j.jlumin.2015.02.041,Ba:0.995;Li:2;Ln:0.005;O:7;P:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2Mg0.95A0.05TiO4,10.1007/s10854-017-6544-z,A:0.05;Li:2;Mg:0.95;O:4;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li3.95M0.15Ti4.9O12,10.1016/j.jpowsour.2006.12.010,Li:3.95;M:0.15;O:12;Ti:4.9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li6.15Zr1.85M0.15O7,10.1016/j.electacta.2013.04.029,Li:6.15;M:0.15;O:7;Zr:1.85,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li6.4La3Zr1.7M0.3O12,10.1016/j.ssi.2016.04.017,La:3;Li:6.4;M:0.3;O:12;Zr:1.7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li6.4Sr1.4La1.6 M 2O12,10.1016/j.solidstatesciences.2007.11.036,La:1.6;Li:6.4;M:2;O:12;Sr:1.4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiCo0.8M0.2O2,10.1016/j.materresbull.2007.06.039,Co:0.8;Li:1;M:0.2;O:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiCo0.95M0.05O2,10.1149/1.2827993,Co:0.95;Li:1;M:0.05;O:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiM0.05Co0.95O1.95F0.05,10.1016/j.electacta.2012.02.057,Co:0.95;F:0.05;Li:1;M:0.05;O:1.95,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiM0.05Mn1.95O4,10.1016/j.ssi.2006.06.020,Li:1;M:0.05;Mn:1.95;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiM0.2Mn1.8O4,10.1149/1.1824037,Li:1;M:0.2;Mn:1.8;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiM0.5Mn1.5O4,10.1016/j.pmatsci.2016.09.004,Li:1;M:0.5;Mn:1.5;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li[Li0.2Mn0.568Ni0.2X0.032]O2,10.1002/adma.201500956,Li:1.2;Mn:0.568;Ni:0.2;O:2;X:0.032,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln 0.33Zr2(PO4)3,10.1016/j.jssc.2006.06.002,Ln:0.33;O:12;P:3;Zr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln0.85Ca0.15MnO3,10.1016/j.jpcs.2007.11.024,Ca:0.15;Ln:0.85;Mn:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln0.9Eu0.1TiNbO6,10.1007/s10854-009-0031-0,Eu:0.1;Ln:0.9;Nb:1;O:6;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln2Ni0.8Cu0.2O4,10.1016/j.ssi.2008.01.096,Cu:0.2;Ln:2;Ni:0.8;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln9.33Si6O26,10.1007/s10008-006-0129-8,Ln:9.33;O:26;Si:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnNb0.92 W0.08O4.04,10.1016/j.ssi.2013.12.023,Ln:1;Nb:0.92;O:4.04;W:0.08,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Lu1.98Ln0.02O3,10.1021/cm0351240,Ln:0.02;Lu:1.98;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M0.1Sr0.9Cu2(BO3)2,10.1103/PhysRevB.71.014441,B:2;Cu:2;M:0.1;O:6;Sr:0.9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M0.98Eu0.02Si2O2N2,10.1016/j.ceramint.2016.03.055,Eu:0.02;M:0.98;N:2;O:2;Si:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M2.5VMoO8,10.1016/j.cattod.2004.06.090,M:2.5;Mo:1;O:8;V:1,refused,refused:unknown_element_symbol
+development,nonpositive_amount,MgOFe1.0Mo0.0,10.1016/j.ssc.2007.08.016,Fe:1;Mg:1;O:1,returned,refused:nonpositive_amount
+development,unknown_element_symbol:isotope_letter_as_H,NBT-0.06BT,10.1103/PhysRevB.93.134111,B:2;H:0.94;N:1,returned,refused:mixture_or_arithmetic_notation|unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na0.4995Bi0.4995Ba0.001Ti0.998M0.002O3,10.1007/s10853-007-1558-1,Ba:0.001;Bi:0.4995;M:0.002;Na:0.4995;O:3;Ti:0.998,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na0.5Bi0.47M0.02O2.975,10.1016/j.ssi.2016.09.016,Bi:0.47;M:0.02;Na:0.5;O:2.975,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na3Ln0.9Eu0.1(BO3)2,10.1016/j.jssc.2012.02.042,B:2;Eu:0.1;Ln:0.9;Na:3;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na3Zr1.9M0.1Si2PO11.9,10.1016/j.jeurceramsoc.2018.05.039,M:0.1;Na:3;O:11.9;P:1;Si:2;Zr:1.9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Nd2(Cu0.98M0.02)O4,10.1016/s0925-8388(02)00989-1,Cu:0.98;M:0.02;Nd:2;O:4,refused,refused:unknown_element_symbol
+development,non_formula_word,PBN [Pb0.63Ba0.38Nb2O6],10.1016/j.matdes.2015.06.101,B:1;Ba:0.38;N:1;Nb:2;O:6;P:1;Pb:0.63,disagree,refused:non_formula_word
+development,unknown_element_symbol:dummy_species,Pb(Fe0.4R0.1Ta0.5)O3,10.1016/j.jmmm.2007.01.005,Fe:0.4;O:3;Pb:1;R:0.1;Ta:0.5,refused,refused:unknown_element_symbol
+development,non_formula_word,Pb(Zr0.53Ti0.47)O3 [PZT],10.1016/j.mee.2014.06.024,H:1;O:3;P:1;Pb:1;Ti:0.47;Z:1;Zr:0.53,refused,refused:non_formula_word|unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Pb3R3Ti7Nb2O26.5,10.1016/j.mseb.2005.11.031,Nb:2;O:26.5;Pb:3;R:3;Ti:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Pb4.9A0.1Ge2.7Si0.3O11,10.1016/s0022-3697(99)00205-x,A:0.1;Ge:2.7;O:11;Pb:4.9;Si:0.3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Pr0.5Sr0.3M0.2MnO3,10.1016/j.jmmm.2012.06.004,M:0.2;Mn:1;O:3;Pr:0.5;Sr:0.3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE0.5Sr0.5TiO3,10.1016/j.ssc.2012.11.016,E:0.5;O:3;R:1;Sr:0.5;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE9.33(SiO4)6O2,10.1016/j.actamat.2012.06.051,E:9.33;O:26;R:1;Si:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RFe0.5V0.5O3,10.1016/j.jssc.2011.06.025,Fe:0.5;O:3;R:1;V:0.5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr0.95M0.05Li2Ti6O14,10.1016/j.jpowsour.2016.05.018,Li:2;M:0.05;O:14;Sr:0.95;Ti:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr0.99Eu0.01 RAl1.7B0.3O4,10.1016/S0022-4596(02)00175-5,Al:1.7;B:0.3;Eu:0.01;O:4;R:1;Sr:0.99,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,SrTi0.9A0.1O3,10.1016/j.apcata.2014.07.024,A:0.1;O:3;Sr:1;Ti:0.9,refused,refused:unknown_element_symbol
+development,unconsumed_separator,Ti1.4V0.6Ni@C@Co3O4,10.1016/j.electacta.2016.11.163,C:1;Co:3;Ni:1;O:4;Ti:1.4;V:0.6,agree,refused:unconsumed_separator
+development,non_formula_word,Y Fe0.5Cr0.5O3,10.1016/j.ssc.2010.03.009,Cr:0.5;Fe:0.5;O:3;Y:1,agree,refused:non_formula_word
+development,unknown_element_symbol:dummy_species,Zn0.96M0.04O,10.1016/j.jmmm.2007.02.080,M:0.04;O:1;Zn:0.96,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Zn1.95M0.05SiO4,10.1007/s10854-017-7284-9,M:0.05;O:4;Si:1;Zn:1.95,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2CoMnO6,10.1016/j.ssc.2014.06.017,A:2;Co:1;Mn:1;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2FeWO6,10.1016/S0025-5408(02)00872-3,A:2;Fe:1;O:6;W:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2HoSbO6,10.1016/j.jpcs.2016.10.012,A:2;Ho:1;O:6;Sb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2LiRuO6,10.1039/C7RA07712B,A:2;Li:1;O:6;Ru:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2Mo3O8,10.1016/j.electacta.2015.08.066,A:2;Mo:3;O:8,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2SnO3,10.1016/j.ssi.2017.05.013,A:2;O:3;Sn:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2SrTa2O7,10.1039/B312620J,A:2;O:7;Sr:1;Ta:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2TaO3N,10.1021/cm011738y,A:2;N:1;O:3;Ta:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A2ZnTiO6,10.1016/j.apsusc.2016.10.038,A:2;O:6;Ti:1;Zn:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A3Al2P3O12,10.1021/ic991395u,A:3;Al:2;O:12;P:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A4Zr3O12,10.1016/j.jnucmat.2011.08.004,A:4;O:12;Zr:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A5Nb4O15,10.1016/j.jssc.2017.07.006,A:5;Nb:4;O:15,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A5Ta4O15,10.1039/C6DT00310A,A:5;O:15;Ta:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ABi2Nb2O9,10.1016/j.jssc.2010.10.033,A:1;Bi:2;Nb:2;O:9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ABi2Ta2O9,10.1016/j.jssc.2008.05.020,A:1;Bi:2;O:9;Ta:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ABi7Nb5O24,10.1021/acs.inorgchem.6b01373,A:1;Bi:7;Nb:5;O:24,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ACaPO4,10.1007/s10854-017-7096-y,A:1;Ca:1;O:4;P:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ACu3Co4O12,10.1103/PhysRevB.80.125105,A:1;Co:4;Cu:3;O:12,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ACu3Sn4O12,10.1021/cm8021209,A:1;Cu:3;O:12;Sn:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AHfO3,10.1111/j.1551-2916.2007.02134.x,A:1;Hf:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AInO2,10.1016/S1010-6030(03)00028-5,A:1;In:1;O:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ALa2WO7,10.1016/j.jssc.2013.01.042,A:1;La:2;O:7;W:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ALa4Ti4O15,10.1016/j.jeurceramsoc.2005.09.098,A:1;La:4;O:15;Ti:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ALaFeTiO6,10.1016/j.jmmm.2012.07.035,A:1;Fe:1;La:1;O:6;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ALaNb2O7,10.1021/ic402957c,A:1;La:1;Nb:2;O:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AMn2O4,10.1039/B203520K,A:1;Mn:2;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AMoO3,10.1016/j.ssc.2003.11.003,A:1;Mo:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AMoO4,10.1016/j.materresbull.2015.05.022,A:1;Mo:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AMoP2O7,10.1016/j.materresbull.2018.06.006,A:1;Mo:1;O:7;P:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ANb2O6,10.1016/j.ijhydene.2010.04.057,A:1;Nb:2;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ANbO3,10.1016/j.jpcs.2012.01.026,A:1;Nb:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ASnO3,10.1016/j.tsf.2007.10.060,A:1;O:3;Sn:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ATaO2N,10.1021/cm011738y,A:1;N:1;O:2;Ta:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ATeMoO6,10.1021/cm502895h,A:1;Mo:1;O:6;Te:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ATiO3,10.1016/j.jssc.2007.08.029,A:1;O:3;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AZrNb2O8,10.1016/j.ceramint.2015.12.119,A:1;Nb:2;O:8;Zr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AZrO3,10.1021/cm021065z,A:1;O:3;Zr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AgMO3,10.1016/j.jphotochem.2018.03.021,Ag:1;M:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AxCoO2,10.1016/j.jssc.2007.03.001,Ax:1;Co:1;O:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AxIr4Sb12,10.1103/PhysRevB.93.155101,Ax:1;Ir:4;Sb:12,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:isotope_letter_as_H,BNT,10.1016/j.ceramint.2007.09.098,B:1;H:1;N:1,disagree,refused:unknown_element_symbol
+development,unknown_element_symbol:isotope_letter_as_H,BTO,10.1016/j.tsf.2017.06.024,B:1;H:1;O:1,disagree,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2CeMO6,10.1021/cm301278a,Ba:2;Ce:1;M:1;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2LnRuO6,10.1016/j.ssc.2005.09.009,Ba:2;Ln:1;O:6;Ru:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2LnTaO6,10.1016/j.jssc.2007.08.009,Ba:2;Ln:1;O:6;Ta:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2MFeS5,10.1021/ic102597y,Ba:2;Fe:1;M:1;S:5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2MMoO6,10.1016/j.jpowsour.2011.09.092,Ba:2;M:1;Mo:1;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2MReO6,10.1021/acs.inorgchem.6b01933,Ba:2;M:1;O:6;Re:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2MSbO6,10.1002/ejic.200800055,Ba:2;M:1;O:6;Sb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba3MIr2O9,10.1103/PhysRevB.89.205101,Ba:3;Ir:2;M:1;O:9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba3MTi2O9,10.1103/PhysRevB.96.014432,Ba:3;M:1;O:9;Ti:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba3MTiWO9,10.1021/ic7007655,Ba:3;M:1;O:9;Ti:1;W:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba6MNb9O30,10.1016/j.ceramint.2016.04.102,Ba:6;M:1;Nb:9;O:30,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba6Na2M2Mn2O17,10.1016/j.jssc.2016.12.020,Ba:6;M:2;Mn:2;Na:2;O:17,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba6Na2Nb2M2O17,10.1021/ic800788e,Ba:6;M:2;Na:2;Nb:2;O:17,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,BaA2Ti3O10,10.1016/j.matchemphys.2015.04.023,A:2;Ba:1;O:10;Ti:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,BaANaTeO6,10.1016/j.ceramint.2017.06.156,A:1;Ba:1;Na:1;O:6;Te:1,refused,refused:unknown_element_symbol
+development,nonpositive_amount,BaW0,10.1016/j.spmi.2015.03.019,Ba:1,returned,refused:nonpositive_amount
+development,unknown_element_symbol:dummy_species,Bi2ANaNb3O12,10.1021/cm0115620,A:1;Bi:2;Na:1;Nb:3;O:12,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi2MNbO7,10.1021/cm000687m,Bi:2;M:1;Nb:1;O:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi2MO6,10.1016/j.physc.2008.05.020,Bi:2;M:1;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Bi3MO7,10.1039/b203857a,Bi:3;M:1;O:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca2MSbO6,10.1016/j.materresbull.2010.06.036,Ca:2;M:1;O:6;Sb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca5A4TiO17,10.1016/j.matchemphys.2009.12.046,A:4;Ca:5;O:17;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CaBiO2X,10.1021/acs.inorgchem.6b01024,Bi:1;Ca:1;O:2;X:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CaCu3Ga2M2O12,10.1021/cm034318c,Ca:1;Cu:3;Ga:2;M:2;O:12,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CaMO3,10.1016/j.tsf.2007.10.060,Ca:1;M:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CaRNbMoO8,10.1016/j.matlet.2008.01.116,Ca:1;Mo:1;Nb:1;O:8;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Cs2MP2O7,10.1016/j.jlumin.2016.04.050,Cs:2;M:1;O:7;P:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CsLn2Ti2NbO10,10.1039/a908454a,Cs:1;Ln:2;Nb:1;O:10;Ti:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CuLnO2,10.1016/j.solidstatesciences.2011.11.021,Cu:1;Ln:1;O:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,CuMO2,10.1021/cm402902m,Cu:1;M:1;O:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,EuMO3,10.1021/ic2024567,Eu:1;M:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,GaRGe2O7,10.1016/s0925-8388(00)00610-1,Ga:1;Ge:2;O:7;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,GeM2O4,10.1103/PhysRevB.90.064105,Ge:1;M:2;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,InAO4,10.1007/s10853-006-1472-y,A:1;In:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,InFeMO4,10.1016/j.ssc.2007.08.019,Fe:1;In:1;M:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,K2Ln2Ti3O10,10.1016/S0025-5408(03)00032-1,K:2;Ln:2;O:10;Ti:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,K2Ti6M2O16,10.1016/s0254-0584(03)00343-2,K:2;M:2;O:16;Ti:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,KLnNb2O7,10.1021/ja7114772,K:1;Ln:1;Nb:2;O:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LMnAsO,10.1103/PhysRevB.83.144429,As:1;L:1;Mn:1;O:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LSGM,10.1016/S0167-2738(00)00770-0,G:1;L:1;M:1;S:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LSMO,10.1002/pssa.201228538,L:1;M:1;O:1;S:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LSb2O6,10.1016/j.jssc.2004.07.059,L:1;O:6;Sb:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La2MRhO6,10.1016/j.materresbull.2009.11.008,La:2;M:1;O:6;Rh:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La3MBi5,10.1021/acs.inorgchem.7b00031,Bi:5;La:3;M:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La3MMo2O12,10.1016/j.ssi.2006.09.011,La:3;M:1;Mo:2;O:12,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La4MCrTi3O15,10.1111/j.1744-7402.2006.02082.x,Cr:1;La:4;M:1;O:15;Ti:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La5Ti2MS5O7,10.1016/j.mseb.2009.12.021,La:5;M:1;O:7;S:5;Ti:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LaMAl11O19,10.1016/j.apsusc.2013.01.070,Al:11;La:1;M:1;O:19,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LaMAsO,10.1016/j.solidstatesciences.2009.10.001,As:1;La:1;M:1;O:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LaMO3,10.1016/j.apcatb.2007.10.022,La:1;M:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2A2W3O12,10.1007/s10854-015-3158-1,A:2;Li:2;O:12;W:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2AGeO4,10.1016/j.jeurceramsoc.2017.12.038,A:1;Ge:1;Li:2;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2ATi3O8,10.1111/j.1551-2916.2010.03703.x,A:1;Li:2;O:8;Ti:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2MMn3O8,10.1016/j.jpowsour.2004.11.001,Li:2;M:1;Mn:3;O:8,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2MO3,10.1016/j.jpowsour.2007.06.194,Li:2;M:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2MTi6O14,10.1016/S1388-2481(03)00090-0,Li:2;M:1;O:14;Ti:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2MeGeO4,10.1016/j.tca.2016.11.004,Ge:1;Li:2;Me:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li5Ln3Sb2O12,10.1016/j.ssi.2008.01.002,Li:5;Ln:3;O:12;Sb:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li6ALa2Nb2O12,10.1016/j.ssi.2008.01.047,A:1;La:2;Li:6;Nb:2;O:12,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li6La3SnMO12,10.1149/2.009208jes,La:3;Li:6;M:1;O:12;Sn:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li6PS5X,10.1016/j.ssi.2018.05.014,Li:6;P:1;S:5;X:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiLnW2O8,10.1016/j.jssc.2011.05.046,Li:1;Ln:1;O:8;W:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiM3P2O7,10.1016/j.jssc.2012.08.038,Li:1;M:3;O:7;P:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiMO2,10.1016/j.jpowsour.2007.06.194,Li:1;M:1;O:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiMP2O6,10.1016/j.jssc.2018.07.015,Li:1;M:1;O:6;P:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LiMeGeO4,10.1016/j.tca.2016.11.004,Ge:1;Li:1;Me:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln2Ce2O7,10.1016/j.materresbull.2012.08.074,Ce:2;Ln:2;O:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln2Hf2O7,10.1016/j.jssc.2012.05.008,Hf:2;Ln:2;O:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln2Mo3O12,10.1016/j.matlet.2010.09.064,Ln:2;Mo:3;O:12,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln2Zr2O7,10.1016/j.tca.2011.08.021,Ln:2;O:7;Zr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln4Zr3O12,10.1039/C2DT12269C,Ln:4;O:12;Zr:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnAgAs2,10.1016/s0925-8388(00)01273-1,Ag:1;As:2;Ln:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnAlO3,10.1016/j.jeurceramsoc.2005.09.069,Al:1;Ln:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnBaB9O16,10.1016/S0025-5408(00)00416-5,B:9;Ba:1;Ln:1;O:16,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnCl3,10.1039/c7tc03312e,Cl:3;Ln:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnCuSe2,10.1016/j.jssc.2003.09.007,Cu:1;Ln:1;Se:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnEuTi2O7,10.1016/j.jlumin.2015.09.033,Eu:1;Ln:1;O:7;Ti:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnKNaTaO5,10.1016/j.solidstatesciences.2010.02.024,K:1;Ln:1;Na:1;O:5;Ta:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnMnO3,10.1007/s11244-009-9223-3,Ln:1;Mn:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnMnPO,10.1016/j.mseb.2010.01.004,Ln:1;Mn:1;O:1;P:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnMoBO6,10.1039/B803062F,B:1;Ln:1;Mo:1;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnNbO4,10.1016/j.ssi.2013.12.023,Ln:1;Nb:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnNiO3,10.1016/j.solidstatesciences.2012.12.002,Ln:1;Ni:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnP3O9,10.1039/C5DT02648B,Ln:1;O:9;P:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnPbMgSbO6,10.1016/j.solidstatesciences.2014.07.005,Ln:1;Mg:1;O:6;Pb:1;Sb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnSrScO4,10.1016/j.jssc.2006.10.023,Ln:1;O:4;Sc:1;Sr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnTiNbO6,10.1016/S0025-5408(01)00805-4,Ln:1;Nb:1;O:6;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnTiO2N,10.1021/cm010577v,Ln:1;N:1;O:2;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnTiTaO6,10.1016/j.mseb.2007.06.022,Ln:1;O:6;Ta:1;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,LnVO4,10.1016/j.apcata.2008.08.030,Ln:1;O:4;V:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M2B5O9Cl,10.1016/S0022-2313(02)00665-8,B:5;Cl:1;M:2;O:9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M2SiO4,10.1016/j.jlumin.2012.06.006,M:2;O:4;Si:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MAl12O19,10.1016/j.materresbull.2013.11.008,Al:12;M:1;O:19,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MAl2O4,10.1103/PhysRevB.72.174404,Al:2;M:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MBi6V2O15,10.1016/j.solidstatesciences.2007.07.004,Bi:6;M:1;O:15;V:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MCrO4,10.1016/S0009-2614(03)01238-7,Cr:1;M:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MCuSi4O10,10.1007/s10854-016-5978-z,Cu:1;M:1;O:10;Si:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MFe2O4,10.1007/s10854-014-2491-0,Fe:2;M:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MGeO3,10.1016/j.electacta.2009.03.009,Ge:1;M:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MP2O6,10.1103/PhysRevB.78.024418,M:1;O:6;P:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MS2,10.1039/C7TC00838D,M:1;S:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MSiAlON,10.1007/s10853-014-8588-2,Al:1;M:1;N:1;O:1;Si:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MSiO3,10.1007/s10854-016-5914-2,M:1;O:3;Si:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MTaO3,10.1016/j.catcom.2010.09.004,M:1;O:3;Ta:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Me2GeO4,10.1016/j.tca.2016.11.004,Ge:1;Me:2;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MeGeO4,10.1016/j.jssc.2013.10.037,Ge:1;Me:1;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MeMnO3,10.1016/S0022-3697(01)00198-6,Me:1;Mn:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MnMO3,10.1021/ic201006q,M:1;Mn:1;O:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MxV2O5,10.1016/j.jssc.2009.03.017,Mx:1;O:5;V:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,NASICON,10.1016/j.jpowsour.2018.04.067,A:1;C:1;I:1;N:2;O:1;S:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:isotope_letter_as_H,NBT,10.1016/j.matlet.2017.01.025,B:1;H:1;N:1,disagree,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na2AMg2V3O12,10.1016/j.ceramint.2016.11.099,A:1;Mg:2;Na:2;O:12;V:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na2LnMg2V3O12,10.1007/s10854-017-7053-9,Ln:1;Mg:2;Na:2;O:12;V:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na2Pb2Eu2W2Ti4X4O30,10.1016/j.materresbull.2009.01.013,Eu:2;Na:2;O:30;Pb:2;Ti:4;W:2;X:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na3MO4Cl,10.1016/j.jssc.2016.01.009,Cl:1;M:1;Na:3;O:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na4MTeO6,10.1039/C6DT04750E,M:1;Na:4;O:6;Te:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,NaLnMnWO6,10.1039/C3CP54776K,Ln:1;Mn:1;Na:1;O:6;W:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,NaLnTiO4,10.1016/j.jssc.2015.02.008,Ln:1;Na:1;O:4;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,PMN,10.1016/S0924-0136(03)00323-6,M:1;N:1;P:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,PZT,10.1016/j.ssi.2003.10.017,H:1;P:1;Z:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Pb2MReO6,10.1021/acs.chemmater.5b01442,M:1;O:6;Pb:2;Re:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Pb2RNb5O15,10.1021/acs.inorgchem.6b01242,Nb:5;O:15;Pb:2;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,PbLnB7O13,10.1016/j.jlumin.2017.10.016,B:7;Ln:1;O:13;Pb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,PbMSeO6,10.1039/C2DT11977C,M:1;O:6;Pb:1;Se:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,R13Sr23FeO3,10.1103/PhysRevB.84.224115,Fe:1;O:3;R:13;Sr:23,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,R2Co3Ge5,10.1016/j.jmmm.2009.06.039,Co:3;Ge:5;R:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,R2Fe17,10.1016/s0925-8388(03)00500-0,Fe:17;R:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,R2Mo4O15,10.1149/2.049203jes,Mo:4;O:15;R:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,R2O3Fe2Se2,10.1103/PhysRevB.83.224403,Fe:2;O:3;R:2;Se:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,R2Ti2O7,10.1103/PhysRevB.77.214310,O:7;R:2;Ti:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,R8Ba5Ni4O21,10.1021/cm980126j,Ba:5;Ni:4;O:21;R:8,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RBa3B9O18,10.1021/ic049710m,B:9;Ba:3;O:18;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE2Mo4O15,10.1007/s10854-012-1018-9,E:2;Mo:4;O:15;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE2Ru2O7,10.1016/S0022-3697(00)00159-1,E:2;O:7;R:1;Ru:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE2Ti2SiO9,10.1007/s10854-011-0310-4,E:2;O:9;R:1;Si:1;Ti:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE2W2O9,10.1016/j.jeurceramsoc.2015.07.028,E:2;O:9;R:1;W:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE3Al5O12,10.1016/j.ceramint.2013.08.097,Al:5;E:3;O:12;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE3Pt4Ge13,10.1039/c4dt03155e,E:3;Ge:13;Pt:4;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RE5Co4Si14,10.1021/cm047959w,Co:4;E:5;R:1;Si:14,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RFeO3,10.1103/PhysRevB.95.224416,Fe:1;O:3;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RFeWO6,10.1103/PhysRevB.95.224416,Fe:1;O:6;R:1;W:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RMn2O5,10.1103/PhysRevB.71.214402,Mn:2;O:5;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RMnO3,10.1016/j.jssc.2004.12.006,Mn:1;O:3;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RV2O6,10.1111/j.1551-2916.2009.03324.x,O:6;R:1;V:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RbA2B3O10,10.1103/PhysRevB.78.214410,A:2;B:3;O:10;Rb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RbLnTiNbO6F,10.1016/S0025-5408(01)00805-4,F:1;Ln:1;Nb:1;O:6;Rb:1;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RuSr2RCu2O8,10.1016/S0921-4534(01)00456-7,Cu:2;O:8;R:1;Ru:1;Sr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,RuSr2RO6,10.1016/S0921-4534(01)00456-7,O:6;R:1;Ru:1;Sr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,SbMO4,10.1016/j.ijhydene.2012.08.123,M:1;O:4;Sb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sm2MO6,10.1016/j.jpowsour.2010.06.055,M:1;O:6;Sm:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr2CrMO6,10.1016/j.ssc.2004.05.050,Cr:1;M:1;O:6;Sr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr2CuO2X2,10.1016/j.physc.2005.01.039,Cu:1;O:2;Sr:2;X:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr2FeMO6,10.1016/j.ssc.2004.10.033,Fe:1;M:1;O:6;Sr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr2MGe2S6O,10.1021/acs.inorgchem.6b02505,Ge:2;M:1;O:1;S:6;Sr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr2MSbO6,10.1016/j.ssc.2005.01.018,M:1;O:6;Sb:1;Sr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr2MSi2O7,10.1039/c6cp07391c,M:1;O:7;Si:2;Sr:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr3SnMO7,10.1016/j.snb.2018.01.233,M:1;O:7;Sn:1;Sr:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr5RTi3Nb7O30,10.1016/S0167-577X(02)01408-8,Nb:7;O:30;R:1;Sr:5;Ti:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Sr6Ti2M8O30,10.1016/j.matlet.2007.07.048,M:8;O:30;Sr:6;Ti:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,SrCu2MS4,10.1016/s0925-8388(00)01452-3,Cu:2;M:1;S:4;Sr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,SrMGe2O6,10.1039/C6TC00149A,Ge:2;M:1;O:6;Sr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,SrNdMRuO6,10.1016/j.jssc.2012.09.007,M:1;Nd:1;O:6;Ru:1;Sr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,SrRAlO4,10.1021/cm703273z,Al:1;O:4;R:1;Sr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,SrRE4Si3O13,10.1111/j.1551-2916.2009.03326.x,E:4;O:13;R:1;Si:3;Sr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ti5Si3Zx,10.1016/s0925-8388(99)00533-2,Si:3;Ti:5;Zx:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,TiNiMySn,10.1021/cm5045682,My:1;Ni:1;Sn:1;Ti:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,YAG,10.1016/j.radmeas.2007.10.039,A:1;G:1;Y:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,YSZ,10.1016/j.jpowsour.2015.01.116,S:1;Y:1;Z:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ZnA2O6,10.1016/j.jeurceramsoc.2009.05.042,A:2;O:6;Zn:1,refused,refused:unknown_element_symbol
+development,hydration_or_dot_notation,Li2O.2SiO2,10.1016/j.jnoncrysol.2014.01.003,Li:2;O:2.2;Si:1,agree,refused:hydration_or_dot_notation
+development,unknown_element_symbol:dummy_species,A 2Bi4Ti5O18,10.1016/j.jssc.2004.07.032,A:2;Bi:4;O:18;Ti:5,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,A 2ScSbO6,10.1016/j.jssc.2012.04.019,A:2;O:6;Sb:1;Sc:1,refused,refused:unknown_element_symbol
+development,non_formula_word,AEA SrAl2O4,10.1016/j.jlumin.2008.08.009,A:2;Al:2;E:1;O:4;Sr:1,refused,refused:non_formula_word|unknown_element_symbol
+development,non_formula_word,Ag CuO,10.1016/j.ijhydene.2017.01.105,Ag:1;Cu:1;O:1,agree,refused:non_formula_word
+development,non_formula_word,Al NaMgH3,10.1016/j.ijhydene.2017.10.161,Al:1;H:3;Mg:1;Na:1,agree,refused:non_formula_word
+development,non_formula_word,Al20Co20Cu20Ni20Zn20 HEA,10.1016/j.matchar.2017.04.011,A:1;Al:20;Co:20;Cu:20;E:1;H:1;Ni:20;Zn:20,refused,refused:non_formula_word|unknown_element_symbol
+development,non_formula_word,Anhydrous K3PO4,10.1016/j.jlumin.2014.12.041,Anhydrous:1;K:3;O:4;P:1,refused,refused:non_formula_word|free_variable_stoichiometry|unknown_element_symbol
+development,non_formula_word,Anhydrous MnSO4,10.1039/C5TA04527D,Anhydrous:1;Mn:1;O:4;S:1,refused,refused:non_formula_word|free_variable_stoichiometry|unknown_element_symbol
+development,non_formula_word,Anhydrous Na2WO4,10.1016/j.jssc.2008.01.027,Anhydrous:1;Na:2;O:4;W:1,refused,refused:non_formula_word|free_variable_stoichiometry|unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2 LnNbO6,10.1016/j.jssc.2005.12.031,Ba:2;Ln:1;Nb:1;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2 LnSbO6,10.1016/j.jssc.2005.05.021,Ba:2;Ln:1;O:6;Sb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba3 Ln 2MoO9,10.1016/j.jssc.2009.03.008,Ba:3;Ln:2;Mo:1;O:9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba3 MIr2O9,10.1016/j.jssc.2006.04.055,Ba:3;Ir:2;M:1;O:9,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba6Ru2Na2 X 2O17,10.1016/S0022-4596(03)00379-7,Ba:6;Na:2;O:17;Ru:2;X:2,refused,refused:unknown_element_symbol
+development,non_formula_word,BaO B2O3 P2O5,10.1016/j.molstruc.2016.04.066,B:2;Ba:1;O:9;P:2,agree,refused:non_formula_word
+development,non_formula_word,BaO Bi2O3 B2O3,10.1016/j.solidstatesciences.2004.11.031,B:2;Ba:1;Bi:2;O:7,agree,refused:non_formula_word
+development,mixture_or_arithmetic_notation,BaO-2SiO2,10.1016/S0022-3093(01)00814-6,Ba:1;Si:1,returned,refused:mixture_or_arithmetic_notation
+development,unknown_element_symbol:dummy_species,Bi2 ASrTi2TaO12,10.1016/j.jssc.2009.11.018,A:1;Bi:2;O:12;Sr:1;Ta:1;Ti:2,refused,refused:unknown_element_symbol
+development,non_formula_word,CP Cu3Mo6S8,10.1016/j.electacta.2010.12.056,C:1;Cu:3;Mo:6;P:1;S:8,disagree,refused:non_formula_word
+development,unknown_element_symbol:dummy_species,Ca2 Ln 3Sb3O14,10.1016/j.jssc.2007.09.013,Ca:2;Ln:3;O:14;Sb:3,refused,refused:unknown_element_symbol
+development,non_formula_word,CaO FeO Fe2O3 SiO2,10.1016/j.fuel.2016.05.117,Ca:1;Fe:3;O:7;Si:1,agree,refused:non_formula_word
+development,unconsumed_separator,CdS@ZrO2,10.1016/j.ultsonch.2017.01.009,Cd:1;O:2;S:1;Zr:1,agree,refused:unconsumed_separator
+development,unknown_element_symbol:dummy_species,Ce3 MO7,10.1016/j.jssc.2017.07.022,Ce:3;M:1;O:7,refused,refused:unknown_element_symbol
+development,non_formula_word,Eu2O3 BaO Al2O3 B2O3 SiO2,10.1016/j.molstruc.2016.06.064,Al:2;B:2;Ba:1;Eu:2;O:12;Si:1,agree,refused:non_formula_word
+development,unknown_element_symbol:dummy_species,Eu3 MO7,10.1016/j.jssc.2018.03.024,Eu:3;M:1;O:7,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,EuCu2 MS4,10.1016/S0022-4596(03)00093-8,Cu:2;Eu:1;M:1;S:4,refused,refused:unknown_element_symbol
+development,non_formula_word,FeV O4,10.1016/j.ssc.2011.08.040,Fe:1;O:4;V:1,agree,refused:non_formula_word
+development,unknown_element_symbol:dummy_species,La18Li8Rh4 MO39,10.1016/j.jssc.2010.05.005,La:18;Li:8;M:1;O:39;Rh:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,La5Os3 MO16,10.1016/j.jssc.2004.05.014,La:5;M:1;O:16;Os:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Li2 MO3,10.1016/j.jssc.2008.04.005,Li:2;M:1;O:3,refused,refused:unknown_element_symbol
+development,mixture_or_arithmetic_notation,Li2O-2SiO2,10.1016/j.jnoncrysol.2010.02.027,Li:2;Si:1,returned,refused:mixture_or_arithmetic_notation
+development,unconsumed_separator,Li2ZnTi3O8@C,10.1016/j.ijhydene.2016.09.128,C:1;Li:2;O:8;Ti:3;Zn:1,agree,refused:unconsumed_separator
+development,unconsumed_separator,Li4Ti5O12@C,10.1016/j.jelechem.2014.03.008,C:1;Li:4;O:12;Ti:5,agree,refused:unconsumed_separator
+development,unknown_element_symbol:dummy_species,Li6SrLa2 M 2O12,10.1016/j.solidstatesciences.2007.11.036,La:2;Li:6;M:2;O:12;Sr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M 2Si5N8,10.1016/j.jssc.2007.11.037,M:2;N:8;Si:5,refused,refused:unknown_element_symbol
+development,non_formula_word,Mayenite Ca12Al14O33,10.1016/j.fuel.2018.03.081,Al:14;Ca:12;Mayenite:1;O:33,refused,refused:non_formula_word|free_variable_stoichiometry|unknown_element_symbol
+development,mixture_or_arithmetic_notation,MgO-2SiO2,10.1016/j.jnoncrysol.2010.02.023,Mg:1;Si:1,returned,refused:mixture_or_arithmetic_notation
+development,unknown_element_symbol:dummy_species,Na3 MIr2O6,10.1016/j.jssc.2013.11.017,Ir:2;M:1;Na:3;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na3 MO4F,10.1016/j.jssc.2015.07.018,F:1;M:1;Na:3;O:4,refused,refused:unknown_element_symbol
+development,non_formula_word,NiTi SMA,10.1016/j.msea.2011.04.040,A:1;M:1;Ni:1;S:1;Ti:1,refused,refused:non_formula_word|unknown_element_symbol
+development,non_formula_word,P2O5 MgO Na2O Li2O,10.1016/j.molstruc.2016.03.099,Li:2;Mg:1;Na:2;O:8;P:2,agree,refused:non_formula_word
+development,non_formula_word,PC MnV2O4,10.1103/PhysRevB.76.174403,C:1;Mn:1;O:4;P:1;V:2,disagree,refused:non_formula_word
+development,non_formula_word,Pt Nb2O5,10.1016/j.ijhydene.2017.10.015,Nb:2;O:5;Pt:1,agree,refused:non_formula_word
+development,unconsumed_separator,Pt@Fe2O3,10.1021/ja0376700,Fe:2;O:3;Pt:1,agree,refused:unconsumed_separator
+development,non_formula_word,SSRM ZnGa2O4,10.1016/j.jeurceramsoc.2006.04.153,Ga:2;M:1;O:4;R:1;S:2;Zn:1,refused,refused:non_formula_word|unknown_element_symbol
+development,non_formula_word,SiO2 P2O5 K2O MgO CaO,10.1016/j.tca.2014.08.028,Ca:1;K:2;Mg:1;O:10;P:2;Si:1,agree,refused:non_formula_word
+development,unknown_element_symbol:dummy_species,Sr2 RRuO6,10.1016/j.jssc.2003.10.015,O:6;R:1;Ru:1;Sr:2,refused,refused:unknown_element_symbol
+development,non_formula_word,SrO La2O3 Al2O3 B2O3 SiO2,10.1016/j.jpowsour.2008.09.006,Al:2;B:2;La:2;O:12;Si:1;Sr:1,agree,refused:non_formula_word
+development,non_formula_word,Ti3AlC2 MAX,10.1039/c8dt01375f,A:1;Al:1;C:2;M:1;Ti:3;X:1,refused,refused:non_formula_word|unknown_element_symbol
+development,unconsumed_separator,TiO2@SiO2,10.1016/j.mseb.2006.05.003,O:4;Si:1;Ti:1,agree,refused:unconsumed_separator
+development,non_formula_word,Y CrO3,10.1016/j.ssc.2010.06.047,Cr:1;O:3;Y:1,agree,refused:non_formula_word
+development,non_formula_word,Zirconolite,10.1016/j.solidstatesciences.2017.10.013,Zirconolite:1,refused,refused:non_formula_word|unknown_element_symbol
+development,unknown_element_symbol:dummy_species,(Te(Sb)O)2M6O18,10.1016/j.jcat.2004.12.002,M:6;O:20;Sb:2;Te:2,refused,refused:unknown_element_symbol|single_element_group
+development,non_formula_word,(V) La4O4[AsO4]Br,10.1016/j.solidstatesciences.2010.11.021,As:1;Br:1;La:4;O:8;V:1,disagree,refused:non_formula_word|single_element_group
+development,unknown_element_symbol:dummy_species,A4Mg(WO4)3,10.1039/c5dt00332f,A:4;Mg:1;O:12;W:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,AEu(WO4)2,10.1021/ic2013528,A:1;Eu:1;O:8;W:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ANi3(P2O7)2,10.1016/S1293-2558(01)01176-1,A:1;Ni:3;O:14;P:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,ASr4La3(BO3)6,10.1016/j.solidstatesciences.2014.01.009,A:1;B:6;La:3;O:18;Sr:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ba2Ln(BO3)2Cl,10.1149/2.023301jss,B:2;Ba:2;Cl:1;Ln:1;O:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca19M2(PO4)14,10.1039/C3TC31263A,Ca:19;M:2;O:56;P:14,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca2RE8(SiO4)6O2,10.1016/j.jnoncrysol.2016.02.003,Ca:2;E:8;O:26;R:1;Si:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca8MgR(PO4)7,10.1016/j.materresbull.2008.09.025,Ca:8;Mg:1;O:28;P:7;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ca9R(PO4)7,10.1039/c0jm03324c,Ca:9;O:28;P:7;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,K2LnZr(PO4)3,10.1016/j.materresbull.2012.10.053,K:2;Ln:1;O:12;P:3;Zr:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,K2RE2(BO3)2O,10.1016/j.solidstatesciences.2010.09.013,B:2;E:2;K:2;O:7;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,K3RE(BO3)2,10.1016/j.solidstatesciences.2007.08.009,B:2;E:1;K:3;O:6;R:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,KBaRE(B3O6)2,10.1016/j.solidstatesciences.2011.12.013,B:6;Ba:1;E:1;K:1;O:12;R:1,refused,refused:unknown_element_symbol
+development,single_element_group,KTi(Nb)TaO5,10.1016/j.jcat.2005.01.026,K:1;Nb:1;O:5;Ta:1;Ti:1,agree,refused:single_element_group
+development,single_element_group,La(Sr)GaO3,10.1149/1.1524174,Ga:1;La:1;O:3;Sr:1,agree,refused:single_element_group
+development,unconsumed_separator,Li3V2(PO4)3@C,10.1016/j.electacta.2009.05.041,C:1;Li:3;O:12;P:3;V:2,agree,refused:unconsumed_separator
+development,unknown_element_symbol:dummy_species,LiRE9(SiO4)6O2,10.1021/ic502113a,E:9;Li:1;O:26;R:1;Si:6,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Ln[H(PO3)4],10.1039/C5DT02648B,H:1;Ln:1;O:12;P:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M(VO)2(PO4)2,10.1103/PhysRevB.78.024418,M:1;O:10;P:2;V:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M2(WO4)3,10.1016/s0925-8388(02)00352-3,M:2;O:12;W:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M3Tb(BO3)3,10.1039/C6CE01400C,B:3;M:3;O:9;Tb:1,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,M5(PO4)3Cl,10.1016/j.matchemphys.2013.01.027,Cl:1;M:5;O:12;P:3,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MEu(WO4)2,10.1021/acs.inorgchem.7b00804,Eu:1;M:1;O:8;W:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,MLa2(MoO4)4,10.1016/j.matlet.2009.01.018,La:2;M:1;Mo:4;O:16,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na2 M(SO4)2,10.1016/j.jssc.2014.11.010,M:1;Na:2;O:8;S:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na3M2(PO4)2F3,10.1016/j.jpowsour.2012.10.034,F:3;M:2;Na:3;O:8;P:2,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na4M3(PO4)2(P2O7),10.1021/cm001210d,M:3;Na:4;O:15;P:4,refused,refused:unknown_element_symbol
+development,unknown_element_symbol:dummy_species,Na5 Ln 4F[GeO4]4,10.1016/j.jssc.2016.04.038,F:1;Ge:4;Ln:4;Na:5;O:16,refused,refused:unknown_element_symbol
+development,non_formula_word,NiSb2O6 [NS],10.1007/s00339-017-1231-8,N:1;Ni:1;O:6;S:1;Sb:2,disagree,refused:non_formula_word
+development,unknown_element_symbol:dummy_species,R2Mg2(WO4)3,10.1039/c5dt00332f,Mg:2;O:12;R:2;W:3,refused,refused:unknown_element_symbol
+development,single_element_group,Sm(Sr)CoO3,10.1149/1.1524174,Co:1;O:3;Sm:1;Sr:1,agree,refused:single_element_group
+development,single_element_group,Te(Bi),10.1007/s10853-017-1180-9,Bi:1;Te:1,agree,refused:single_element_group
+development,single_element_group,Ti(Al)N,10.1016/j.ijrmhm.2011.06.009,Al:1;N:1;Ti:1,agree,refused:single_element_group
+heldout,unknown_element_symbol:dummy_species,(CeO2)0.92(Ln2O3)0.04(CaO)0.04,10.1016/j.jeurceramsoc.2007.02.007,Ca:0.04;Ce:0.92;Ln:0.08;O:2,refused,refused:unknown_element_symbol
+heldout,hydration_or_dot_notation,(NH4)2Co2V10O28.16H2O,10.1016/s0167-2738(99)00096-x,Co:2;H:10;N:2;O:29.16;V:10,refused,refused:hydration_or_dot_notation
+heldout,unknown_element_symbol:dummy_species,Bi0.95R0.05FeO3,10.1016/j.elspec.2014.02.003,Bi:0.95;Fe:1;O:3;R:0.05,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Bi0.9Ho0.1Fe0.95TM0.05O3,10.1007/s10854-017-8347-7,Bi:0.9;Fe:0.95;H:1;Ho:0.1;M:0.05;O:3,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Bi1.5M0.25Ti2O7,10.1016/j.ssi.2018.01.022,Bi:1.5;M:0.25;O:7;Ti:2,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Bi1.5M0.5Ti2O7,10.1016/j.ssi.2018.01.022,Bi:1.5;M:0.5;O:7;Ti:2,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Bi2Ti1.5M0.5O7,10.1016/j.ssi.2018.01.022,Bi:2;M:0.5;O:7;Ti:1.5,refused,refused:unknown_element_symbol
+heldout,hydration_or_dot_notation,FeCl3.6H2O,10.1016/j.jchromb.2014.09.030,Cl:3.6;Fe:1;H:2;O:1,refused,refused:hydration_or_dot_notation
+heldout,unknown_element_symbol:dummy_species,La0.75Sr0.25Cr0.9M0.1O3,10.1007/s10800-010-0150-6,Cr:0.9;La:0.75;M:0.1;O:3;Sr:0.25,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,La0.8A0.2Fe0.7Mn0.3O3,10.1007/s10562-016-1860-0,A:0.2;Fe:0.7;La:0.8;Mn:0.3;O:3,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,LaNi0.5M0.5O3,10.1021/jp211946n,La:1;M:0.5;Ni:0.5;O:3,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Li1.05Mn1.90M0.05O4,10.1149/1.1793713,Li:1.05;M:0.05;Mn:1.9;O:4,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Li4.11Zn0.04M0.03Si0.93O4,10.1016/j.electacta.2014.08.054,Li:4.11;M:0.03;O:4;Si:0.93;Zn:0.04,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,LiM0.25Ni0.25Mn1.5O4,10.1149/1.3071364,Li:1;M:0.25;Mn:1.5;Ni:0.25;O:4,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,LiMn1.5Ni0.42M0.08O4,10.1021/cm301844w,Li:1;M:0.08;Mn:1.5;Ni:0.42;O:4,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,LiNi0.45M0.05Mn1.5O4,10.1007/s10008-017-3545-z,Li:1;M:0.05;Mn:1.5;Ni:0.45;O:4,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Ln1.2Sr0.8NiO4,10.1016/j.electacta.2018.02.053,Ln:1.2;Ni:1;O:4;Sr:0.8,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Ln1.2Sr1.8Mn2O7,10.1016/j.materresbull.2008.04.002,Ln:1.2;Mn:2;O:7;Sr:1.8,refused,refused:unknown_element_symbol
+heldout,non_formula_word,Me Gd0.025 Er0.05 Fe1.925 O4,10.1007/s00339-017-0948-8,Er:0.05;Fe:1.925;Gd:0.025;Me:1;O:4,refused,refused:non_formula_word|unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Pr0.5X0.1Sr0.4MnO3,10.1007/s00339-016-0125-5,Mn:1;O:3;Pr:0.5;Sr:0.4;X:0.1,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,R0.6Sr0.4MnO3,10.1016/j.jmmm.2015.05.078,Mn:1;O:3;R:0.6;Sr:0.4,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Zn0.5Co0.5Al0.5R0.04Fe1.46O4,10.1016/j.jmmm.2013.09.017,Al:0.5;Co:0.5;Fe:1.46;O:4;R:0.04;Zn:0.5,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Zn0.94Mg0.01TM0.05O,10.1016/j.powtec.2012.10.045,H:1;M:0.05;Mg:0.01;O:1;Zn:0.94,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,ZnAl1.95Ln0.05O4,10.1039/C2AY25535A,Al:1.95;Ln:0.05;O:4;Zn:1,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,A2O2Mn2OSe2,10.1021/cm1035453,A:2;Mn:2;O:3;Se:2,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,A2SiO4,10.1016/j.spmi.2015.02.006,A:2;O:4;Si:1,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,AFe2O4,10.1016/j.ijhydene.2011.01.073,A:1;Fe:2;O:4,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,AMnO3,10.1016/j.fuel.2016.05.094,A:1;Mn:1;O:3,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,BaMAl10O17,10.1007/s10854-015-3676-x,Al:10;Ba:1;M:1;O:17,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,BaMMn7O16,10.1016/S0013-4686(01)00506-0,Ba:1;M:1;Mn:7;O:16,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,BaMeO3,10.1002/cctc.201500966,Ba:1;Me:1;O:3,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,In2RuMO6,10.1016/j.ssc.2011.10.034,In:2;M:1;O:6;Ru:1,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,La8A2Si6O26,10.1016/j.apcatb.2011.01.021,A:2;La:8;O:26;Si:6,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,LaMeO3,10.1016/S0167-2738(02)00421-6,La:1;Me:1;O:3,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,LaPbMSbO6,10.1016/j.jssc.2014.05.013,La:1;M:1;O:6;Pb:1;Sb:1,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Ln2Si2O7,10.1016/j.optmat.2011.02.017,Ln:2;O:7;Si:2,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,LnPO4,10.1016/j.jct.2005.08.019,Ln:1;O:4;P:1,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,MFe12O19,10.1016/j.jmmm.2014.10.173,Fe:12;M:1;O:19,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,MZrO3,10.1016/j.physc.2003.12.107,M:1;O:3;Zr:1,refused,refused:unknown_element_symbol
+heldout,unconsumed_separator,CeO2.SiO2,10.1007/s11244-013-0211-2,Ce:1;O:4;Si:1,agree,refused:unconsumed_separator
+heldout,unconsumed_separator,Ag@BaTiO3,10.1021/cm900693r,Ag:1;Ba:1;O:3;Ti:1,agree,refused:unconsumed_separator
+heldout,unconsumed_separator,BiFeO3@TiO2,10.1016/j.mssp.2012.10.009,Bi:1;Fe:1;O:5;Ti:1,agree,refused:unconsumed_separator
+heldout,non_formula_word,Ca12Al14O33 CaO,10.1016/j.ijhydene.2016.03.125,Al:14;Ca:13;O:34,agree,refused:non_formula_word
+heldout,non_formula_word,CaO SiO2,10.1002/jbm.b.31890,Ca:1;O:3;Si:1,agree,refused:non_formula_word
+heldout,unconsumed_separator,CdSe@ZnS,10.1016/j.polymer.2016.01.028,Cd:1;S:1;Se:1;Zn:1,agree,refused:unconsumed_separator
+heldout,non_formula_word,Ce Mn3O4,10.1016/j.nanoen.2018.05.045,Ce:1;Mn:3;O:4,agree,refused:non_formula_word
+heldout,non_formula_word,CeO2 CaO,10.1016/j.powtec.2016.12.016,Ca:1;Ce:1;O:3,agree,refused:non_formula_word
+heldout,non_formula_word,Cl TiO2,10.1016/j.cej.2012.12.007,Cl:1;O:2;Ti:1,agree,refused:non_formula_word
+heldout,unconsumed_separator,Co3O4@CuO,10.1007/s10853-016-0561-9,Co:3;Cu:1;O:5,agree,refused:unconsumed_separator
+heldout,unconsumed_separator,Co3O4@MMoO4,10.1016/j.electacta.2014.03.080,Co:3;M:1;Mo:1;O:8,refused,refused:unknown_element_symbol|unconsumed_separator
+heldout,unconsumed_separator,Co@ZnO,10.1021/jp5085839,Co:1;O:1;Zn:1,agree,refused:unconsumed_separator
+heldout,unconsumed_separator,Cu@LaNiO3,10.1016/j.apcatb.2017.02.064,Cu:1;La:1;Ni:1;O:3,agree,refused:unconsumed_separator
+heldout,unconsumed_separator,Cu@V,10.1016/j.jcat.2016.10.030,Cu:1;V:1,agree,refused:unconsumed_separator
+heldout,non_formula_word,CuO CeO2,10.1016/j.ijhydene.2017.07.122,Ce:1;Cu:1;O:3,agree,refused:non_formula_word
+heldout,unconsumed_separator,Fe3O4@Au,10.1016/j.jtice.2018.01.026,Au:1;Fe:3;O:4,agree,refused:unconsumed_separator
+heldout,unconsumed_separator,Fe3O4@NiO,10.1016/j.electacta.2017.04.104,Fe:3;Ni:1;O:5,agree,refused:unconsumed_separator
+heldout,unconsumed_separator,Fe@ZnO,10.1016/j.matlet.2017.10.100,Fe:1;O:1;Zn:1,agree,refused:unconsumed_separator
+heldout,non_formula_word,LT LiV3O8,10.1016/s0167-2738(98)00555-4,H:1;L:1;Li:1;O:8;V:3,refused,refused:non_formula_word|unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,Li2 MTiO4,10.1016/S0022-4596(03)00010-0,Li:2;M:1;O:4;Ti:1,refused,refused:unknown_element_symbol
+heldout,unconsumed_separator,LiFePO4@C,10.1039/b916938e,C:1;Fe:1;Li:1;O:4;P:1,agree,refused:unconsumed_separator
+heldout,non_formula_word,MgFe2O4 @ BaTiO3,10.1021/acs.jpcc.6b12461,Ba:1;Fe:2;Mg:1;O:7;Ti:1,agree,refused:non_formula_word|unconsumed_separator
+heldout,unconsumed_separator,Mn@ZnO,10.1007/s10854-018-9035-y,Mn:1;O:1;Zn:1,agree,refused:unconsumed_separator
+heldout,non_formula_word,MnCoCuO NTC,10.1016/j.materresbull.2005.04.001,C:1;Co:1;Cu:1;H:1;Mn:1;N:1;O:1,disagree,refused:non_formula_word|unknown_element_symbol
+heldout,non_formula_word,SCM ZnGa2O4,10.1016/j.jeurceramsoc.2006.04.153,C:1;Ga:2;M:1;O:4;S:1;Zn:1,refused,refused:non_formula_word|unknown_element_symbol
+heldout,unconsumed_separator,SiO2@NiFe2O4,10.1016/j.jcat.2017.09.010,Fe:2;Ni:1;O:6;Si:1,agree,refused:unconsumed_separator
+heldout,non_formula_word,SnO2 CuO,10.1016/j.cattod.2017.09.018,Cu:1;O:3;Sn:1,agree,refused:non_formula_word
+heldout,non_formula_word,TiO2 ZnO,10.1016/j.ijhydene.2016.11.149,O:3;Ti:1;Zn:1,agree,refused:non_formula_word
+heldout,unconsumed_separator,TiO2@CoTiO3,10.1016/j.ceramint.2016.02.029,Co:1;O:5;Ti:2,agree,refused:unconsumed_separator
+heldout,non_formula_word,ZnO Al2O3,10.1016/j.ijhydene.2017.01.013,Al:2;O:4;Zn:1,agree,refused:non_formula_word
+heldout,unknown_element_symbol:dummy_species,A3V2(PO4)3,10.1016/j.jpowsour.2012.05.037,A:3;O:12;P:3;V:2,refused,refused:unknown_element_symbol
+heldout,non_formula_word,ACP [Ca3(PO4)2],10.1038/srep36476,A:1;C:1;Ca:3;O:8;P:3,refused,refused:non_formula_word|unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,ARu2(P2O7)2,10.1016/S0025-5408(03)00067-9,A:1;O:14;P:4;Ru:2,refused,refused:unknown_element_symbol
+heldout,unconsumed_separator,CdTe@Co(OH)2,10.1016/j.matchemphys.2010.07.018,Cd:1;Co:1;H:2;O:2;Te:1,agree,refused:unconsumed_separator
+heldout,single_element_group,Gd2O3(Eu),10.1016/j.nima.2012.05.072,Eu:1;Gd:2;O:3,agree,refused:single_element_group
+heldout,single_element_group,La(Ca)CrO3,10.1111/j.1551-2916.2007.02105.x,Ca:1;Cr:1;La:1;O:3,agree,refused:single_element_group
+heldout,unknown_element_symbol:dummy_species,M2Mg(BO3)2,10.1016/j.jlumin.2012.09.031,B:2;M:2;Mg:1;O:6,refused,refused:unknown_element_symbol
+heldout,unknown_element_symbol:dummy_species,MH5(PO4)2,10.1016/j.ssi.2012.03.037,H:5;M:1;O:8;P:2,refused,refused:unknown_element_symbol
+heldout,non_formula_word,NACP [Ca3(PO4)2],10.1016/j.msec.2016.11.020,A:1;C:1;Ca:3;N:1;O:8;P:3,refused,refused:non_formula_word|unknown_element_symbol
+heldout,unconsumed_separator,Na2VTi(PO4)3@C,10.1038/ncomms15888,C:1;Na:2;O:12;P:3;Ti:1;V:1,agree,refused:unconsumed_separator
+heldout,unconsumed_separator,NaTi2(PO4)3@C,10.1016/j.ssi.2018.06.011,C:1;Na:1;O:12;P:3;Ti:2,agree,refused:unconsumed_separator
+heldout,single_element_group,Ni(Li)O,10.1103/PhysRevB.72.014103,Li:1;Ni:1;O:1,agree,refused:single_element_group
+heldout,non_formula_word,PTCR (BaCaPb)TiO3,10.1007/s10853-008-2769-9,Ba:1;C:1;Ca:1;H:1;O:3;P:1;Pb:1;R:1;Ti:1,refused,refused:non_formula_word|unknown_element_symbol
+heldout,non_formula_word,PbTiO3 [PT],10.1016/j.tsf.2006.06.009,H:1;O:3;P:1;Pb:1;Ti:1,disagree,refused:non_formula_word|unknown_element_symbol

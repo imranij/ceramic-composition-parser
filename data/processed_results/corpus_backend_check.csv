@@ -1,0 +1,8 @@
+source_dataset,formulas,v02_package_resolved,v02_grammar_resolved,v01_guarded_resolved,v01_fallback_resolved,raw_pymatgen_resolved,v02_package_matches_committed,v02_grammar_matches_committed,v01_guarded_matches_committed,v01_fallback_matches_committed,raw_pymatgen_matches_committed
+castelli_perovskites,18928,18928,18928,18928,18928,18928,18928,18928,18928,18928,18928
+dielectric_constant,964,964,964,964,964,964,964,964,964,964,964
+double_perovskites_gap,1306,1306,1306,1306,1306,1306,1306,1306,1306,1306,1306
+phonon_dielectric_mp,1190,1190,1190,1190,1190,1190,1190,1190,1190,1190,1190
+piezoelectric_tensor,798,798,798,798,798,798,798,798,798,798,798
+wolverton_oxides,4914,4914,4914,4914,4914,4914,4914,4914,4914,4914,4914
+TOTAL,28100,28100,28100,28100,28100,28100,28100,28100,28100,28100,28100
